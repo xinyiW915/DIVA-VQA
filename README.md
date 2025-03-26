@@ -38,8 +38,8 @@ We evaluate the performance of DIVA-VQA on five UGC datasets. Based on different
 #### **Performance Comparison When Trained on LSVQ**
 | **Model**                   | **SRCC (LSVQ_test)** | **PLCC (LSVQ_test)** | **SRCC (LSVQ_1080p)** | **PLCC (LSVQ_1080p)** |
 |----------------------------|-----------------------|------------------------|-------------------------|-----------------------|
-| DIVA-VQA-B (w/ fine-tune)  | 0.877                 | 0.877                  | 0.789                   | **0.832**                 |
-| **DIVA-VQA-L (w/ fine-tune)** | **0.881**             | **0.881**              | **0.790**               | 0.830              |
+| DIVA-VQA-B  | 0.877                 | 0.877                  | 0.789                   | **0.832**                 |
+| **DIVA-VQA-L** | **0.881**             | **0.881**              | **0.790**               | 0.830              |
 
 More results and ablation studies can be found in **[correlation_result.ipynb](https://github.com/xinyiW915/DIVA-VQA/blob/main/src/correlation_result.ipynb)**.
 
