@@ -1,0 +1,226 @@
+[2025-01-15 17:04:03,025] INFO: Using device: cuda
+[2025-01-15 17:04:03,049] INFO: Dataset loaded. Total videos: 110, Total batches: 110
+[2025-01-15 17:04:06,125] INFO: Loading pretrained weights from Hugging Face hub (timm/swin_large_patch4_window7_224.ms_in22k_ft_in1k)
+[2025-01-15 17:04:06,702] INFO: [timm/swin_large_patch4_window7_224.ms_in22k_ft_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-01-15 17:06:32,416] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:06:32,416] INFO: Processed Animation_2160P-41dc.mkv in 7.51 seconds
+[2025-01-15 17:07:23,842] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:07:23,842] INFO: Processed Animation_2160P-6f3b.mkv in 6.99 seconds
+[2025-01-15 17:15:22,947] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:15:22,948] INFO: Processed Gaming_2160P-2436.mkv in 6.85 seconds
+[2025-01-15 17:15:29,663] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:15:29,663] INFO: Processed Gaming_2160P-2b92.mkv in 6.65 seconds
+[2025-01-15 17:24:01,934] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:24:01,935] INFO: Processed Gaming_2160P-2cb1.mkv in 6.99 seconds
+[2025-01-15 17:24:08,608] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:24:08,608] INFO: Processed Gaming_2160P-2dc4.mkv in 6.63 seconds
+[2025-01-15 17:27:33,801] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:27:33,801] INFO: Processed Gaming_2160P-3002.mkv in 6.92 seconds
+[2025-01-15 17:28:30,963] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:28:30,963] INFO: Processed Gaming_2160P-31f6.mkv in 6.80 seconds
+[2025-01-15 17:31:54,251] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:31:54,251] INFO: Processed Gaming_2160P-348d.mkv in 6.88 seconds
+[2025-01-15 17:37:12,413] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:37:12,413] INFO: Processed Gaming_2160P-34a1.mkv in 6.86 seconds
+[2025-01-15 17:37:19,092] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:37:19,093] INFO: Processed Gaming_2160P-387f.mkv in 6.64 seconds
+[2025-01-15 17:45:39,589] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:45:39,589] INFO: Processed Gaming_2160P-3a25.mkv in 6.82 seconds
+[2025-01-15 17:45:46,271] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:45:46,271] INFO: Processed Gaming_2160P-3aec.mkv in 6.62 seconds
+[2025-01-15 17:54:16,052] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:54:16,052] INFO: Processed Gaming_2160P-3ce4.mkv in 6.81 seconds
+[2025-01-15 17:54:22,683] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:54:22,683] INFO: Processed Gaming_2160P-4139.mkv in 6.57 seconds
+[2025-01-15 17:58:38,074] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:58:38,075] INFO: Processed Gaming_2160P-416f.mkv in 6.86 seconds
+[2025-01-15 17:58:44,727] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 17:58:44,727] INFO: Processed Gaming_2160P-4258.mkv in 6.59 seconds
+[2025-01-15 18:02:58,336] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:02:58,336] INFO: Processed Gaming_2160P-5c33.mkv in 6.81 seconds
+[2025-01-15 18:03:04,990] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:03:04,990] INFO: Processed Gaming_2160P-5c53.mkv in 6.60 seconds
+[2025-01-15 18:07:18,196] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:07:18,197] INFO: Processed Gaming_2160P-673d.mkv in 7.23 seconds
+[2025-01-15 18:10:49,407] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:10:49,407] INFO: Processed Gaming_2160P-67b0.mkv in 6.95 seconds
+[2025-01-15 18:15:58,883] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:15:58,883] INFO: Processed Gaming_2160P-6bb6.mkv in 6.86 seconds
+[2025-01-15 18:17:58,054] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:17:58,054] INFO: Processed Gaming_2160P-6cd8.mkv in 6.76 seconds
+[2025-01-15 18:20:14,971] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:20:14,971] INFO: Processed Gaming_2160P-7e80.mkv in 6.86 seconds
+[2025-01-15 18:27:31,034] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:27:31,035] INFO: Processed Gaming_2160P-7ff0.mkv in 6.74 seconds
+[2025-01-15 18:27:37,688] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:27:37,688] INFO: Processed HDR_2160P-06ae.mkv in 6.59 seconds
+[2025-01-15 18:38:31,226] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:38:31,226] INFO: Processed HDR_2160P-15e2.mkv in 6.85 seconds
+[2025-01-15 18:38:37,979] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:38:37,979] INFO: Processed HDR_2160P-2a72.mkv in 6.70 seconds
+[2025-01-15 18:50:05,144] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:50:05,144] INFO: Processed HDR_2160P-3663.mkv in 6.85 seconds
+[2025-01-15 18:50:11,805] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:50:11,805] INFO: Processed HDR_2160P-40ab.mkv in 6.60 seconds
+[2025-01-15 18:54:16,370] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:54:16,370] INFO: Processed HDR_2160P-4581.mkv in 6.88 seconds
+[2025-01-15 18:54:23,044] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:54:23,044] INFO: Processed HDR_2160P-4dcd.mkv in 6.62 seconds
+[2025-01-15 18:59:23,297] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:59:23,298] INFO: Processed HDR_2160P-5275.mkv in 6.81 seconds
+[2025-01-15 18:59:30,074] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 18:59:30,074] INFO: Processed HDR_2160P-5926.mkv in 6.73 seconds
+[2025-01-15 19:04:58,059] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:04:58,059] INFO: Processed HDR_2160P-5e25.mkv in 6.83 seconds
+[2025-01-15 19:05:04,753] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:05:04,753] INFO: Processed HDR_2160P-664d.mkv in 6.65 seconds
+[2025-01-15 19:15:54,330] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:15:54,330] INFO: Processed HDR_2160P-6ed1.mkv in 6.74 seconds
+[2025-01-15 19:16:00,989] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:16:00,990] INFO: Processed HDR_2160P-6eeb.mkv in 6.61 seconds
+[2025-01-15 19:26:55,400] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:26:55,400] INFO: Processed HDR_2160P-6fab.mkv in 6.59 seconds
+[2025-01-15 19:27:02,032] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:27:02,032] INFO: Processed HDR_2160P-70ca.mkv in 6.58 seconds
+[2025-01-15 19:31:15,410] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:31:15,410] INFO: Processed Sports_2160P-0455.mkv in 6.84 seconds
+[2025-01-15 19:31:22,059] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:31:22,060] INFO: Processed Sports_2160P-086d.mkv in 6.60 seconds
+[2025-01-15 19:35:33,976] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:35:33,976] INFO: Processed Sports_2160P-1261.mkv in 6.91 seconds
+[2025-01-15 19:35:40,713] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:35:40,713] INFO: Processed Sports_2160P-1733.mkv in 6.68 seconds
+[2025-01-15 19:39:54,025] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:39:54,025] INFO: Processed Sports_2160P-1b70.mkv in 6.80 seconds
+[2025-01-15 19:40:00,773] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:40:00,773] INFO: Processed Sports_2160P-1ddc.mkv in 6.70 seconds
+[2025-01-15 19:44:13,002] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:44:13,002] INFO: Processed Sports_2160P-210c.mkv in 6.77 seconds
+[2025-01-15 19:44:19,736] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:44:19,736] INFO: Processed Sports_2160P-2568.mkv in 6.68 seconds
+[2025-01-15 19:48:32,933] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:48:32,934] INFO: Processed Sports_2160P-2626.mkv in 6.89 seconds
+[2025-01-15 19:48:39,633] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:48:39,633] INFO: Processed Sports_2160P-279f.mkv in 6.65 seconds
+[2025-01-15 19:52:51,808] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:52:51,808] INFO: Processed Sports_2160P-2a83.mkv in 6.72 seconds
+[2025-01-15 19:52:58,497] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:52:58,498] INFO: Processed Sports_2160P-2e1d.mkv in 6.64 seconds
+[2025-01-15 19:57:10,554] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:57:10,554] INFO: Processed Sports_2160P-2eda.mkv in 6.88 seconds
+[2025-01-15 19:57:17,184] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 19:57:17,184] INFO: Processed Sports_2160P-300d.mkv in 6.58 seconds
+[2025-01-15 20:00:46,284] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:00:46,285] INFO: Processed Sports_2160P-324e.mkv in 6.77 seconds
+[2025-01-15 20:00:53,002] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:00:53,002] INFO: Processed Sports_2160P-349c.mkv in 6.66 seconds
+[2025-01-15 20:09:21,239] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:09:21,240] INFO: Processed Sports_2160P-3794.mkv in 6.79 seconds
+[2025-01-15 20:09:27,878] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:09:27,878] INFO: Processed Sports_2160P-391a.mkv in 6.58 seconds
+[2025-01-15 20:18:07,274] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:18:07,274] INFO: Processed Sports_2160P-3a9a.mkv in 6.83 seconds
+[2025-01-15 20:18:14,054] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:18:14,054] INFO: Processed Sports_2160P-3d85.mkv in 6.73 seconds
+[2025-01-15 20:22:30,565] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:22:30,565] INFO: Processed Sports_2160P-4024.mkv in 6.80 seconds
+[2025-01-15 20:22:37,322] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:22:37,322] INFO: Processed Sports_2160P-4201.mkv in 6.70 seconds
+[2025-01-15 20:26:54,628] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:26:54,628] INFO: Processed Sports_2160P-49f1.mkv in 6.88 seconds
+[2025-01-15 20:27:01,354] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:27:01,354] INFO: Processed Sports_2160P-4aae.mkv in 6.67 seconds
+[2025-01-15 20:31:18,758] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:31:18,758] INFO: Processed Sports_2160P-4e9f.mkv in 6.89 seconds
+[2025-01-15 20:31:25,517] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:31:25,518] INFO: Processed Sports_2160P-5ef3.mkv in 6.70 seconds
+[2025-01-15 20:35:43,370] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:35:43,371] INFO: Processed Sports_2160P-69b9.mkv in 6.87 seconds
+[2025-01-15 20:35:50,116] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:35:50,116] INFO: Processed Sports_2160P-6b28.mkv in 6.69 seconds
+[2025-01-15 20:40:07,537] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:40:07,537] INFO: Processed Sports_2160P-7165.mkv in 7.09 seconds
+[2025-01-15 20:40:14,298] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:40:14,298] INFO: Processed Sports_2160P-7a11.mkv in 6.71 seconds
+[2025-01-15 20:44:31,041] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:44:31,041] INFO: Processed Sports_2160P-7af7.mkv in 6.92 seconds
+[2025-01-15 20:48:59,453] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:48:59,453] INFO: Processed Sports_2160P-7af8.mkv in 6.88 seconds
+[2025-01-15 20:49:06,214] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:49:06,214] INFO: Processed Sports_2160P-7bbe.mkv in 6.70 seconds
+[2025-01-15 20:53:26,437] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:53:26,437] INFO: Processed VerticalVideo_2160P-6d62.mkv in 6.90 seconds
+[2025-01-15 20:53:33,151] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:53:33,151] INFO: Processed Vlog_2160P-030a.mkv in 6.66 seconds
+[2025-01-15 20:57:59,253] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:57:59,254] INFO: Processed Vlog_2160P-0577.mkv in 6.82 seconds
+[2025-01-15 20:58:05,960] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 20:58:05,961] INFO: Processed Vlog_2160P-059c.mkv in 6.65 seconds
+[2025-01-15 21:02:21,936] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:02:21,936] INFO: Processed Vlog_2160P-09c9.mkv in 6.91 seconds
+[2025-01-15 21:02:28,653] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:02:28,653] INFO: Processed Vlog_2160P-13a1.mkv in 6.66 seconds
+[2025-01-15 21:06:00,185] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:06:00,185] INFO: Processed Vlog_2160P-13fe.mkv in 6.89 seconds
+[2025-01-15 21:06:06,996] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:06:06,997] INFO: Processed Vlog_2160P-19f9.mkv in 6.75 seconds
+[2025-01-15 21:09:32,331] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:09:32,332] INFO: Processed Vlog_2160P-1ff6.mkv in 6.95 seconds
+[2025-01-15 21:09:39,196] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:09:39,196] INFO: Processed Vlog_2160P-255c.mkv in 6.81 seconds
+[2025-01-15 21:13:02,070] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:13:02,070] INFO: Processed Vlog_2160P-2953.mkv in 6.94 seconds
+[2025-01-15 21:13:08,759] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:13:08,759] INFO: Processed Vlog_2160P-2b2d.mkv in 6.63 seconds
+[2025-01-15 21:17:27,098] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:17:27,098] INFO: Processed Vlog_2160P-3019.mkv in 6.92 seconds
+[2025-01-15 21:17:33,847] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:17:33,847] INFO: Processed Vlog_2160P-310b.mkv in 6.70 seconds
+[2025-01-15 21:21:50,876] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:21:50,876] INFO: Processed Vlog_2160P-327a.mkv in 6.92 seconds
+[2025-01-15 21:26:17,232] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:26:17,233] INFO: Processed Vlog_2160P-342a.mkv in 6.84 seconds
+[2025-01-15 21:26:23,943] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:26:23,943] INFO: Processed Vlog_2160P-3a75.mkv in 6.65 seconds
+[2025-01-15 21:29:47,908] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:29:47,909] INFO: Processed Vlog_2160P-408f.mkv in 6.83 seconds
+[2025-01-15 21:30:35,546] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:30:35,547] INFO: Processed Vlog_2160P-416c.mkv in 6.80 seconds
+[2025-01-15 21:34:09,848] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:34:09,848] INFO: Processed Vlog_2160P-4362.mkv in 6.87 seconds
+[2025-01-15 21:34:16,568] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:34:16,568] INFO: Processed Vlog_2160P-4419.mkv in 6.67 seconds
+[2025-01-15 21:37:49,207] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:37:49,207] INFO: Processed Vlog_2160P-4655.mkv in 6.94 seconds
+[2025-01-15 21:38:37,018] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:38:37,018] INFO: Processed Vlog_2160P-4f98.mkv in 7.01 seconds
+[2025-01-15 21:42:11,902] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:42:11,903] INFO: Processed Vlog_2160P-522f.mkv in 6.86 seconds
+[2025-01-15 21:42:59,498] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:42:59,499] INFO: Processed Vlog_2160P-56e4.mkv in 6.91 seconds
+[2025-01-15 21:45:49,791] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:45:49,792] INFO: Processed Vlog_2160P-5874.mkv in 6.83 seconds
+[2025-01-15 21:47:21,551] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:47:21,551] INFO: Processed Vlog_2160P-62b2.mkv in 6.83 seconds
+[2025-01-15 21:50:13,976] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:50:13,976] INFO: Processed Vlog_2160P-6629.mkv in 6.87 seconds
+[2025-01-15 21:51:42,911] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:51:42,911] INFO: Processed Vlog_2160P-6f92.mkv in 6.77 seconds
+[2025-01-15 21:54:34,290] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:54:34,291] INFO: Processed Vlog_2160P-700c.mkv in 6.82 seconds
+[2025-01-15 21:56:03,400] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:56:03,400] INFO: Processed Vlog_2160P-70d6.mkv in 6.77 seconds
+[2025-01-15 21:58:13,994] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:58:13,994] INFO: Processed Vlog_2160P-7324.mkv in 7.29 seconds
+[2025-01-15 21:59:34,964] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 21:59:34,964] INFO: Processed Vlog_2160P-77d8.mkv in 6.86 seconds
+[2025-01-15 22:02:37,117] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 22:02:37,117] INFO: Processed Vlog_2160P-7b10.mkv in 6.80 seconds
+[2025-01-15 22:03:59,712] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 22:03:59,713] INFO: Processed Vlog_2160P-7b5c.mkv in 6.85 seconds
+[2025-01-15 22:06:59,902] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 22:06:59,902] INFO: Processed Vlog_2160P-7bfb.mkv in 6.78 seconds
+[2025-01-15 22:08:20,893] INFO: Feature shape: torch.Size([11520])
+[2025-01-15 22:08:20,894] INFO: Processed Vlog_2160P-7f05.mkv in 6.74 seconds
+[2025-01-15 22:08:21,989] INFO: Features saved to C:\Users\um20242\OneDrive - University of Bristol\Documents\PycharmProjects\UoB\DIVA-VQA\features\diva-vqa\diva-vqa_large/diva-vqa_large_patch16_224_top196_youtube_ugc_features.pt: torch.Size([110, 11520])
+

@@ -1,0 +1,2084 @@
+(torch) xinyi@it106920:~/Project/DIVA-VQA/src$ python main_diva-vqa.py
+diva-vqa
+[2025-01-11 00:51:16,472] INFO: Using device: cuda
+[2025-01-11 00:51:16,474] INFO: Dataset loaded. Total videos: 1036, Total batches: 1036
+[2025-01-11 00:51:17,504] INFO: Loading pretrained weights from Hugging Face hub (timm/swin_base_patch4_window7_224.ms_in22k_ft_in1k)
+[2025-01-11 00:51:17,639] INFO: [timm/swin_base_patch4_window7_224.ms_in22k_ft_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-01-11 02:20:48,543] INFO: Using device: cuda
+[2025-01-11 02:20:48,546] INFO: Dataset loaded. Total videos: 1036, Total batches: 1036
+[2025-01-11 02:20:49,577] INFO: Loading pretrained weights from Hugging Face hub (timm/swin_base_patch4_window7_224.ms_in22k_ft_in1k)
+[2025-01-11 02:20:49,747] INFO: [timm/swin_base_patch4_window7_224.ms_in22k_ft_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-01-11 02:21:12,332] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:21:12,332] INFO: Processed Animation_360P-08c9_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 02:21:14,101] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:21:14,101] INFO: Processed Animation_360P-188f_crf_10_ss_00_t_20.0.mp4 in 1.74 seconds
+[2025-01-11 02:21:24,019] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:21:24,019] INFO: Processed Animation_360P-24d4_crf_10_ss_00_t_20.0.mp4 in 1.74 seconds
+[2025-01-11 02:21:26,445] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:21:26,445] INFO: Processed Animation_360P-3e40_crf_10_ss_00_t_20.0.mp4 in 1.75 seconds
+[2025-01-11 02:21:41,181] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:21:41,181] INFO: Processed Animation_360P-3e52_crf_10_ss_00_t_20.0.mp4 in 1.74 seconds
+[2025-01-11 02:21:45,767] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:21:45,767] INFO: Processed Animation_360P-47cc_crf_10_ss_00_t_20.0.mp4 in 1.75 seconds
+[2025-01-11 02:21:47,644] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:21:47,644] INFO: Processed Animation_360P-4b4c_crf_10_ss_00_t_20.0.mp4 in 1.85 seconds
+[2025-01-11 02:22:10,307] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:22:10,307] INFO: Processed Animation_360P-4edc_crf_10_ss_00_t_20.0.mp4 in 1.77 seconds
+[2025-01-11 02:22:12,152] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:22:12,152] INFO: Processed Animation_360P-5712_crf_10_ss_00_t_20.0.mp4 in 1.82 seconds
+[2025-01-11 02:22:35,337] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:22:35,337] INFO: Processed Animation_360P-5de0_crf_10_ss_00_t_20.0.mp4 in 1.75 seconds
+[2025-01-11 02:22:37,123] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:22:37,123] INFO: Processed Animation_360P-631c_crf_10_ss_00_t_20.0.mp4 in 1.75 seconds
+[2025-01-11 02:22:46,351] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:22:46,351] INFO: Processed Animation_360P-69e0_crf_10_ss_00_t_20.0.mp4 in 1.77 seconds
+[2025-01-11 02:22:48,642] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:22:48,643] INFO: Processed Animation_360P-7856_crf_10_ss_00_t_20.0.mp4 in 2.26 seconds
+[2025-01-11 02:22:53,993] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:22:53,993] INFO: Processed Animation_360P-794f_crf_10_ss_00_t_20.0.mp4 in 1.93 seconds
+[2025-01-11 02:22:55,864] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:22:55,864] INFO: Processed CoverSong_360P-0a9d_crf_10_ss_00_t_20.0.mp4 in 1.84 seconds
+[2025-01-11 02:23:16,221] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:16,221] INFO: Processed CoverSong_360P-0aa2_crf_10_ss_00_t_20.0.mp4 in 1.96 seconds
+[2025-01-11 02:23:18,529] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:18,530] INFO: Processed CoverSong_360P-11f9_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 02:23:22,345] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:22,345] INFO: Processed CoverSong_360P-13d2_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 02:23:24,422] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:24,422] INFO: Processed CoverSong_360P-14b9_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 02:23:27,261] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:27,261] INFO: Processed CoverSong_360P-1b2b_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 02:23:29,556] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:29,556] INFO: Processed CoverSong_360P-2b4d_crf_10_ss_00_t_20.0.mp4 in 2.27 seconds
+[2025-01-11 02:23:32,619] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:32,620] INFO: Processed CoverSong_360P-3218_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 02:23:35,097] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:35,098] INFO: Processed CoverSong_360P-4add_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 02:23:39,298] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:39,298] INFO: Processed CoverSong_360P-53a6_crf_10_ss_00_t_20.0.mp4 in 2.75 seconds
+[2025-01-11 02:23:41,382] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:41,382] INFO: Processed CoverSong_360P-59d1_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 02:23:45,219] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:45,219] INFO: Processed CoverSong_360P-5a24_crf_10_ss_00_t_20.0.mp4 in 1.83 seconds
+[2025-01-11 02:23:47,095] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:23:47,095] INFO: Processed CoverSong_360P-5d20_crf_10_ss_00_t_20.0.mp4 in 1.84 seconds
+[2025-01-11 02:24:00,022] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:00,022] INFO: Processed CoverSong_360P-67ec_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 02:24:02,291] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:02,291] INFO: Processed CoverSong_360P-6d6a_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 02:24:07,636] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:07,636] INFO: Processed CoverSong_360P-6da7_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 02:24:10,022] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:10,022] INFO: Processed Gaming_360P-0b98_crf_10_ss_00_t_20.0.mp4 in 2.36 seconds
+[2025-01-11 02:24:12,125] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:12,125] INFO: Processed Gaming_360P-187a_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 02:24:15,394] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:15,394] INFO: Processed Gaming_360P-2164_crf_10_ss_00_t_20.0.mp4 in 2.41 seconds
+[2025-01-11 02:24:18,100] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:18,100] INFO: Processed Gaming_360P-2330_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 02:24:24,108] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:24,108] INFO: Processed Gaming_360P-2f99_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:24:26,124] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:26,124] INFO: Processed Gaming_360P-3794_crf_10_ss_00_t_20.0.mp4 in 1.99 seconds
+[2025-01-11 02:24:48,586] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:48,586] INFO: Processed Gaming_360P-3eb6_crf_10_ss_00_t_20.0.mp4 in 1.96 seconds
+[2025-01-11 02:24:50,918] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:50,918] INFO: Processed Gaming_360P-4f09_crf_10_ss_00_t_20.0.mp4 in 2.30 seconds
+[2025-01-11 02:24:56,855] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:56,855] INFO: Processed Gaming_360P-56fe_crf_10_ss_00_t_20.0.mp4 in 2.96 seconds
+[2025-01-11 02:24:59,130] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:24:59,130] INFO: Processed Gaming_360P-586d_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 02:25:02,428] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:02,429] INFO: Processed Gaming_360P-5e0f_crf_10_ss_00_t_20.0.mp4 in 3.05 seconds
+[2025-01-11 02:25:04,994] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:04,994] INFO: Processed Gaming_360P-6207_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 02:25:08,078] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:08,078] INFO: Processed Gaming_360P-63e6_crf_10_ss_00_t_20.0.mp4 in 3.05 seconds
+[2025-01-11 02:25:10,326] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:10,326] INFO: Processed Gaming_360P-73c7_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 02:25:20,182] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:20,182] INFO: Processed Gaming_360P-7975_crf_10_ss_00_t_20.0.mp4 in 1.89 seconds
+[2025-01-11 02:25:22,280] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:22,280] INFO: Processed Gaming_360P-7acb_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 02:25:28,108] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:28,108] INFO: Processed HowTo_360P-041c_crf_10_ss_00_t_20.0.mp4 in 2.90 seconds
+[2025-01-11 02:25:30,841] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:30,842] INFO: Processed HowTo_360P-0562_crf_10_ss_00_t_20.0.mp4 in 2.70 seconds
+[2025-01-11 02:25:34,043] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:34,043] INFO: Processed HowTo_360P-06be_crf_10_ss_00_t_20.0.mp4 in 3.17 seconds
+[2025-01-11 02:25:36,725] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:36,726] INFO: Processed HowTo_360P-09f8_crf_10_ss_00_t_20.0.mp4 in 2.65 seconds
+[2025-01-11 02:25:39,181] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:39,181] INFO: Processed HowTo_360P-127f_crf_10_ss_00_t_20.0.mp4 in 2.42 seconds
+[2025-01-11 02:25:41,492] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:41,492] INFO: Processed HowTo_360P-18e7_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 02:25:43,625] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:43,625] INFO: Processed HowTo_360P-1dba_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:25:45,906] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:45,906] INFO: Processed HowTo_360P-2074_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 02:25:48,290] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:48,290] INFO: Processed HowTo_360P-2a3b_crf_10_ss_00_t_20.0.mp4 in 2.35 seconds
+[2025-01-11 02:25:50,963] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:50,963] INFO: Processed HowTo_360P-2d35_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 02:25:53,121] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:53,121] INFO: Processed HowTo_360P-2fd5_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:25:55,230] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:55,230] INFO: Processed HowTo_360P-3aa6_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 02:25:57,359] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:57,359] INFO: Processed HowTo_360P-4276_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:25:59,441] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:25:59,441] INFO: Processed HowTo_360P-4e4c_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 02:26:01,337] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:01,337] INFO: Processed HowTo_360P-55e9_crf_10_ss_00_t_20.0.mp4 in 1.86 seconds
+[2025-01-11 02:26:03,919] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:03,919] INFO: Processed HowTo_360P-5da7_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 02:26:06,092] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:06,092] INFO: Processed HowTo_360P-6093_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 02:26:08,776] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:08,776] INFO: Processed HowTo_360P-6a0e_crf_10_ss_00_t_20.0.mp4 in 2.65 seconds
+[2025-01-11 02:26:10,788] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:10,788] INFO: Processed HowTo_360P-7dcd_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 02:26:12,917] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:12,917] INFO: Processed HowTo_360P-7fb1_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:26:15,767] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:15,767] INFO: Processed Lecture_360P-03bc_crf_10_ss_00_t_20.0.mp4 in 2.82 seconds
+[2025-01-11 02:26:18,356] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:18,356] INFO: Processed Lecture_360P-051a_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 02:26:20,975] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:20,975] INFO: Processed Lecture_360P-114f_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 02:26:22,985] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:22,985] INFO: Processed Lecture_360P-20c3_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 02:26:25,403] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:25,404] INFO: Processed Lecture_360P-2276_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 02:26:27,906] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:27,906] INFO: Processed Lecture_360P-27db_crf_10_ss_00_t_20.0.mp4 in 2.47 seconds
+[2025-01-11 02:26:30,247] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:30,247] INFO: Processed Lecture_360P-2c55_crf_10_ss_00_t_20.0.mp4 in 2.31 seconds
+[2025-01-11 02:26:32,392] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:32,392] INFO: Processed Lecture_360P-2d1f_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 02:26:34,527] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:34,527] INFO: Processed Lecture_360P-30eb_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:26:37,150] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:37,151] INFO: Processed Lecture_360P-311d_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 02:26:39,246] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:39,246] INFO: Processed Lecture_360P-3590_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 02:26:41,291] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:41,291] INFO: Processed Lecture_360P-44c2_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 02:26:43,723] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:43,723] INFO: Processed Lecture_360P-4bb4_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 02:26:46,058] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:46,058] INFO: Processed Lecture_360P-4f00_crf_10_ss_00_t_20.0.mp4 in 2.30 seconds
+[2025-01-11 02:26:48,909] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:48,909] INFO: Processed Lecture_360P-506c_crf_10_ss_00_t_20.0.mp4 in 2.82 seconds
+[2025-01-11 02:26:51,298] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:51,298] INFO: Processed Lecture_360P-5594_crf_10_ss_00_t_20.0.mp4 in 2.35 seconds
+[2025-01-11 02:26:53,610] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:53,610] INFO: Processed Lecture_360P-5aea_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 02:26:55,642] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:55,642] INFO: Processed Lecture_360P-5d0a_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 02:26:57,848] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:57,848] INFO: Processed Lecture_360P-6656_crf_10_ss_00_t_20.0.mp4 in 2.17 seconds
+[2025-01-11 02:26:59,904] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:26:59,904] INFO: Processed Lecture_360P-6d29_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 02:27:02,078] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:02,078] INFO: Processed Lecture_360P-7550_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 02:27:04,512] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:04,512] INFO: Processed Lecture_360P-7a57_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 02:27:06,665] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:06,665] INFO: Processed Lecture_360P-7f7e_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:27:08,825] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:08,825] INFO: Processed LiveMusic_360P-121f_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 02:27:11,031] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:11,031] INFO: Processed LiveMusic_360P-1d94_crf_10_ss_00_t_20.0.mp4 in 2.17 seconds
+[2025-01-11 02:27:13,329] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:13,330] INFO: Processed LiveMusic_360P-22c5_crf_10_ss_00_t_20.0.mp4 in 2.26 seconds
+[2025-01-11 02:27:15,568] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:15,568] INFO: Processed LiveMusic_360P-2508_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 02:27:17,809] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:17,809] INFO: Processed LiveMusic_360P-265c_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 02:27:19,796] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:19,797] INFO: Processed LiveMusic_360P-2b0f_crf_10_ss_00_t_20.0.mp4 in 1.95 seconds
+[2025-01-11 02:27:22,942] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:22,943] INFO: Processed LiveMusic_360P-3979_crf_10_ss_00_t_20.0.mp4 in 3.12 seconds
+[2025-01-11 02:27:25,466] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:25,466] INFO: Processed LiveMusic_360P-3b96_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 02:27:27,679] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:27,680] INFO: Processed LiveMusic_360P-3be0_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 02:27:29,841] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:29,841] INFO: Processed LiveMusic_360P-48d5_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 02:27:31,905] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:31,905] INFO: Processed LiveMusic_360P-5281_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 02:27:34,181] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:34,181] INFO: Processed LiveMusic_360P-54d0_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 02:27:36,373] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:36,373] INFO: Processed LiveMusic_360P-5b57_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:27:38,751] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:38,751] INFO: Processed LiveMusic_360P-6266_crf_10_ss_00_t_20.0.mp4 in 2.35 seconds
+[2025-01-11 02:27:41,118] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:41,118] INFO: Processed LiveMusic_360P-6640_crf_10_ss_00_t_20.0.mp4 in 2.33 seconds
+[2025-01-11 02:27:43,257] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:43,257] INFO: Processed LiveMusic_360P-6a65_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 02:27:45,235] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:45,236] INFO: Processed LiveMusic_360P-7483_crf_10_ss_00_t_20.0.mp4 in 1.94 seconds
+[2025-01-11 02:27:47,298] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:47,298] INFO: Processed LyricVideo_360P-0ac7_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 02:27:49,595] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:49,595] INFO: Processed LyricVideo_360P-17ce_crf_10_ss_00_t_20.0.mp4 in 2.26 seconds
+[2025-01-11 02:27:51,663] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:51,663] INFO: Processed LyricVideo_360P-3afc_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 02:27:54,181] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:54,182] INFO: Processed LyricVideo_360P-5868_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 02:27:56,572] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:56,572] INFO: Processed LyricVideo_360P-5e87_crf_10_ss_00_t_20.0.mp4 in 2.36 seconds
+[2025-01-11 02:27:59,345] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:27:59,345] INFO: Processed MusicVideo_360P-17e4_crf_10_ss_00_t_20.0.mp4 in 2.74 seconds
+[2025-01-11 02:28:01,335] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:01,335] INFO: Processed MusicVideo_360P-24b0_crf_10_ss_00_t_20.0.mp4 in 1.96 seconds
+[2025-01-11 02:28:03,683] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:03,684] INFO: Processed MusicVideo_360P-2fcb_crf_10_ss_00_t_20.0.mp4 in 2.31 seconds
+[2025-01-11 02:28:05,866] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:05,866] INFO: Processed MusicVideo_360P-462f_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:28:08,441] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:08,442] INFO: Processed MusicVideo_360P-4de7_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 02:28:10,670] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:10,670] INFO: Processed MusicVideo_360P-5358_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:28:12,734] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:12,734] INFO: Processed MusicVideo_360P-5578_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 02:28:14,928] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:14,928] INFO: Processed MusicVideo_360P-5699_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:28:17,059] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:17,059] INFO: Processed MusicVideo_360P-5f07_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:28:19,281] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:19,281] INFO: Processed MusicVideo_360P-5f8d_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:28:21,768] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:21,768] INFO: Processed MusicVideo_360P-648c_crf_10_ss_00_t_20.0.mp4 in 2.46 seconds
+[2025-01-11 02:28:24,048] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:24,048] INFO: Processed MusicVideo_360P-7b94_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 02:28:26,471] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:26,471] INFO: Processed NewsClip_360P-0376_crf_10_ss_00_t_20.0.mp4 in 2.39 seconds
+[2025-01-11 02:28:28,765] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:28,765] INFO: Processed NewsClip_360P-0ff8_crf_10_ss_00_t_20.0.mp4 in 2.26 seconds
+[2025-01-11 02:28:31,067] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:31,067] INFO: Processed NewsClip_360P-1093_crf_10_ss_00_t_20.0.mp4 in 2.27 seconds
+[2025-01-11 02:28:33,131] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:33,131] INFO: Processed NewsClip_360P-1b1c_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 02:28:35,345] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:35,345] INFO: Processed NewsClip_360P-1e1c_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 02:28:38,170] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:38,172] INFO: Processed NewsClip_360P-22ce_crf_10_ss_00_t_20.0.mp4 in 2.79 seconds
+[2025-01-11 02:28:40,301] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:40,302] INFO: Processed NewsClip_360P-274e_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:28:42,503] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:42,503] INFO: Processed NewsClip_360P-2986_crf_10_ss_00_t_20.0.mp4 in 2.17 seconds
+[2025-01-11 02:28:44,528] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:44,528] INFO: Processed NewsClip_360P-2c91_crf_10_ss_00_t_20.0.mp4 in 1.99 seconds
+[2025-01-11 02:28:46,656] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:46,656] INFO: Processed NewsClip_360P-3451_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 02:28:48,844] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:48,844] INFO: Processed NewsClip_360P-4288_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:28:51,186] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:51,187] INFO: Processed NewsClip_360P-439a_crf_10_ss_00_t_20.0.mp4 in 2.31 seconds
+[2025-01-11 02:28:53,519] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:53,519] INFO: Processed NewsClip_360P-4417_crf_10_ss_00_t_20.0.mp4 in 2.30 seconds
+[2025-01-11 02:28:55,547] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:55,548] INFO: Processed NewsClip_360P-5052_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 02:28:57,620] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:57,620] INFO: Processed NewsClip_360P-5752_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 02:28:59,812] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:28:59,812] INFO: Processed NewsClip_360P-5bcc_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:29:01,884] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:01,884] INFO: Processed NewsClip_360P-5f3b_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 02:29:04,067] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:04,067] INFO: Processed NewsClip_360P-66ae_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:29:06,291] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:06,291] INFO: Processed NewsClip_360P-67ce_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:29:08,906] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:08,906] INFO: Processed NewsClip_360P-7a96_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 02:29:11,600] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:11,600] INFO: Processed Sports_360P-02c3_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 02:29:14,053] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:14,054] INFO: Processed Sports_360P-0c66_crf_10_ss_00_t_20.0.mp4 in 2.42 seconds
+[2025-01-11 02:29:16,376] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:16,376] INFO: Processed Sports_360P-11b7_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 02:29:18,935] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:18,935] INFO: Processed Sports_360P-1803_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 02:29:21,073] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:21,073] INFO: Processed Sports_360P-1d5c_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:29:23,247] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:23,247] INFO: Processed Sports_360P-2725_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 02:29:25,571] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:25,571] INFO: Processed Sports_360P-27b0_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 02:29:28,301] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:28,301] INFO: Processed Sports_360P-2ace_crf_10_ss_00_t_20.0.mp4 in 2.70 seconds
+[2025-01-11 02:29:30,509] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:30,509] INFO: Processed Sports_360P-2e48_crf_10_ss_00_t_20.0.mp4 in 2.17 seconds
+[2025-01-11 02:29:32,970] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:32,970] INFO: Processed Sports_360P-301d_crf_10_ss_00_t_20.0.mp4 in 2.43 seconds
+[2025-01-11 02:29:35,482] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:35,482] INFO: Processed Sports_360P-32d3_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 02:29:37,795] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:37,795] INFO: Processed Sports_360P-3960_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 02:29:40,066] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:40,066] INFO: Processed Sports_360P-3e68_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 02:29:42,176] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:42,176] INFO: Processed Sports_360P-4545_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 02:29:44,394] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:44,394] INFO: Processed Sports_360P-4802_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 02:29:46,889] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:46,889] INFO: Processed Sports_360P-4ad7_crf_10_ss_00_t_20.0.mp4 in 2.46 seconds
+[2025-01-11 02:29:49,484] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:49,484] INFO: Processed Sports_360P-50fd_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 02:29:51,640] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:51,640] INFO: Processed Sports_360P-5252_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:29:53,836] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:53,836] INFO: Processed Sports_360P-5ded_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:29:56,096] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:56,096] INFO: Processed Sports_360P-61f6_crf_10_ss_00_t_20.0.mp4 in 2.23 seconds
+[2025-01-11 02:29:58,727] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:29:58,728] INFO: Processed Sports_360P-65f3_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 02:30:00,969] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:00,970] INFO: Processed Sports_360P-6b4f_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 02:30:03,628] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:03,628] INFO: Processed Sports_360P-6c6f_crf_10_ss_00_t_20.0.mp4 in 2.63 seconds
+[2025-01-11 02:30:05,662] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:05,662] INFO: Processed Sports_360P-6f62_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 02:30:07,716] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:07,716] INFO: Processed Sports_360P-7f50_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 02:30:10,441] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:10,441] INFO: Processed TelevisionClip_360P-0951_crf_10_ss_00_t_20.0.mp4 in 2.69 seconds
+[2025-01-11 02:30:13,004] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:13,004] INFO: Processed TelevisionClip_360P-11d5_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 02:30:15,567] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:15,567] INFO: Processed TelevisionClip_360P-29f1_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 02:30:18,187] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:18,187] INFO: Processed TelevisionClip_360P-3b9a_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 02:30:20,257] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:20,258] INFO: Processed TelevisionClip_360P-74dd_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 02:30:22,404] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:22,404] INFO: Processed TelevisionClip_360P-7b23_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 02:30:25,327] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:25,328] INFO: Processed VerticalVideo_360P-0d29_crf_10_ss_00_t_20.0.mp4 in 2.89 seconds
+[2025-01-11 02:30:27,650] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:27,650] INFO: Processed VerticalVideo_360P-1424_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 02:30:29,743] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:29,744] INFO: Processed VerticalVideo_360P-145e_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 02:30:32,172] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:32,172] INFO: Processed VerticalVideo_360P-2bb0_crf_10_ss_00_t_20.0.mp4 in 2.39 seconds
+[2025-01-11 02:30:34,233] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:34,233] INFO: Processed VerticalVideo_360P-2fa3_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 02:30:36,747] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:36,747] INFO: Processed VerticalVideo_360P-3936_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 02:30:39,590] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:39,590] INFO: Processed VerticalVideo_360P-3b4e_crf_10_ss_00_t_20.0.mp4 in 2.81 seconds
+[2025-01-11 02:30:41,792] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:41,792] INFO: Processed VerticalVideo_360P-5429_crf_10_ss_00_t_20.0.mp4 in 2.17 seconds
+[2025-01-11 02:30:43,842] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:43,842] INFO: Processed VerticalVideo_360P-54f7_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 02:30:46,085] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:46,085] INFO: Processed VerticalVideo_360P-634f_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 02:30:48,194] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:48,194] INFO: Processed VerticalVideo_360P-6490_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 02:30:50,258] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:50,258] INFO: Processed VerticalVideo_360P-6ff2_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 02:30:52,479] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:52,479] INFO: Processed VerticalVideo_360P-70a9_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 02:30:54,661] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:54,662] INFO: Processed VerticalVideo_360P-7ba8_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:30:56,862] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:56,862] INFO: Processed VerticalVideo_360P-7ec3_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:30:59,331] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:30:59,331] INFO: Processed Vlog_360P-1e5b_crf_10_ss_00_t_20.0.mp4 in 2.43 seconds
+[2025-01-11 02:31:01,403] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:01,403] INFO: Processed Vlog_360P-22a0_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 02:31:03,760] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:03,760] INFO: Processed Vlog_360P-2973_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 02:31:06,167] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:06,167] INFO: Processed Vlog_360P-2e9d_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 02:31:08,399] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:08,399] INFO: Processed Vlog_360P-3121_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 02:31:10,679] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:10,679] INFO: Processed Vlog_360P-433e_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 02:31:12,880] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:12,880] INFO: Processed Vlog_360P-4697_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:31:15,276] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:15,276] INFO: Processed Vlog_360P-4795_crf_10_ss_00_t_20.0.mp4 in 2.36 seconds
+[2025-01-11 02:31:17,593] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:17,593] INFO: Processed Vlog_360P-76ae_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 02:31:19,763] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:19,763] INFO: Processed Vlog_360P-7efe_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 02:31:21,735] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:21,736] INFO: Processed Animation_480P-046c_crf_10_ss_00_t_20.0.mp4 in 1.94 seconds
+[2025-01-11 02:31:23,947] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:23,947] INFO: Processed Animation_480P-073c_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 02:31:26,200] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:26,201] INFO: Processed Animation_480P-087e_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 02:31:28,391] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:28,392] INFO: Processed Animation_480P-08a5_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:31:30,784] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:30,784] INFO: Processed Animation_480P-0d04_crf_10_ss_00_t_20.0.mp4 in 2.36 seconds
+[2025-01-11 02:31:32,842] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:32,842] INFO: Processed Animation_480P-35ee_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 02:31:35,533] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:35,533] INFO: Processed Animation_480P-3fdf_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 02:31:37,909] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:37,909] INFO: Processed Animation_480P-4b86_crf_10_ss_00_t_20.0.mp4 in 2.34 seconds
+[2025-01-11 02:31:40,186] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:40,186] INFO: Processed Animation_480P-4e36_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 02:31:42,130] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:42,130] INFO: Processed Animation_480P-52af_crf_10_ss_00_t_20.0.mp4 in 1.91 seconds
+[2025-01-11 02:31:44,495] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:44,495] INFO: Processed Animation_480P-6e23_crf_10_ss_00_t_20.0.mp4 in 2.33 seconds
+[2025-01-11 02:31:46,713] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:46,713] INFO: Processed Animation_480P-6ef6_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:31:49,033] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:49,033] INFO: Processed Animation_480P-70d4_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 02:31:51,411] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:51,412] INFO: Processed Animation_480P-791b_crf_10_ss_00_t_20.0.mp4 in 2.34 seconds
+[2025-01-11 02:31:53,571] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:53,571] INFO: Processed Animation_480P-7a31_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:31:55,722] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:55,722] INFO: Processed Animation_480P-7ef2_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 02:31:57,953] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:31:57,953] INFO: Processed CoverSong_480P-0170_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 02:32:00,392] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:00,392] INFO: Processed CoverSong_480P-1019_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 02:32:02,542] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:02,542] INFO: Processed CoverSong_480P-1109_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:32:05,460] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:05,460] INFO: Processed CoverSong_480P-2142_crf_10_ss_00_t_20.0.mp4 in 2.34 seconds
+[2025-01-11 02:32:08,507] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:08,507] INFO: Processed CoverSong_480P-2207_crf_10_ss_00_t_20.0.mp4 in 3.02 seconds
+[2025-01-11 02:32:11,052] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:11,052] INFO: Processed CoverSong_480P-2d2c_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 02:32:13,232] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:13,232] INFO: Processed CoverSong_480P-3076_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:32:16,177] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:16,177] INFO: Processed CoverSong_480P-35e1_crf_10_ss_00_t_20.0.mp4 in 2.65 seconds
+[2025-01-11 02:32:18,677] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:18,677] INFO: Processed CoverSong_480P-3e4b_crf_10_ss_00_t_20.0.mp4 in 2.46 seconds
+[2025-01-11 02:32:21,347] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:21,347] INFO: Processed CoverSong_480P-3e92_crf_10_ss_00_t_20.0.mp4 in 2.57 seconds
+[2025-01-11 02:32:23,943] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:23,944] INFO: Processed CoverSong_480P-3f3b_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 02:32:26,128] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:26,128] INFO: Processed CoverSong_480P-4d34_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:32:28,356] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:28,357] INFO: Processed CoverSong_480P-53f4_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:32:30,521] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:30,521] INFO: Processed CoverSong_480P-59f2_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 02:32:32,683] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:32,683] INFO: Processed CoverSong_480P-5b62_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 02:32:35,031] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:35,031] INFO: Processed CoverSong_480P-60a6_crf_10_ss_00_t_20.0.mp4 in 2.31 seconds
+[2025-01-11 02:32:37,510] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:37,510] INFO: Processed CoverSong_480P-64d0_crf_10_ss_00_t_20.0.mp4 in 2.44 seconds
+[2025-01-11 02:32:39,626] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:39,626] INFO: Processed CoverSong_480P-6c3e_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 02:32:41,750] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:41,750] INFO: Processed CoverSong_480P-6c50_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 02:32:44,070] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:44,070] INFO: Processed CoverSong_480P-7f6d_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 02:32:46,212] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:46,212] INFO: Processed Gaming_480P-0109_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 02:32:53,153] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:53,153] INFO: Processed Gaming_480P-09ab_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 02:32:55,487] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:55,487] INFO: Processed Gaming_480P-0a03_crf_10_ss_00_t_20.0.mp4 in 2.30 seconds
+[2025-01-11 02:32:59,699] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:32:59,699] INFO: Processed Gaming_480P-0d23_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 02:33:01,840] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:01,840] INFO: Processed Gaming_480P-0dbc_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 02:33:04,816] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:04,816] INFO: Processed Gaming_480P-14fc_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 02:33:07,066] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:07,066] INFO: Processed Gaming_480P-1542_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 02:33:10,699] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:10,699] INFO: Processed Gaming_480P-20ca_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 02:33:12,912] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:12,913] INFO: Processed Gaming_480P-3a44_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 02:33:15,226] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:15,226] INFO: Processed Gaming_480P-445b_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 02:33:17,803] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:17,804] INFO: Processed Gaming_480P-4560_crf_10_ss_00_t_20.0.mp4 in 2.55 seconds
+[2025-01-11 02:33:20,395] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:20,395] INFO: Processed Gaming_480P-5a5a_crf_10_ss_00_t_20.0.mp4 in 2.50 seconds
+[2025-01-11 02:33:22,843] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:22,843] INFO: Processed Gaming_480P-61ee_crf_10_ss_00_t_20.0.mp4 in 2.42 seconds
+[2025-01-11 02:33:26,732] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:26,732] INFO: Processed Gaming_480P-626a_crf_10_ss_00_t_20.0.mp4 in 2.76 seconds
+[2025-01-11 02:33:29,139] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:29,139] INFO: Processed Gaming_480P-6491_crf_10_ss_00_t_20.0.mp4 in 2.37 seconds
+[2025-01-11 02:33:31,638] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:31,638] INFO: Processed Gaming_480P-6548_crf_10_ss_00_t_20.0.mp4 in 2.31 seconds
+[2025-01-11 02:33:34,466] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:34,466] INFO: Processed Gaming_480P-6a5a_crf_10_ss_00_t_20.0.mp4 in 2.79 seconds
+[2025-01-11 02:33:36,607] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:36,607] INFO: Processed Gaming_480P-6c92_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 02:33:39,293] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:39,294] INFO: Processed Gaming_480P-6cdc_crf_10_ss_00_t_20.0.mp4 in 2.65 seconds
+[2025-01-11 02:33:41,334] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:41,334] INFO: Processed Gaming_480P-6d1e_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 02:33:43,472] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:43,472] INFO: Processed Gaming_480P-6f4b_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:33:45,614] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:45,614] INFO: Processed Gaming_480P-75f7_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 02:33:47,843] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:47,843] INFO: Processed Gaming_480P-7a08_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:33:50,997] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:50,997] INFO: Processed Gaming_480P-7e76_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:33:53,365] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:53,365] INFO: Processed HowTo_480P-04f1_crf_10_ss_00_t_20.0.mp4 in 2.34 seconds
+[2025-01-11 02:33:55,861] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:55,861] INFO: Processed HowTo_480P-0cb3_crf_10_ss_00_t_20.0.mp4 in 2.39 seconds
+[2025-01-11 02:33:58,196] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:33:58,196] INFO: Processed HowTo_480P-0d00_crf_10_ss_00_t_20.0.mp4 in 2.30 seconds
+[2025-01-11 02:34:01,511] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:01,511] INFO: Processed HowTo_480P-0eb3_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:34:03,728] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:03,728] INFO: Processed HowTo_480P-15c1_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 02:34:06,131] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:06,131] INFO: Processed HowTo_480P-221e_crf_10_ss_00_t_20.0.mp4 in 2.37 seconds
+[2025-01-11 02:34:08,372] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:08,373] INFO: Processed HowTo_480P-2610_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 02:34:10,531] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:10,532] INFO: Processed HowTo_480P-32c9_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:34:12,511] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:12,511] INFO: Processed HowTo_480P-3435_crf_10_ss_00_t_20.0.mp4 in 1.95 seconds
+[2025-01-11 02:34:15,066] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:15,066] INFO: Processed HowTo_480P-470b_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 02:34:17,293] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:17,293] INFO: Processed HowTo_480P-4948_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:34:20,289] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:20,289] INFO: Processed HowTo_480P-4a28_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:34:22,801] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:22,802] INFO: Processed HowTo_480P-4b6a_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 02:34:25,741] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:25,741] INFO: Processed HowTo_480P-4c99_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 02:34:27,920] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:27,920] INFO: Processed HowTo_480P-56a5_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 02:34:30,105] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:30,105] INFO: Processed HowTo_480P-60b3_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 02:34:32,274] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:32,274] INFO: Processed HowTo_480P-63a2_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 02:34:35,807] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:35,807] INFO: Processed HowTo_480P-64a2_crf_10_ss_00_t_20.0.mp4 in 2.26 seconds
+[2025-01-11 02:34:38,683] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:38,683] INFO: Processed HowTo_480P-7c11_crf_10_ss_00_t_20.0.mp4 in 2.84 seconds
+[2025-01-11 02:34:41,100] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:41,100] INFO: Processed Lecture_480P-02f2_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 02:34:43,165] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:43,165] INFO: Processed Lecture_480P-11df_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 02:34:45,784] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:45,784] INFO: Processed Lecture_480P-181a_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 02:34:49,096] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:49,096] INFO: Processed Lecture_480P-1ec3_crf_10_ss_00_t_20.0.mp4 in 3.28 seconds
+[2025-01-11 02:34:51,369] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:51,370] INFO: Processed Lecture_480P-2513_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 02:34:53,579] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:53,579] INFO: Processed Lecture_480P-2655_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 02:34:55,930] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:55,930] INFO: Processed Lecture_480P-2ed0_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 02:34:57,949] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:34:57,950] INFO: Processed Lecture_480P-369f_crf_10_ss_00_t_20.0.mp4 in 1.99 seconds
+[2025-01-11 02:35:00,341] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:00,341] INFO: Processed Lecture_480P-41b7_crf_10_ss_00_t_20.0.mp4 in 2.36 seconds
+[2025-01-11 02:35:02,789] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:02,790] INFO: Processed Lecture_480P-4272_crf_10_ss_00_t_20.0.mp4 in 2.41 seconds
+[2025-01-11 02:35:04,981] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:04,982] INFO: Processed Lecture_480P-42c3_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:35:07,207] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:07,207] INFO: Processed Lecture_480P-4bc3_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:35:09,517] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:09,517] INFO: Processed Lecture_480P-4c86_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 02:35:11,679] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:11,679] INFO: Processed Lecture_480P-5aee_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:35:14,048] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:14,048] INFO: Processed Lecture_480P-5cd7_crf_10_ss_00_t_20.0.mp4 in 2.33 seconds
+[2025-01-11 02:35:16,473] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:16,473] INFO: Processed Lecture_480P-5f3a_crf_10_ss_00_t_20.0.mp4 in 2.39 seconds
+[2025-01-11 02:35:18,662] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:18,662] INFO: Processed Lecture_480P-6191_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:35:20,890] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:20,890] INFO: Processed Lecture_480P-6b1e_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:35:23,038] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:23,038] INFO: Processed Lecture_480P-71c0_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 02:35:25,639] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:25,639] INFO: Processed Lecture_480P-71d6_crf_10_ss_00_t_20.0.mp4 in 2.57 seconds
+[2025-01-11 02:35:27,881] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:27,881] INFO: Processed Lecture_480P-7205_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 02:35:30,077] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:30,077] INFO: Processed Lecture_480P-73f6_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:35:32,299] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:32,299] INFO: Processed Lecture_480P-74cf_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:35:34,582] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:34,582] INFO: Processed Lecture_480P-74ea_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 02:35:37,203] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:37,203] INFO: Processed Lecture_480P-7d77_crf_10_ss_00_t_20.0.mp4 in 2.51 seconds
+[2025-01-11 02:35:39,616] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:39,616] INFO: Processed Lecture_480P-7e55_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 02:35:43,890] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:43,890] INFO: Processed Lecture_480P-7eec_crf_10_ss_00_t_20.0.mp4 in 1.99 seconds
+[2025-01-11 02:35:45,845] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:45,846] INFO: Processed LiveMusic_480P-0638_crf_10_ss_00_t_20.0.mp4 in 1.92 seconds
+[2025-01-11 02:35:58,143] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:35:58,143] INFO: Processed LiveMusic_480P-1a91_crf_10_ss_00_t_20.0.mp4 in 1.97 seconds
+[2025-01-11 02:36:00,055] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:36:00,055] INFO: Processed LiveMusic_480P-2019_crf_10_ss_00_t_20.0.mp4 in 1.88 seconds
+[2025-01-11 02:36:11,417] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:36:11,417] INFO: Processed LiveMusic_480P-2a5e_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 02:36:17,340] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:36:17,342] INFO: Processed LiveMusic_480P-38f3_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:36:31,691] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:36:31,691] INFO: Processed LiveMusic_480P-3d03_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 02:36:43,904] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:36:43,904] INFO: Processed LiveMusic_480P-459c_crf_10_ss_00_t_20.0.mp4 in 2.35 seconds
+[2025-01-11 02:36:45,948] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:36:45,948] INFO: Processed LiveMusic_480P-4c3a_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 02:36:56,595] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:36:56,596] INFO: Processed LiveMusic_480P-4f88_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 02:36:58,815] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:36:58,815] INFO: Processed LiveMusic_480P-559d_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:37:10,603] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:37:10,603] INFO: Processed LiveMusic_480P-58fb_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 02:37:12,580] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:37:12,580] INFO: Processed LiveMusic_480P-61ef_crf_10_ss_00_t_20.0.mp4 in 1.94 seconds
+[2025-01-11 02:37:29,893] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:37:29,893] INFO: Processed LiveMusic_480P-6542_crf_10_ss_00_t_20.0.mp4 in 1.88 seconds
+[2025-01-11 02:37:32,029] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:37:32,030] INFO: Processed LiveMusic_480P-65ca_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:37:48,853] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:37:48,853] INFO: Processed LyricVideo_480P-0f72_crf_10_ss_00_t_20.0.mp4 in 1.94 seconds
+[2025-01-11 02:37:51,036] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:37:51,036] INFO: Processed LyricVideo_480P-1484_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:37:53,937] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:37:53,937] INFO: Processed LyricVideo_480P-200a_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 02:37:56,047] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:37:56,047] INFO: Processed LyricVideo_480P-2c50_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 02:38:14,050] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:38:14,050] INFO: Processed LyricVideo_480P-3b2c_crf_10_ss_00_t_20.0.mp4 in 2.35 seconds
+[2025-01-11 02:38:16,273] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:38:16,273] INFO: Processed LyricVideo_480P-3ccf_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 02:38:22,913] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:38:22,913] INFO: Processed LyricVideo_480P-4346_crf_10_ss_00_t_20.0.mp4 in 1.79 seconds
+[2025-01-11 02:38:30,294] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:38:30,294] INFO: Processed LyricVideo_480P-51e4_crf_10_ss_00_t_20.0.mp4 in 1.95 seconds
+[2025-01-11 02:38:32,266] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:38:32,266] INFO: Processed LyricVideo_480P-5c17_crf_10_ss_00_t_20.0.mp4 in 1.94 seconds
+[2025-01-11 02:38:50,131] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:38:50,131] INFO: Processed LyricVideo_480P-6fca_crf_10_ss_00_t_20.0.mp4 in 1.99 seconds
+[2025-01-11 02:38:52,098] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:38:52,099] INFO: Processed LyricVideo_480P-7919_crf_10_ss_00_t_20.0.mp4 in 1.93 seconds
+[2025-01-11 02:38:57,721] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:38:57,721] INFO: Processed MusicVideo_480P-0448_crf_10_ss_00_t_20.0.mp4 in 2.63 seconds
+[2025-01-11 02:38:59,870] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:38:59,870] INFO: Processed MusicVideo_480P-12fb_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:39:05,451] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:39:05,451] INFO: Processed MusicVideo_480P-184c_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 02:39:07,524] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:39:07,524] INFO: Processed MusicVideo_480P-1eee_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 02:39:14,340] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:39:14,340] INFO: Processed MusicVideo_480P-2de0_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 02:39:16,571] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:39:16,571] INFO: Processed MusicVideo_480P-3aa2_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 02:39:34,066] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:39:34,066] INFO: Processed MusicVideo_480P-3c8b_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 02:39:36,260] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:39:36,260] INFO: Processed MusicVideo_480P-41ce_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:39:53,758] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:39:53,758] INFO: Processed MusicVideo_480P-483b_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 02:39:55,658] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:39:55,658] INFO: Processed MusicVideo_480P-4cc8_crf_10_ss_00_t_20.0.mp4 in 1.86 seconds
+[2025-01-11 02:40:17,151] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:40:17,151] INFO: Processed MusicVideo_480P-5830_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 02:40:19,442] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:40:19,442] INFO: Processed MusicVideo_480P-6026_crf_10_ss_00_t_20.0.mp4 in 2.26 seconds
+[2025-01-11 02:40:33,269] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:40:33,269] INFO: Processed MusicVideo_480P-61ba_crf_10_ss_00_t_20.0.mp4 in 2.52 seconds
+[2025-01-11 02:40:35,230] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:40:35,230] INFO: Processed MusicVideo_480P-6fb6_crf_10_ss_00_t_20.0.mp4 in 1.93 seconds
+[2025-01-11 02:41:05,537] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:05,537] INFO: Processed MusicVideo_480P-7643_crf_10_ss_00_t_20.0.mp4 in 2.98 seconds
+[2025-01-11 02:41:07,353] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:07,356] INFO: Processed MusicVideo_480P-7955_crf_10_ss_00_t_20.0.mp4 in 1.79 seconds
+[2025-01-11 02:41:15,308] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:15,308] INFO: Processed NewsClip_480P-0269_crf_10_ss_00_t_20.0.mp4 in 2.47 seconds
+[2025-01-11 02:41:17,631] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:17,631] INFO: Processed NewsClip_480P-0ce5_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 02:41:23,975] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:23,975] INFO: Processed NewsClip_480P-15fa_crf_10_ss_00_t_20.0.mp4 in 2.93 seconds
+[2025-01-11 02:41:25,796] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:25,796] INFO: Processed NewsClip_480P-2407_crf_10_ss_00_t_20.0.mp4 in 1.80 seconds
+[2025-01-11 02:41:35,222] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:35,223] INFO: Processed NewsClip_480P-28eb_crf_10_ss_00_t_20.0.mp4 in 1.81 seconds
+[2025-01-11 02:41:37,070] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:37,070] INFO: Processed NewsClip_480P-2b9b_crf_10_ss_00_t_20.0.mp4 in 1.81 seconds
+[2025-01-11 02:41:49,220] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:49,220] INFO: Processed NewsClip_480P-2ba7_crf_10_ss_00_t_20.0.mp4 in 2.69 seconds
+[2025-01-11 02:41:51,807] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:51,807] INFO: Processed NewsClip_480P-31bd_crf_10_ss_00_t_20.0.mp4 in 2.55 seconds
+[2025-01-11 02:41:57,508] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:41:57,508] INFO: Processed NewsClip_480P-3672_crf_10_ss_00_t_20.0.mp4 in 3.10 seconds
+[2025-01-11 02:42:00,142] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:42:00,143] INFO: Processed NewsClip_480P-36d0_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 02:42:20,287] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:42:20,287] INFO: Processed NewsClip_480P-437c_crf_10_ss_00_t_20.0.mp4 in 2.26 seconds
+[2025-01-11 02:42:22,641] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:42:22,641] INFO: Processed NewsClip_480P-49c9_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 02:42:30,013] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:42:30,014] INFO: Processed NewsClip_480P-4a9f_crf_10_ss_00_t_20.0.mp4 in 2.82 seconds
+[2025-01-11 02:42:33,209] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:42:33,209] INFO: Processed NewsClip_480P-543f_crf_10_ss_00_t_20.0.mp4 in 3.16 seconds
+[2025-01-11 02:42:36,841] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:42:36,841] INFO: Processed NewsClip_480P-5a3b_crf_10_ss_00_t_20.0.mp4 in 2.43 seconds
+[2025-01-11 02:42:38,867] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:42:38,868] INFO: Processed NewsClip_480P-5e7f_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 02:42:56,269] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:42:56,269] INFO: Processed NewsClip_480P-606e_crf_10_ss_00_t_20.0.mp4 in 2.55 seconds
+[2025-01-11 02:42:58,562] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:42:58,562] INFO: Processed NewsClip_480P-6615_crf_10_ss_00_t_20.0.mp4 in 2.26 seconds
+[2025-01-11 02:43:02,183] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:43:02,183] INFO: Processed NewsClip_480P-696e_crf_10_ss_00_t_20.0.mp4 in 2.57 seconds
+[2025-01-11 02:43:04,836] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:43:04,836] INFO: Processed NewsClip_480P-6bfa_crf_10_ss_00_t_20.0.mp4 in 2.62 seconds
+[2025-01-11 02:43:11,498] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:43:11,498] INFO: Processed NewsClip_480P-7232_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 02:43:13,505] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:43:13,505] INFO: Processed NewsClip_480P-72b8_crf_10_ss_00_t_20.0.mp4 in 1.97 seconds
+[2025-01-11 02:43:30,642] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:43:30,642] INFO: Processed NewsClip_480P-7a0d_crf_10_ss_00_t_20.0.mp4 in 2.42 seconds
+[2025-01-11 02:43:39,103] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:43:39,103] INFO: Processed Sports_480P-0623_crf_10_ss_00_t_20.0.mp4 in 2.80 seconds
+[2025-01-11 02:43:46,471] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:43:46,471] INFO: Processed Sports_480P-0827_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 02:43:48,788] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:43:48,788] INFO: Processed Sports_480P-0af9_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 02:44:12,487] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:44:12,487] INFO: Processed Sports_480P-0bb9_crf_10_ss_00_t_20.0.mp4 in 2.70 seconds
+[2025-01-11 02:44:14,979] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:44:14,979] INFO: Processed Sports_480P-0efe_crf_10_ss_00_t_20.0.mp4 in 2.46 seconds
+[2025-01-11 02:44:21,416] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:44:21,416] INFO: Processed Sports_480P-1019_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 02:44:28,138] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:44:28,138] INFO: Processed Sports_480P-1056_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 02:44:31,068] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:44:31,068] INFO: Processed Sports_480P-11ec_crf_10_ss_00_t_20.0.mp4 in 1.97 seconds
+[2025-01-11 02:44:50,268] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:44:50,268] INFO: Processed Sports_480P-1396_crf_10_ss_00_t_20.0.mp4 in 2.37 seconds
+[2025-01-11 02:44:52,788] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:44:52,788] INFO: Processed Sports_480P-19e4_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 02:45:09,628] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:45:09,628] INFO: Processed Sports_480P-1d1b_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 02:45:11,497] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:45:11,497] INFO: Processed Sports_480P-1fe9_crf_10_ss_00_t_20.0.mp4 in 1.83 seconds
+[2025-01-11 02:45:30,511] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:45:30,511] INFO: Processed Sports_480P-2053_crf_10_ss_00_t_20.0.mp4 in 3.00 seconds
+[2025-01-11 02:45:32,723] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:45:32,723] INFO: Processed Sports_480P-211f_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 02:45:37,906] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:45:37,906] INFO: Processed Sports_480P-2dfe_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 02:45:40,394] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:45:40,394] INFO: Processed Sports_480P-3195_crf_10_ss_00_t_20.0.mp4 in 2.46 seconds
+[2025-01-11 02:45:44,586] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:45:44,586] INFO: Processed Sports_480P-3404_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:45:47,819] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:45:47,819] INFO: Processed Sports_480P-35ea_crf_10_ss_00_t_20.0.mp4 in 2.30 seconds
+[2025-01-11 02:46:16,091] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:46:16,091] INFO: Processed Sports_480P-3ca4_crf_10_ss_00_t_20.0.mp4 in 2.52 seconds
+[2025-01-11 02:46:18,393] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:46:18,393] INFO: Processed Sports_480P-3dfd_crf_10_ss_00_t_20.0.mp4 in 2.27 seconds
+[2025-01-11 02:46:28,532] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:46:28,532] INFO: Processed Sports_480P-3f50_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 02:46:30,825] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:46:30,826] INFO: Processed Sports_480P-41a5_crf_10_ss_00_t_20.0.mp4 in 2.26 seconds
+[2025-01-11 02:46:59,644] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:46:59,646] INFO: Processed Sports_480P-44e5_crf_10_ss_00_t_20.0.mp4 in 2.61 seconds
+[2025-01-11 02:47:02,002] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:47:02,002] INFO: Processed Sports_480P-4cf8_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 02:47:08,206] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:47:08,207] INFO: Processed Sports_480P-5224_crf_10_ss_00_t_20.0.mp4 in 2.84 seconds
+[2025-01-11 02:47:10,769] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:47:10,769] INFO: Processed Sports_480P-5871_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 02:47:13,546] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:47:13,547] INFO: Processed Sports_480P-5f38_crf_10_ss_00_t_20.0.mp4 in 2.73 seconds
+[2025-01-11 02:47:17,436] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:47:17,438] INFO: Processed Sports_480P-6508_crf_10_ss_00_t_20.0.mp4 in 1.81 seconds
+[2025-01-11 02:47:38,134] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:47:38,134] INFO: Processed Sports_480P-6e41_crf_10_ss_00_t_20.0.mp4 in 2.91 seconds
+[2025-01-11 02:47:40,778] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:47:40,778] INFO: Processed Sports_480P-77e3_crf_10_ss_00_t_20.0.mp4 in 2.61 seconds
+[2025-01-11 02:47:46,841] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:47:46,841] INFO: Processed Sports_480P-7f7e_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 02:47:49,190] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:47:49,190] INFO: Processed TelevisionClip_480P-09d8_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 02:47:59,094] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:47:59,094] INFO: Processed TelevisionClip_480P-0e46_crf_10_ss_00_t_20.0.mp4 in 2.36 seconds
+[2025-01-11 02:48:00,943] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:48:00,943] INFO: Processed TelevisionClip_480P-19d3_crf_10_ss_00_t_20.0.mp4 in 1.82 seconds
+[2025-01-11 02:48:22,299] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:48:22,299] INFO: Processed TelevisionClip_480P-1b49_crf_10_ss_00_t_20.0.mp4 in 3.24 seconds
+[2025-01-11 02:48:24,704] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:48:24,705] INFO: Processed TelevisionClip_480P-27ca_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 02:48:28,891] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:48:28,891] INFO: Processed TelevisionClip_480P-30b6_crf_10_ss_00_t_20.0.mp4 in 2.87 seconds
+[2025-01-11 02:48:31,379] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:48:31,379] INFO: Processed TelevisionClip_480P-3284_crf_10_ss_00_t_20.0.mp4 in 2.46 seconds
+[2025-01-11 02:48:39,757] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:48:39,757] INFO: Processed TelevisionClip_480P-3617_crf_10_ss_00_t_20.0.mp4 in 3.19 seconds
+[2025-01-11 02:48:42,667] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:48:42,668] INFO: Processed TelevisionClip_480P-373d_crf_10_ss_00_t_20.0.mp4 in 2.88 seconds
+[2025-01-11 02:48:52,200] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:48:52,200] INFO: Processed TelevisionClip_480P-3c64_crf_10_ss_00_t_20.0.mp4 in 2.23 seconds
+[2025-01-11 02:48:54,231] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:48:54,231] INFO: Processed TelevisionClip_480P-415c_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 02:49:02,413] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:02,413] INFO: Processed TelevisionClip_480P-436c_crf_10_ss_00_t_20.0.mp4 in 2.97 seconds
+[2025-01-11 02:49:05,051] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:05,051] INFO: Processed TelevisionClip_480P-4c6b_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 02:49:09,698] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:09,698] INFO: Processed TelevisionClip_480P-59f0_crf_10_ss_00_t_20.0.mp4 in 3.23 seconds
+[2025-01-11 02:49:12,517] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:12,517] INFO: Processed TelevisionClip_480P-723e_crf_10_ss_00_t_20.0.mp4 in 2.78 seconds
+[2025-01-11 02:49:20,803] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:20,804] INFO: Processed VerticalVideo_480P-1bb9_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 02:49:23,202] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:23,202] INFO: Processed VerticalVideo_480P-2fa4_crf_10_ss_00_t_20.0.mp4 in 2.37 seconds
+[2025-01-11 02:49:29,067] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:29,067] INFO: Processed VerticalVideo_480P-34b9_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 02:49:45,491] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:45,492] INFO: Processed VerticalVideo_480P-3a6a_crf_10_ss_00_t_20.0.mp4 in 3.00 seconds
+[2025-01-11 02:49:50,520] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:50,520] INFO: Processed VerticalVideo_480P-419c_crf_10_ss_00_t_20.0.mp4 in 2.85 seconds
+[2025-01-11 02:49:54,229] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:54,229] INFO: Processed VerticalVideo_480P-467e_crf_10_ss_00_t_20.0.mp4 in 3.08 seconds
+[2025-01-11 02:49:56,856] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:49:56,856] INFO: Processed VerticalVideo_480P-550d_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 02:50:02,118] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:50:02,118] INFO: Processed VerticalVideo_480P-572a_crf_10_ss_00_t_20.0.mp4 in 3.00 seconds
+[2025-01-11 02:50:05,075] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:50:05,075] INFO: Processed VerticalVideo_480P-7278_crf_10_ss_00_t_20.0.mp4 in 2.92 seconds
+[2025-01-11 02:50:11,735] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:50:11,735] INFO: Processed VerticalVideo_480P-790a_crf_10_ss_00_t_20.0.mp4 in 1.87 seconds
+[2025-01-11 02:50:13,639] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:50:13,639] INFO: Processed Vlog_480P-0980_crf_10_ss_00_t_20.0.mp4 in 1.87 seconds
+[2025-01-11 02:50:33,518] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:50:33,518] INFO: Processed Vlog_480P-0ddc_crf_10_ss_00_t_20.0.mp4 in 2.76 seconds
+[2025-01-11 02:50:35,935] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:50:35,935] INFO: Processed Vlog_480P-1b39_crf_10_ss_00_t_20.0.mp4 in 2.39 seconds
+[2025-01-11 02:50:44,192] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:50:44,192] INFO: Processed Vlog_480P-206f_crf_10_ss_00_t_20.0.mp4 in 2.75 seconds
+[2025-01-11 02:50:47,081] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:50:47,081] INFO: Processed Vlog_480P-279d_crf_10_ss_00_t_20.0.mp4 in 2.86 seconds
+[2025-01-11 02:50:55,616] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:50:55,616] INFO: Processed Vlog_480P-2cad_crf_10_ss_00_t_20.0.mp4 in 1.87 seconds
+[2025-01-11 02:50:57,466] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:50:57,466] INFO: Processed Vlog_480P-34ba_crf_10_ss_00_t_20.0.mp4 in 1.82 seconds
+[2025-01-11 02:51:18,869] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:51:18,869] INFO: Processed Vlog_480P-476b_crf_10_ss_00_t_20.0.mp4 in 3.25 seconds
+[2025-01-11 02:51:21,484] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:51:21,484] INFO: Processed Vlog_480P-4beb_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 02:51:26,304] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:51:26,304] INFO: Processed Vlog_480P-5275_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 02:51:28,979] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:51:28,980] INFO: Processed Vlog_480P-535d_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 02:51:37,447] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:51:37,447] INFO: Processed Vlog_480P-59dc_crf_10_ss_00_t_20.0.mp4 in 2.75 seconds
+[2025-01-11 02:51:39,544] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:51:39,544] INFO: Processed Vlog_480P-5e1c_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 02:51:58,116] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:51:58,116] INFO: Processed Vlog_480P-6395_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 02:52:00,503] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:52:00,503] INFO: Processed Vlog_480P-6c60_crf_10_ss_00_t_20.0.mp4 in 2.36 seconds
+[2025-01-11 02:52:09,938] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:52:09,938] INFO: Processed Vlog_480P-7237_crf_10_ss_00_t_20.0.mp4 in 3.04 seconds
+[2025-01-11 02:52:12,573] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:52:12,573] INFO: Processed Vlog_480P-7615_crf_10_ss_00_t_20.0.mp4 in 2.61 seconds
+[2025-01-11 02:52:19,314] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:52:19,314] INFO: Processed Vlog_480P-7754_crf_10_ss_00_t_20.0.mp4 in 3.28 seconds
+[2025-01-11 02:52:21,292] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:52:21,292] INFO: Processed Vlog_480P-7d0c_crf_10_ss_00_t_20.0.mp4 in 1.94 seconds
+[2025-01-11 02:52:38,496] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:52:38,496] INFO: Processed Animation_720P-0116_crf_10_ss_00_t_20.0.mp4 in 2.87 seconds
+[2025-01-11 02:52:46,473] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:52:46,473] INFO: Processed Animation_720P-01b3_crf_10_ss_00_t_20.0.mp4 in 3.08 seconds
+[2025-01-11 02:52:57,625] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:52:57,625] INFO: Processed Animation_720P-06a6_crf_10_ss_00_t_20.0.mp4 in 1.82 seconds
+[2025-01-11 02:52:59,458] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:52:59,458] INFO: Processed Animation_720P-13b7_crf_10_ss_00_t_20.0.mp4 in 1.80 seconds
+[2025-01-11 02:53:21,735] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:53:21,736] INFO: Processed Animation_720P-1a6d_crf_10_ss_00_t_20.0.mp4 in 3.37 seconds
+[2025-01-11 02:53:24,645] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:53:24,645] INFO: Processed Animation_720P-2525_crf_10_ss_00_t_20.0.mp4 in 2.88 seconds
+[2025-01-11 02:53:50,788] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:53:50,788] INFO: Processed Animation_720P-2abf_crf_10_ss_00_t_20.0.mp4 in 3.11 seconds
+[2025-01-11 02:53:53,481] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:53:53,481] INFO: Processed Animation_720P-3adc_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 02:54:04,387] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:54:04,387] INFO: Processed Animation_720P-412a_crf_10_ss_00_t_20.0.mp4 in 1.78 seconds
+[2025-01-11 02:54:06,367] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:54:06,367] INFO: Processed Animation_720P-41cf_crf_10_ss_00_t_20.0.mp4 in 1.95 seconds
+[2025-01-11 02:54:26,723] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:54:26,723] INFO: Processed Animation_720P-41d6_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 02:54:29,200] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:54:29,200] INFO: Processed Animation_720P-4268_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 02:54:38,888] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:54:38,888] INFO: Processed Animation_720P-431c_crf_10_ss_00_t_20.0.mp4 in 3.02 seconds
+[2025-01-11 02:54:41,359] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:54:41,359] INFO: Processed Animation_720P-57d9_crf_10_ss_00_t_20.0.mp4 in 2.44 seconds
+[2025-01-11 02:55:00,845] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:55:00,845] INFO: Processed Animation_720P-620f_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 02:55:19,669] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:55:19,669] INFO: Processed Animation_720P-6372_crf_10_ss_00_t_20.0.mp4 in 3.41 seconds
+[2025-01-11 02:55:23,483] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:55:23,483] INFO: Processed Animation_720P-79ee_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 02:55:43,055] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:55:43,055] INFO: Processed Animation_720P-7b29_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 02:55:58,393] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:55:58,394] INFO: Processed Animation_720P-7e7d_crf_10_ss_00_t_20.0.mp4 in 2.98 seconds
+[2025-01-11 02:56:01,361] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:56:01,361] INFO: Processed Animation_720P-7ff2_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 02:56:07,981] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:56:07,981] INFO: Processed CoverSong_720P-014c_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:56:25,208] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:56:25,208] INFO: Processed CoverSong_720P-0239_crf_10_ss_00_t_20.0.mp4 in 1.96 seconds
+[2025-01-11 02:56:37,245] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:56:37,245] INFO: Processed CoverSong_720P-10f1_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 02:56:44,370] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:56:44,370] INFO: Processed CoverSong_720P-2d05_crf_10_ss_00_t_20.0.mp4 in 2.30 seconds
+[2025-01-11 02:56:52,337] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:56:52,337] INFO: Processed CoverSong_720P-4006_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 02:57:00,219] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:00,219] INFO: Processed CoverSong_720P-449f_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 02:57:05,823] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:05,823] INFO: Processed CoverSong_720P-5689_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 02:57:10,665] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:10,665] INFO: Processed CoverSong_720P-5ba2_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 02:57:15,489] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:15,490] INFO: Processed CoverSong_720P-60d3_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 02:57:19,911] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:19,911] INFO: Processed CoverSong_720P-6626_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 02:57:26,671] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:26,671] INFO: Processed CoverSong_720P-6b8c_crf_10_ss_00_t_20.0.mp4 in 2.46 seconds
+[2025-01-11 02:57:31,121] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:31,121] INFO: Processed CoverSong_720P-6d6a_crf_10_ss_00_t_20.0.mp4 in 2.42 seconds
+[2025-01-11 02:57:36,142] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:36,143] INFO: Processed CoverSong_720P-6d81_crf_10_ss_00_t_20.0.mp4 in 1.99 seconds
+[2025-01-11 02:57:40,734] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:40,734] INFO: Processed CoverSong_720P-7360_crf_10_ss_00_t_20.0.mp4 in 2.33 seconds
+[2025-01-11 02:57:46,849] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:46,849] INFO: Processed CoverSong_720P-7539_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 02:57:50,856] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:50,856] INFO: Processed Gaming_720P-0fba_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 02:57:56,731] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:57:56,731] INFO: Processed Gaming_720P-0fdb_crf_10_ss_00_t_20.0.mp4 in 2.27 seconds
+[2025-01-11 02:58:01,312] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:58:01,312] INFO: Processed Gaming_720P-103a_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 02:58:06,620] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:58:06,620] INFO: Processed Gaming_720P-1cbb_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 02:58:08,864] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:58:08,864] INFO: Processed Gaming_720P-221d_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 02:58:16,055] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:58:16,055] INFO: Processed Gaming_720P-25aa_crf_10_ss_00_t_20.0.mp4 in 1.97 seconds
+[2025-01-11 02:58:18,833] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:58:18,833] INFO: Processed Gaming_720P-2dbe_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 02:58:27,540] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:58:27,540] INFO: Processed Gaming_720P-312f_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 02:58:42,986] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:58:42,986] INFO: Processed Gaming_720P-324d_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 02:58:45,147] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:58:45,147] INFO: Processed Gaming_720P-3524_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 02:58:54,363] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:58:54,363] INFO: Processed Gaming_720P-40b2_crf_10_ss_00_t_20.0.mp4 in 2.87 seconds
+[2025-01-11 02:58:56,641] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:58:56,641] INFO: Processed Gaming_720P-469a_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 02:59:05,020] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:05,020] INFO: Processed Gaming_720P-493e_crf_10_ss_00_t_20.0.mp4 in 2.72 seconds
+[2025-01-11 02:59:07,301] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:07,301] INFO: Processed Gaming_720P-4cda_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 02:59:15,890] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:15,890] INFO: Processed Gaming_720P-5973_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 02:59:18,085] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:18,085] INFO: Processed Gaming_720P-5ba2_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:59:25,736] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:25,736] INFO: Processed Gaming_720P-6403_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 02:59:27,822] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:27,822] INFO: Processed Gaming_720P-64b0_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 02:59:35,318] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:35,318] INFO: Processed Gaming_720P-6625_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 02:59:37,433] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:37,433] INFO: Processed Gaming_720P-6658_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 02:59:45,117] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:45,117] INFO: Processed Gaming_720P-6a45_crf_10_ss_00_t_20.0.mp4 in 2.17 seconds
+[2025-01-11 02:59:47,457] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:47,457] INFO: Processed HowTo_720P-06eb_crf_10_ss_00_t_20.0.mp4 in 2.31 seconds
+[2025-01-11 02:59:56,096] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:56,096] INFO: Processed HowTo_720P-0a67_crf_10_ss_00_t_20.0.mp4 in 2.61 seconds
+[2025-01-11 02:59:58,127] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 02:59:58,127] INFO: Processed HowTo_720P-0b01_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 03:00:05,146] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:05,146] INFO: Processed HowTo_720P-12f7_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 03:00:07,386] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:07,386] INFO: Processed HowTo_720P-21c6_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 03:00:14,701] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:14,701] INFO: Processed HowTo_720P-269e_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 03:00:17,039] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:17,039] INFO: Processed HowTo_720P-37d0_crf_10_ss_00_t_20.0.mp4 in 2.31 seconds
+[2025-01-11 03:00:25,718] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:25,718] INFO: Processed HowTo_720P-3813_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 03:00:28,029] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:28,030] INFO: Processed HowTo_720P-3a5d_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 03:00:35,865] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:35,865] INFO: Processed HowTo_720P-479b_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 03:00:38,443] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:38,443] INFO: Processed HowTo_720P-483c_crf_10_ss_00_t_20.0.mp4 in 2.55 seconds
+[2025-01-11 03:00:46,014] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:46,014] INFO: Processed HowTo_720P-4d55_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 03:00:48,606] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:48,606] INFO: Processed HowTo_720P-4d9e_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 03:00:55,398] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:55,398] INFO: Processed HowTo_720P-6323_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 03:00:57,567] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:00:57,567] INFO: Processed HowTo_720P-6791_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 03:01:05,151] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:05,151] INFO: Processed HowTo_720P-7878_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 03:01:07,325] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:07,325] INFO: Processed HowTo_720P-7c38_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 03:01:14,536] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:14,536] INFO: Processed Lecture_720P-003a_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 03:01:16,709] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:16,709] INFO: Processed Lecture_720P-07e0_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 03:01:24,774] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:24,774] INFO: Processed Lecture_720P-094d_crf_10_ss_00_t_20.0.mp4 in 2.61 seconds
+[2025-01-11 03:01:26,903] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:26,903] INFO: Processed Lecture_720P-0f64_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 03:01:34,261] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:34,261] INFO: Processed Lecture_720P-1033_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 03:01:36,584] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:36,584] INFO: Processed Lecture_720P-10bc_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 03:01:44,541] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:44,541] INFO: Processed Lecture_720P-11e7_crf_10_ss_00_t_20.0.mp4 in 2.98 seconds
+[2025-01-11 03:01:46,811] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:46,811] INFO: Processed Lecture_720P-1e62_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 03:01:54,272] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:54,272] INFO: Processed Lecture_720P-1f22_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 03:01:56,586] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:56,586] INFO: Processed Lecture_720P-2442_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 03:01:58,857] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:01:58,857] INFO: Processed Lecture_720P-2b0f_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 03:02:00,974] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:00,974] INFO: Processed Lecture_720P-2f38_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 03:02:07,484] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:07,484] INFO: Processed Lecture_720P-2f8c_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 03:02:09,679] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:09,679] INFO: Processed Lecture_720P-3b7f_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 03:02:14,961] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:14,961] INFO: Processed Lecture_720P-3f9f_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 03:02:17,251] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:17,251] INFO: Processed Lecture_720P-4c87_crf_10_ss_00_t_20.0.mp4 in 2.26 seconds
+[2025-01-11 03:02:25,194] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:25,194] INFO: Processed Lecture_720P-50b9_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 03:02:27,183] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:27,183] INFO: Processed Lecture_720P-5120_crf_10_ss_00_t_20.0.mp4 in 1.96 seconds
+[2025-01-11 03:02:34,606] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:34,606] INFO: Processed Lecture_720P-53a1_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 03:02:36,934] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:36,934] INFO: Processed Lecture_720P-5725_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 03:02:44,128] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:44,128] INFO: Processed Lecture_720P-5c7e_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 03:02:46,284] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:46,284] INFO: Processed Lecture_720P-6016_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 03:02:54,875] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:54,875] INFO: Processed Lecture_720P-6951_crf_10_ss_00_t_20.0.mp4 in 3.04 seconds
+[2025-01-11 03:02:57,059] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:02:57,060] INFO: Processed Lecture_720P-7189_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 03:03:03,960] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:03,960] INFO: Processed Lecture_720P-7e40_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 03:03:06,130] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:06,130] INFO: Processed LiveMusic_720P-0cd5_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 03:03:15,367] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:15,367] INFO: Processed LiveMusic_720P-0d9f_crf_10_ss_00_t_20.0.mp4 in 2.62 seconds
+[2025-01-11 03:03:17,777] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:17,777] INFO: Processed LiveMusic_720P-2620_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 03:03:25,695] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:25,695] INFO: Processed LiveMusic_720P-267b_crf_10_ss_00_t_20.0.mp4 in 2.95 seconds
+[2025-01-11 03:03:27,806] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:27,806] INFO: Processed LiveMusic_720P-289b_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 03:03:34,918] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:34,918] INFO: Processed LiveMusic_720P-3320_crf_10_ss_00_t_20.0.mp4 in 2.31 seconds
+[2025-01-11 03:03:37,052] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:37,052] INFO: Processed LiveMusic_720P-4ae2_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 03:03:45,261] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:45,261] INFO: Processed LiveMusic_720P-58db_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 03:03:47,541] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:47,541] INFO: Processed LiveMusic_720P-6343_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 03:03:54,589] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:54,589] INFO: Processed LiveMusic_720P-6452_crf_10_ss_00_t_20.0.mp4 in 2.17 seconds
+[2025-01-11 03:03:57,057] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:03:57,057] INFO: Processed LiveMusic_720P-653e_crf_10_ss_00_t_20.0.mp4 in 2.44 seconds
+[2025-01-11 03:04:04,432] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:04,432] INFO: Processed LiveMusic_720P-65f6_crf_10_ss_00_t_20.0.mp4 in 2.33 seconds
+[2025-01-11 03:04:06,664] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:06,664] INFO: Processed LiveMusic_720P-66df_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 03:04:14,217] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:14,217] INFO: Processed LiveMusic_720P-71c5_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 03:04:16,339] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:16,339] INFO: Processed LyricVideo_720P-068d_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 03:04:24,335] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:24,335] INFO: Processed LyricVideo_720P-0940_crf_10_ss_00_t_20.0.mp4 in 2.33 seconds
+[2025-01-11 03:04:26,439] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:26,439] INFO: Processed LyricVideo_720P-0ae4_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 03:04:33,969] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:33,969] INFO: Processed LyricVideo_720P-1c89_crf_10_ss_00_t_20.0.mp4 in 2.50 seconds
+[2025-01-11 03:04:36,659] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:36,659] INFO: Processed LyricVideo_720P-2d24_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 03:04:43,584] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:43,584] INFO: Processed LyricVideo_720P-36fb_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 03:04:45,812] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:45,812] INFO: Processed LyricVideo_720P-4253_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 03:04:53,477] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:53,477] INFO: Processed LyricVideo_720P-47a9_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 03:04:56,108] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:04:56,108] INFO: Processed LyricVideo_720P-59ed_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 03:05:01,360] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:01,361] INFO: Processed LyricVideo_720P-5d3a_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 03:05:03,860] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:03,860] INFO: Processed LyricVideo_720P-6f0c_crf_10_ss_00_t_20.0.mp4 in 2.39 seconds
+[2025-01-11 03:05:11,032] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:11,032] INFO: Processed LyricVideo_720P-6fc9_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 03:05:13,062] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:13,062] INFO: Processed LyricVideo_720P-739a_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 03:05:20,840] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:20,840] INFO: Processed LyricVideo_720P-74a0_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 03:05:22,899] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:22,899] INFO: Processed LyricVideo_720P-7f44_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 03:05:31,912] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:31,912] INFO: Processed MusicVideo_720P-0355_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 03:05:34,220] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:34,220] INFO: Processed MusicVideo_720P-0752_crf_10_ss_00_t_20.0.mp4 in 2.27 seconds
+[2025-01-11 03:05:41,099] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:41,100] INFO: Processed MusicVideo_720P-14f0_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 03:05:43,574] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:43,574] INFO: Processed MusicVideo_720P-2d7d_crf_10_ss_00_t_20.0.mp4 in 2.44 seconds
+[2025-01-11 03:05:51,419] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:51,419] INFO: Processed MusicVideo_720P-3698_crf_10_ss_00_t_20.0.mp4 in 2.34 seconds
+[2025-01-11 03:05:53,828] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:05:53,828] INFO: Processed MusicVideo_720P-3c4c_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 03:06:02,090] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:06:02,090] INFO: Processed MusicVideo_720P-44c1_crf_10_ss_00_t_20.0.mp4 in 2.84 seconds
+[2025-01-11 03:06:04,439] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:06:04,439] INFO: Processed MusicVideo_720P-4ad2_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 03:06:14,458] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:06:14,458] INFO: Processed MusicVideo_720P-575d_crf_10_ss_00_t_20.0.mp4 in 2.27 seconds
+[2025-01-11 03:06:16,608] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:06:16,608] INFO: Processed MusicVideo_720P-5c9c_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 03:06:23,762] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:06:23,762] INFO: Processed MusicVideo_720P-62df_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 03:06:25,842] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:06:25,842] INFO: Processed MusicVideo_720P-734f_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 03:06:33,376] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:06:33,376] INFO: Processed MusicVideo_720P-7bcf_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 03:06:35,816] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:06:35,817] INFO: Processed NewsClip_720P-04ba_crf_10_ss_00_t_20.0.mp4 in 2.41 seconds
+[2025-01-11 03:06:45,795] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:06:45,795] INFO: Processed NewsClip_720P-0c81_crf_10_ss_00_t_20.0.mp4 in 3.02 seconds
+[2025-01-11 03:06:48,386] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:06:48,386] INFO: Processed NewsClip_720P-1971_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 03:07:01,712] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:07:01,712] INFO: Processed NewsClip_720P-2182_crf_10_ss_00_t_20.0.mp4 in 2.62 seconds
+[2025-01-11 03:07:04,736] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:07:04,736] INFO: Processed NewsClip_720P-23e0_crf_10_ss_00_t_20.0.mp4 in 2.99 seconds
+[2025-01-11 03:07:15,445] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:07:15,445] INFO: Processed NewsClip_720P-2882_crf_10_ss_00_t_20.0.mp4 in 2.69 seconds
+[2025-01-11 03:07:18,214] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:07:18,214] INFO: Processed NewsClip_720P-35d9_crf_10_ss_00_t_20.0.mp4 in 2.73 seconds
+[2025-01-11 03:07:27,721] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:07:27,721] INFO: Processed NewsClip_720P-37f7_crf_10_ss_00_t_20.0.mp4 in 2.50 seconds
+[2025-01-11 03:07:30,686] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:07:30,686] INFO: Processed NewsClip_720P-4603_crf_10_ss_00_t_20.0.mp4 in 2.94 seconds
+[2025-01-11 03:07:41,067] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:07:41,067] INFO: Processed NewsClip_720P-4e87_crf_10_ss_00_t_20.0.mp4 in 2.42 seconds
+[2025-01-11 03:07:43,711] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:07:43,711] INFO: Processed NewsClip_720P-5564_crf_10_ss_00_t_20.0.mp4 in 2.61 seconds
+[2025-01-11 03:07:54,554] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:07:54,555] INFO: Processed NewsClip_720P-5787_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 03:07:57,165] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:07:57,165] INFO: Processed NewsClip_720P-579b_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 03:08:07,634] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:08:07,634] INFO: Processed NewsClip_720P-6016_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 03:08:10,091] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:08:10,091] INFO: Processed NewsClip_720P-6106_crf_10_ss_00_t_20.0.mp4 in 2.43 seconds
+[2025-01-11 03:08:21,444] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:08:21,444] INFO: Processed NewsClip_720P-672c_crf_10_ss_00_t_20.0.mp4 in 2.67 seconds
+[2025-01-11 03:08:24,115] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:08:24,115] INFO: Processed NewsClip_720P-6a19_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 03:08:34,740] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:08:34,741] INFO: Processed NewsClip_720P-6cde_crf_10_ss_00_t_20.0.mp4 in 2.78 seconds
+[2025-01-11 03:08:37,737] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:08:37,737] INFO: Processed NewsClip_720P-72d2_crf_10_ss_00_t_20.0.mp4 in 2.97 seconds
+[2025-01-11 03:08:48,164] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:08:48,164] INFO: Processed NewsClip_720P-739b_crf_10_ss_00_t_20.0.mp4 in 2.37 seconds
+[2025-01-11 03:08:50,935] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:08:50,935] INFO: Processed NewsClip_720P-7745_crf_10_ss_00_t_20.0.mp4 in 2.74 seconds
+[2025-01-11 03:09:02,497] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:09:02,497] INFO: Processed NewsClip_720P-7b7e_crf_10_ss_00_t_20.0.mp4 in 2.80 seconds
+[2025-01-11 03:09:05,188] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:09:05,188] INFO: Processed NewsClip_720P-7b97_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 03:09:14,924] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:09:14,924] INFO: Processed NewsClip_720P-7c67_crf_10_ss_00_t_20.0.mp4 in 2.84 seconds
+[2025-01-11 03:09:17,651] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:09:17,651] INFO: Processed NewsClip_720P-7e56_crf_10_ss_00_t_20.0.mp4 in 2.69 seconds
+[2025-01-11 03:09:32,493] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:09:32,493] INFO: Processed Sports_720P-00a1_crf_10_ss_00_t_20.0.mp4 in 2.42 seconds
+[2025-01-11 03:09:35,199] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:09:35,199] INFO: Processed Sports_720P-0104_crf_10_ss_00_t_20.0.mp4 in 2.68 seconds
+[2025-01-11 03:09:51,951] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:09:51,951] INFO: Processed Sports_720P-058f_crf_10_ss_00_t_20.0.mp4 in 2.63 seconds
+[2025-01-11 03:09:54,684] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:09:54,684] INFO: Processed Sports_720P-07d0_crf_10_ss_00_t_20.0.mp4 in 2.70 seconds
+[2025-01-11 03:10:10,549] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:10:10,549] INFO: Processed Sports_720P-0b9e_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 03:10:13,173] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:10:13,173] INFO: Processed Sports_720P-17fb_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 03:10:24,302] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:10:24,302] INFO: Processed Sports_720P-2191_crf_10_ss_00_t_20.0.mp4 in 2.74 seconds
+[2025-01-11 03:10:27,190] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:10:27,191] INFO: Processed Sports_720P-2234_crf_10_ss_00_t_20.0.mp4 in 2.86 seconds
+[2025-01-11 03:10:39,354] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:10:39,355] INFO: Processed Sports_720P-2632_crf_10_ss_00_t_20.0.mp4 in 2.74 seconds
+[2025-01-11 03:10:41,859] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:10:41,859] INFO: Processed Sports_720P-2c06_crf_10_ss_00_t_20.0.mp4 in 2.47 seconds
+[2025-01-11 03:10:55,379] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:10:55,379] INFO: Processed Sports_720P-2c80_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 03:10:58,011] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:10:58,011] INFO: Processed Sports_720P-3072_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 03:11:07,827] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:11:07,827] INFO: Processed Sports_720P-3338_crf_10_ss_00_t_20.0.mp4 in 2.63 seconds
+[2025-01-11 03:11:10,543] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:11:10,543] INFO: Processed Sports_720P-33c6_crf_10_ss_00_t_20.0.mp4 in 2.69 seconds
+[2025-01-11 03:11:21,102] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:11:21,102] INFO: Processed Sports_720P-38a1_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 03:11:23,961] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:11:23,961] INFO: Processed Sports_720P-3eb4_crf_10_ss_00_t_20.0.mp4 in 2.83 seconds
+[2025-01-11 03:11:36,926] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:11:36,926] INFO: Processed Sports_720P-3ffe_crf_10_ss_00_t_20.0.mp4 in 2.90 seconds
+[2025-01-11 03:11:39,560] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:11:39,561] INFO: Processed Sports_720P-4b69_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 03:11:49,603] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:11:49,603] INFO: Processed Sports_720P-4c6f_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 03:11:52,386] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:11:52,387] INFO: Processed Sports_720P-50cf_crf_10_ss_00_t_20.0.mp4 in 2.75 seconds
+[2025-01-11 03:12:02,771] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:12:02,771] INFO: Processed Sports_720P-531c_crf_10_ss_00_t_20.0.mp4 in 2.30 seconds
+[2025-01-11 03:12:05,428] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:12:05,429] INFO: Processed Sports_720P-5833_crf_10_ss_00_t_20.0.mp4 in 2.63 seconds
+[2025-01-11 03:12:16,155] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:12:16,155] INFO: Processed Sports_720P-5ae1_crf_10_ss_00_t_20.0.mp4 in 2.62 seconds
+[2025-01-11 03:12:18,874] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:12:18,874] INFO: Processed Sports_720P-5bfd_crf_10_ss_00_t_20.0.mp4 in 2.69 seconds
+[2025-01-11 03:12:30,099] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:12:30,099] INFO: Processed Sports_720P-5e39_crf_10_ss_00_t_20.0.mp4 in 2.57 seconds
+[2025-01-11 03:12:32,625] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:12:32,625] INFO: Processed Sports_720P-5ea4_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 03:12:43,384] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:12:43,384] INFO: Processed Sports_720P-62ba_crf_10_ss_00_t_20.0.mp4 in 2.70 seconds
+[2025-01-11 03:12:46,141] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:12:46,141] INFO: Processed Sports_720P-675b_crf_10_ss_00_t_20.0.mp4 in 2.73 seconds
+[2025-01-11 03:12:55,714] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:12:55,714] INFO: Processed Sports_720P-69a0_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 03:12:58,376] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:12:58,376] INFO: Processed Sports_720P-6bb7_crf_10_ss_00_t_20.0.mp4 in 2.63 seconds
+[2025-01-11 03:13:12,899] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:13:12,900] INFO: Processed Sports_720P-6d04_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 03:13:15,509] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:13:15,509] INFO: Processed Sports_720P-7ba7_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 03:13:24,642] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:13:24,642] INFO: Processed TelevisionClip_720P-1862_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 03:13:27,522] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:13:27,522] INFO: Processed TelevisionClip_720P-19de_crf_10_ss_00_t_20.0.mp4 in 2.85 seconds
+[2025-01-11 03:13:37,433] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:13:37,433] INFO: Processed TelevisionClip_720P-1b61_crf_10_ss_00_t_20.0.mp4 in 2.84 seconds
+[2025-01-11 03:13:39,946] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:13:39,947] INFO: Processed TelevisionClip_720P-31ce_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 03:13:42,842] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:13:42,842] INFO: Processed TelevisionClip_720P-3f4c_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 03:13:47,665] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:13:47,666] INFO: Processed TelevisionClip_720P-44d1_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 03:13:55,024] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:13:55,025] INFO: Processed TelevisionClip_720P-4edb_crf_10_ss_00_t_20.0.mp4 in 2.67 seconds
+[2025-01-11 03:13:59,550] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:13:59,550] INFO: Processed TelevisionClip_720P-5e93_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 03:14:07,146] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:14:07,146] INFO: Processed TelevisionClip_720P-7c06_crf_10_ss_00_t_20.0.mp4 in 2.73 seconds
+[2025-01-11 03:14:12,901] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:14:12,901] INFO: Processed VerticalVideo_720P-0750_crf_10_ss_00_t_20.0.mp4 in 2.44 seconds
+[2025-01-11 03:14:19,211] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:14:19,211] INFO: Processed VerticalVideo_720P-0dac_crf_10_ss_00_t_20.0.mp4 in 2.84 seconds
+[2025-01-11 03:14:25,736] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:14:25,736] INFO: Processed VerticalVideo_720P-0f61_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 03:14:32,762] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:14:32,762] INFO: Processed VerticalVideo_720P-19fa_crf_10_ss_00_t_20.0.mp4 in 2.51 seconds
+[2025-01-11 03:14:38,536] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:14:38,536] INFO: Processed VerticalVideo_720P-1ada_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 03:14:46,335] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:14:46,335] INFO: Processed VerticalVideo_720P-2efc_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 03:14:52,522] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:14:52,522] INFO: Processed VerticalVideo_720P-42f2_crf_10_ss_00_t_20.0.mp4 in 2.43 seconds
+[2025-01-11 03:14:59,399] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:14:59,399] INFO: Processed VerticalVideo_720P-456c_crf_10_ss_00_t_20.0.mp4 in 2.67 seconds
+[2025-01-11 03:15:05,594] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:15:05,594] INFO: Processed VerticalVideo_720P-4730_crf_10_ss_00_t_20.0.mp4 in 2.55 seconds
+[2025-01-11 03:15:11,849] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:15:11,849] INFO: Processed VerticalVideo_720P-4ca7_crf_10_ss_00_t_20.0.mp4 in 2.76 seconds
+[2025-01-11 03:15:18,043] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:15:18,043] INFO: Processed VerticalVideo_720P-6580_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 03:15:26,612] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:15:26,613] INFO: Processed VerticalVideo_720P-665d_crf_10_ss_00_t_20.0.mp4 in 2.63 seconds
+[2025-01-11 03:15:29,940] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:15:29,940] INFO: Processed VerticalVideo_720P-669d_crf_10_ss_00_t_20.0.mp4 in 2.47 seconds
+[2025-01-11 03:15:40,063] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:15:40,063] INFO: Processed VerticalVideo_720P-7517_crf_10_ss_00_t_20.0.mp4 in 2.51 seconds
+[2025-01-11 03:15:42,515] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:15:42,515] INFO: Processed VerticalVideo_720P-7859_crf_10_ss_00_t_20.0.mp4 in 2.42 seconds
+[2025-01-11 03:15:48,575] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:15:48,575] INFO: Processed VerticalVideo_720P-7c1d_crf_10_ss_00_t_20.0.mp4 in 2.61 seconds
+[2025-01-11 03:15:56,437] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:15:56,438] INFO: Processed Vlog_720P-033a_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 03:16:05,694] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:16:05,694] INFO: Processed Vlog_720P-03d5_crf_10_ss_00_t_20.0.mp4 in 2.75 seconds
+[2025-01-11 03:16:10,582] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:16:10,582] INFO: Processed Vlog_720P-03f9_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 03:16:18,048] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:16:18,048] INFO: Processed Vlog_720P-0d79_crf_10_ss_00_t_20.0.mp4 in 1.99 seconds
+[2025-01-11 03:16:21,926] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:16:21,926] INFO: Processed Vlog_720P-11c5_crf_10_ss_00_t_20.0.mp4 in 2.33 seconds
+[2025-01-11 03:16:28,400] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:16:28,400] INFO: Processed Vlog_720P-155f_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 03:16:32,748] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:16:32,749] INFO: Processed Vlog_720P-2929_crf_10_ss_00_t_20.0.mp4 in 2.17 seconds
+[2025-01-11 03:16:42,016] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:16:42,016] INFO: Processed Vlog_720P-329f_crf_10_ss_00_t_20.0.mp4 in 2.63 seconds
+[2025-01-11 03:16:46,642] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:16:46,642] INFO: Processed Vlog_720P-32b2_crf_10_ss_00_t_20.0.mp4 in 2.87 seconds
+[2025-01-11 03:16:56,599] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:16:56,599] INFO: Processed Vlog_720P-372d_crf_10_ss_00_t_20.0.mp4 in 3.24 seconds
+[2025-01-11 03:16:59,270] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:16:59,270] INFO: Processed Vlog_720P-3e9c_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 03:17:09,809] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:17:09,809] INFO: Processed Vlog_720P-4e3d_crf_10_ss_00_t_20.0.mp4 in 2.73 seconds
+[2025-01-11 03:17:13,716] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:17:13,716] INFO: Processed Vlog_720P-5364_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 03:17:23,165] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:17:23,166] INFO: Processed Vlog_720P-60f8_crf_10_ss_00_t_20.0.mp4 in 2.84 seconds
+[2025-01-11 03:17:27,051] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:17:27,052] INFO: Processed Vlog_720P-6d56_crf_10_ss_00_t_20.0.mp4 in 2.63 seconds
+[2025-01-11 03:17:50,184] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:17:50,184] INFO: Processed Animation_1080P-05f8_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 03:17:52,853] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:17:52,854] INFO: Processed Animation_1080P-0c4f_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 03:18:16,140] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:18:16,140] INFO: Processed Animation_1080P-18f5_crf_10_ss_00_t_20.0.mp4 in 2.74 seconds
+[2025-01-11 03:18:19,046] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:18:19,047] INFO: Processed Animation_1080P-209f_crf_10_ss_00_t_20.0.mp4 in 2.87 seconds
+[2025-01-11 03:18:42,568] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:18:42,568] INFO: Processed Animation_1080P-21dd_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 03:18:45,102] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:18:45,102] INFO: Processed Animation_1080P-2fbe_crf_10_ss_00_t_20.0.mp4 in 2.50 seconds
+[2025-01-11 03:19:08,890] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:19:08,890] INFO: Processed Animation_1080P-2fff_crf_10_ss_00_t_20.0.mp4 in 3.05 seconds
+[2025-01-11 03:19:11,641] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:19:11,642] INFO: Processed Animation_1080P-3d67_crf_10_ss_00_t_20.0.mp4 in 2.72 seconds
+[2025-01-11 03:19:32,487] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:19:32,487] INFO: Processed Animation_1080P-3dbf_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 03:19:35,198] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:19:35,198] INFO: Processed Animation_1080P-3e01_crf_10_ss_00_t_20.0.mp4 in 2.68 seconds
+[2025-01-11 03:19:57,130] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:19:57,130] INFO: Processed Animation_1080P-4214_crf_10_ss_00_t_20.0.mp4 in 2.73 seconds
+[2025-01-11 03:20:01,189] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:20:01,189] INFO: Processed Animation_1080P-4be3_crf_10_ss_00_t_20.0.mp4 in 2.78 seconds
+[2025-01-11 03:20:22,748] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:20:22,748] INFO: Processed Animation_1080P-4ea8_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 03:20:25,349] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:20:25,349] INFO: Processed Animation_1080P-5083_crf_10_ss_00_t_20.0.mp4 in 2.57 seconds
+[2025-01-11 03:20:46,508] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:20:46,509] INFO: Processed Animation_1080P-58d3_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 03:20:49,398] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:20:49,399] INFO: Processed Animation_1080P-5dd8_crf_10_ss_00_t_20.0.mp4 in 2.86 seconds
+[2025-01-11 03:21:12,419] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:21:12,419] INFO: Processed Animation_1080P-646f_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 03:21:17,241] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:21:17,242] INFO: Processed CoverSong_1080P-0188_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 03:21:41,070] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:21:41,070] INFO: Processed CoverSong_1080P-033d_crf_10_ss_00_t_20.0.mp4 in 2.52 seconds
+[2025-01-11 03:21:43,575] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:21:43,575] INFO: Processed CoverSong_1080P-0a86_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 03:22:05,173] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:22:05,173] INFO: Processed CoverSong_1080P-0cdc_crf_10_ss_00_t_20.0.mp4 in 2.71 seconds
+[2025-01-11 03:22:07,740] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:22:07,740] INFO: Processed CoverSong_1080P-0f33_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 03:22:25,852] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:22:25,852] INFO: Processed CoverSong_1080P-0f3a_crf_10_ss_00_t_20.0.mp4 in 2.51 seconds
+[2025-01-11 03:22:30,473] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:22:30,473] INFO: Processed CoverSong_1080P-1963_crf_10_ss_00_t_20.0.mp4 in 2.57 seconds
+[2025-01-11 03:22:50,904] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:22:50,904] INFO: Processed CoverSong_1080P-1b08_crf_10_ss_00_t_20.0.mp4 in 2.50 seconds
+[2025-01-11 03:22:56,362] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:22:56,362] INFO: Processed CoverSong_1080P-1b0c_crf_10_ss_00_t_20.0.mp4 in 2.68 seconds
+[2025-01-11 03:23:14,399] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:23:14,399] INFO: Processed CoverSong_1080P-2207_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 03:23:24,030] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:23:24,030] INFO: Processed CoverSong_1080P-237f_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 03:23:40,630] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:23:40,630] INFO: Processed CoverSong_1080P-3409_crf_10_ss_00_t_20.0.mp4 in 2.67 seconds
+[2025-01-11 03:23:52,747] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:23:52,748] INFO: Processed CoverSong_1080P-3499_crf_10_ss_00_t_20.0.mp4 in 2.65 seconds
+[2025-01-11 03:24:09,988] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:24:09,988] INFO: Processed CoverSong_1080P-3aac_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 03:24:19,323] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:24:19,324] INFO: Processed CoverSong_1080P-3df8_crf_10_ss_00_t_20.0.mp4 in 2.54 seconds
+[2025-01-11 03:24:36,473] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:24:36,473] INFO: Processed CoverSong_1080P-4bad_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 03:24:45,481] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:24:45,481] INFO: Processed CoverSong_1080P-5430_crf_10_ss_00_t_20.0.mp4 in 2.35 seconds
+[2025-01-11 03:25:00,705] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:25:00,706] INFO: Processed CoverSong_1080P-5456_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 03:25:13,105] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:25:13,105] INFO: Processed CoverSong_1080P-5cae_crf_10_ss_00_t_20.0.mp4 in 2.71 seconds
+[2025-01-11 03:25:27,149] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:25:27,149] INFO: Processed CoverSong_1080P-5e69_crf_10_ss_00_t_20.0.mp4 in 2.62 seconds
+[2025-01-11 03:25:38,364] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:25:38,364] INFO: Processed CoverSong_1080P-5f92_crf_10_ss_00_t_20.0.mp4 in 2.91 seconds
+[2025-01-11 03:25:48,907] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:25:48,907] INFO: Processed CoverSong_1080P-6f26_crf_10_ss_00_t_20.0.mp4 in 2.44 seconds
+[2025-01-11 03:26:05,054] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:26:05,054] INFO: Processed Gaming_1080P-0ce6_crf_10_ss_00_t_20.0.mp4 in 2.36 seconds
+[2025-01-11 03:26:15,018] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:26:15,018] INFO: Processed Gaming_1080P-0ef8_crf_10_ss_00_t_20.0.mp4 in 2.47 seconds
+[2025-01-11 03:26:32,964] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:26:32,964] INFO: Processed Gaming_1080P-12d4_crf_10_ss_00_t_20.0.mp4 in 2.74 seconds
+[2025-01-11 03:26:42,280] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:26:42,280] INFO: Processed Gaming_1080P-13e3_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 03:26:59,135] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:26:59,135] INFO: Processed Gaming_1080P-1704_crf_10_ss_00_t_20.0.mp4 in 2.55 seconds
+[2025-01-11 03:27:10,035] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:27:10,035] INFO: Processed Gaming_1080P-173a_crf_10_ss_00_t_20.0.mp4 in 2.74 seconds
+[2025-01-11 03:27:26,442] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:27:26,442] INFO: Processed Gaming_1080P-190d_crf_10_ss_00_t_20.0.mp4 in 2.73 seconds
+[2025-01-11 03:27:35,447] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:27:35,447] INFO: Processed Gaming_1080P-2221_crf_10_ss_00_t_20.0.mp4 in 2.63 seconds
+[2025-01-11 03:27:51,122] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:27:51,122] INFO: Processed Gaming_1080P-223e_crf_10_ss_00_t_20.0.mp4 in 2.55 seconds
+[2025-01-11 03:28:02,008] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:28:02,008] INFO: Processed Gaming_1080P-26dc_crf_10_ss_00_t_20.0.mp4 in 2.72 seconds
+[2025-01-11 03:28:16,738] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:28:16,738] INFO: Processed Gaming_1080P-277c_crf_10_ss_00_t_20.0.mp4 in 2.52 seconds
+[2025-01-11 03:28:26,528] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:28:26,528] INFO: Processed Gaming_1080P-29b1_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 03:28:43,034] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:28:43,034] INFO: Processed Gaming_1080P-2e97_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 03:28:52,315] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:28:52,315] INFO: Processed Gaming_1080P-35fa_crf_10_ss_00_t_20.0.mp4 in 2.41 seconds
+[2025-01-11 03:29:07,904] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:29:07,905] INFO: Processed Gaming_1080P-3a9d_crf_10_ss_00_t_20.0.mp4 in 2.67 seconds
+[2025-01-11 03:29:20,019] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:29:20,019] INFO: Processed Gaming_1080P-3d58_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 03:29:37,284] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:29:37,285] INFO: Processed Gaming_1080P-44c4_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 03:29:47,004] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:29:47,005] INFO: Processed Gaming_1080P-45af_crf_10_ss_00_t_20.0.mp4 in 2.70 seconds
+[2025-01-11 03:30:02,079] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:30:02,080] INFO: Processed Gaming_1080P-45fc_crf_10_ss_00_t_20.0.mp4 in 2.46 seconds
+[2025-01-11 03:30:15,936] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:30:15,936] INFO: Processed Gaming_1080P-4865_crf_10_ss_00_t_20.0.mp4 in 2.76 seconds
+[2025-01-11 03:30:30,361] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:30:30,361] INFO: Processed Gaming_1080P-51fc_crf_10_ss_00_t_20.0.mp4 in 3.06 seconds
+[2025-01-11 03:30:45,708] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:30:45,708] INFO: Processed Gaming_1080P-564e_crf_10_ss_00_t_20.0.mp4 in 2.83 seconds
+[2025-01-11 03:30:57,001] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:30:57,001] INFO: Processed Gaming_1080P-57ca_crf_10_ss_00_t_20.0.mp4 in 2.79 seconds
+[2025-01-11 03:31:04,898] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:31:04,898] INFO: Processed Gaming_1080P-58ba_crf_10_ss_00_t_20.0.mp4 in 2.92 seconds
+[2025-01-11 03:31:24,908] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:31:24,908] INFO: Processed Gaming_1080P-6530_crf_10_ss_00_t_20.0.mp4 in 2.71 seconds
+[2025-01-11 03:31:31,965] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:31:31,966] INFO: Processed Gaming_1080P-6578_crf_10_ss_00_t_20.0.mp4 in 2.41 seconds
+[2025-01-11 03:31:51,816] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:31:51,817] INFO: Processed Gaming_1080P-66d2_crf_10_ss_00_t_20.0.mp4 in 2.99 seconds
+[2025-01-11 03:31:57,848] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:31:57,848] INFO: Processed Gaming_1080P-698a_crf_10_ss_00_t_20.0.mp4 in 2.47 seconds
+[2025-01-11 03:32:19,941] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:32:19,941] INFO: Processed Gaming_1080P-6d53_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 03:32:26,042] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:32:26,042] INFO: Processed Gaming_1080P-6db2_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 03:32:48,326] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:32:48,327] INFO: Processed Gaming_1080P-6dc6_crf_10_ss_00_t_20.0.mp4 in 2.98 seconds
+[2025-01-11 03:32:52,580] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:32:52,580] INFO: Processed Gaming_1080P-6e45_crf_10_ss_00_t_20.0.mp4 in 2.80 seconds
+[2025-01-11 03:33:08,046] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:33:08,046] INFO: Processed Gaming_1080P-71a5_crf_10_ss_00_t_20.0.mp4 in 2.69 seconds
+[2025-01-11 03:33:18,882] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:33:18,882] INFO: Processed Gaming_1080P-72c8_crf_10_ss_00_t_20.0.mp4 in 2.78 seconds
+[2025-01-11 03:33:35,989] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:33:35,989] INFO: Processed Gaming_1080P-777b_crf_10_ss_00_t_20.0.mp4 in 2.77 seconds
+[2025-01-11 03:33:45,184] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:33:45,184] INFO: Processed Gaming_1080P-7a1e_crf_10_ss_00_t_20.0.mp4 in 2.52 seconds
+[2025-01-11 03:33:59,641] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:33:59,641] INFO: Processed HDR_1080P-0d31_crf_10_ss_00_t_20.0.mp4 in 2.62 seconds
+[2025-01-11 03:34:09,171] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:34:09,171] INFO: Processed HDR_1080P-13eb_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 03:34:23,184] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:34:23,184] INFO: Processed HDR_1080P-1be2_crf_10_ss_00_t_20.0.mp4 in 2.76 seconds
+[2025-01-11 03:34:32,912] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:34:32,912] INFO: Processed HDR_1080P-1e5b_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 03:34:47,505] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:34:47,505] INFO: Processed HDR_1080P-206d_crf_10_ss_00_t_20.0.mp4 in 2.42 seconds
+[2025-01-11 03:34:57,923] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:34:57,923] INFO: Processed HDR_1080P-2d32_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 03:35:04,823] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:35:04,824] INFO: Processed HDR_1080P-3181_crf_10_ss_00_t_20.0.mp4 in 2.51 seconds
+[2025-01-11 03:35:21,871] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:35:21,871] INFO: Processed HDR_1080P-33e3_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 03:35:28,876] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:35:28,876] INFO: Processed HDR_1080P-3521_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 03:35:45,588] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:35:45,589] INFO: Processed HDR_1080P-35f4_crf_10_ss_00_t_20.0.mp4 in 2.34 seconds
+[2025-01-11 03:35:53,682] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:35:53,682] INFO: Processed HDR_1080P-3749_crf_10_ss_00_t_20.0.mp4 in 2.52 seconds
+[2025-01-11 03:36:08,376] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:36:08,376] INFO: Processed HDR_1080P-3a4a_crf_10_ss_00_t_20.0.mp4 in 2.70 seconds
+[2025-01-11 03:36:16,168] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:36:16,168] INFO: Processed HDR_1080P-46a4_crf_10_ss_00_t_20.0.mp4 in 2.51 seconds
+[2025-01-11 03:36:32,018] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:36:32,018] INFO: Processed HDR_1080P-49d6_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 03:36:41,616] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:36:41,617] INFO: Processed HDR_1080P-4f4a_crf_10_ss_00_t_20.0.mp4 in 2.67 seconds
+[2025-01-11 03:36:57,236] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:36:57,236] INFO: Processed HDR_1080P-548b_crf_10_ss_00_t_20.0.mp4 in 2.62 seconds
+[2025-01-11 03:37:05,689] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:37:05,689] INFO: Processed HDR_1080P-549e_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 03:37:20,226] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:37:20,226] INFO: Processed HDR_1080P-55c4_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 03:37:29,994] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:37:29,994] INFO: Processed HDR_1080P-601b_crf_10_ss_00_t_20.0.mp4 in 2.40 seconds
+[2025-01-11 03:37:44,484] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:37:44,484] INFO: Processed HDR_1080P-687e_crf_10_ss_00_t_20.0.mp4 in 2.75 seconds
+[2025-01-11 03:37:54,524] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:37:54,524] INFO: Processed HDR_1080P-68c8_crf_10_ss_00_t_20.0.mp4 in 2.39 seconds
+[2025-01-11 03:38:11,027] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:38:11,027] INFO: Processed HDR_1080P-69de_crf_10_ss_00_t_20.0.mp4 in 2.80 seconds
+[2025-01-11 03:38:19,513] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:38:19,513] INFO: Processed HDR_1080P-6eb7_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 03:38:36,082] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:38:36,082] INFO: Processed HDR_1080P-7825_crf_10_ss_00_t_20.0.mp4 in 2.66 seconds
+[2025-01-11 03:38:42,951] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:38:42,951] INFO: Processed HowTo_1080P-0267_crf_10_ss_00_t_20.0.mp4 in 2.69 seconds
+[2025-01-11 03:38:58,853] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:38:58,853] INFO: Processed HowTo_1080P-03fd_crf_10_ss_00_t_20.0.mp4 in 2.42 seconds
+[2025-01-11 03:39:08,779] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:39:08,779] INFO: Processed HowTo_1080P-13aa_crf_10_ss_00_t_20.0.mp4 in 2.78 seconds
+[2025-01-11 03:39:22,059] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:39:22,059] INFO: Processed HowTo_1080P-1f3b_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 03:39:32,571] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:39:32,571] INFO: Processed HowTo_1080P-36a9_crf_10_ss_00_t_20.0.mp4 in 2.47 seconds
+[2025-01-11 03:39:46,517] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:39:46,517] INFO: Processed HowTo_1080P-4d7b_crf_10_ss_00_t_20.0.mp4 in 2.62 seconds
+[2025-01-11 03:39:55,463] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:39:55,463] INFO: Processed HowTo_1080P-52bb_crf_10_ss_00_t_20.0.mp4 in 2.64 seconds
+[2025-01-11 03:40:12,993] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:40:12,993] INFO: Processed HowTo_1080P-55d1_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 03:40:20,153] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:40:20,153] INFO: Processed HowTo_1080P-63e4_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 03:40:37,579] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:40:37,579] INFO: Processed HowTo_1080P-63ec_crf_10_ss_00_t_20.0.mp4 in 2.47 seconds
+[2025-01-11 03:40:44,311] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:40:44,311] INFO: Processed HowTo_1080P-64f7_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 03:41:00,584] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:41:00,584] INFO: Processed HowTo_1080P-6cbf_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 03:41:07,135] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:41:07,135] INFO: Processed HowTo_1080P-7399_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 03:41:25,706] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:41:25,706] INFO: Processed HowTo_1080P-763c_crf_10_ss_00_t_20.0.mp4 in 2.50 seconds
+[2025-01-11 03:41:32,324] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:41:32,324] INFO: Processed HowTo_1080P-7cf2_crf_10_ss_00_t_20.0.mp4 in 2.52 seconds
+[2025-01-11 03:41:48,546] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:41:48,546] INFO: Processed HowTo_1080P-7f18_crf_10_ss_00_t_20.0.mp4 in 2.43 seconds
+[2025-01-11 03:41:50,898] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:41:50,898] INFO: Processed Lecture_1080P-011f_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 03:42:11,929] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:42:11,929] INFO: Processed Lecture_1080P-0c8a_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 03:42:14,552] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:42:14,552] INFO: Processed Lecture_1080P-1709_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 03:42:34,977] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:42:34,977] INFO: Processed Lecture_1080P-1969_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 03:42:37,442] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:42:37,442] INFO: Processed LiveMusic_1080P-14af_crf_10_ss_00_t_20.0.mp4 in 2.43 seconds
+[2025-01-11 03:43:00,084] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:43:00,084] INFO: Processed LiveMusic_1080P-157b_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 03:43:03,072] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:43:03,072] INFO: Processed LiveMusic_1080P-21dd_crf_10_ss_00_t_20.0.mp4 in 2.95 seconds
+[2025-01-11 03:43:26,222] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:43:26,222] INFO: Processed LiveMusic_1080P-28fe_crf_10_ss_00_t_20.0.mp4 in 2.69 seconds
+[2025-01-11 03:43:28,995] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:43:28,995] INFO: Processed LiveMusic_1080P-2930_crf_10_ss_00_t_20.0.mp4 in 2.74 seconds
+[2025-01-11 03:43:51,726] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:43:51,726] INFO: Processed LiveMusic_1080P-2f7f_crf_10_ss_00_t_20.0.mp4 in 2.39 seconds
+[2025-01-11 03:43:54,573] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:43:54,573] INFO: Processed LiveMusic_1080P-3f95_crf_10_ss_00_t_20.0.mp4 in 2.82 seconds
+[2025-01-11 03:44:18,251] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:44:18,252] INFO: Processed LiveMusic_1080P-51f6_crf_10_ss_00_t_20.0.mp4 in 3.07 seconds
+[2025-01-11 03:44:20,760] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:44:20,760] INFO: Processed LiveMusic_1080P-541f_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 03:44:36,221] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:44:36,221] INFO: Processed LiveMusic_1080P-59b3_crf_10_ss_00_t_20.0.mp4 in 2.80 seconds
+[2025-01-11 03:44:43,331] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:44:43,331] INFO: Processed LiveMusic_1080P-6d1a_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 03:45:04,825] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:45:04,825] INFO: Processed LiveMusic_1080P-6fe2_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 03:45:08,941] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:45:08,941] INFO: Processed LiveMusic_1080P-77e8_crf_10_ss_00_t_20.0.mp4 in 2.61 seconds
+[2025-01-11 03:45:29,694] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:45:29,694] INFO: Processed LiveMusic_1080P-7948_crf_10_ss_00_t_20.0.mp4 in 2.62 seconds
+[2025-01-11 03:45:32,283] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:45:32,283] INFO: Processed LiveMusic_1080P-7ead_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 03:45:55,240] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:45:55,240] INFO: Processed LyricVideo_1080P-16b6_crf_10_ss_00_t_20.0.mp4 in 2.44 seconds
+[2025-01-11 03:45:57,819] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:45:57,819] INFO: Processed LyricVideo_1080P-1b04_crf_10_ss_00_t_20.0.mp4 in 2.55 seconds
+[2025-01-11 03:46:17,438] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:46:17,438] INFO: Processed LyricVideo_1080P-1d75_crf_10_ss_00_t_20.0.mp4 in 2.37 seconds
+[2025-01-11 03:46:20,074] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:46:20,074] INFO: Processed LyricVideo_1080P-2946_crf_10_ss_00_t_20.0.mp4 in 2.61 seconds
+[2025-01-11 03:46:41,503] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:46:41,503] INFO: Processed LyricVideo_1080P-41ee_crf_10_ss_00_t_20.0.mp4 in 2.77 seconds
+[2025-01-11 03:46:43,742] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:46:43,742] INFO: Processed LyricVideo_1080P-4b40_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 03:47:03,981] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:47:03,981] INFO: Processed LyricVideo_1080P-5461_crf_10_ss_00_t_20.0.mp4 in 2.44 seconds
+[2025-01-11 03:47:06,921] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:47:06,922] INFO: Processed LyricVideo_1080P-584f_crf_10_ss_00_t_20.0.mp4 in 2.37 seconds
+[2025-01-11 03:47:26,918] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:47:26,919] INFO: Processed LyricVideo_1080P-63d4_crf_10_ss_00_t_20.0.mp4 in 2.73 seconds
+[2025-01-11 03:47:29,556] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:47:29,556] INFO: Processed LyricVideo_1080P-63d9_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 03:47:50,269] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:47:50,270] INFO: Processed LyricVideo_1080P-725e_crf_10_ss_00_t_20.0.mp4 in 2.99 seconds
+[2025-01-11 03:47:52,900] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:47:52,900] INFO: Processed LyricVideo_1080P-756a_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 03:48:17,483] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:48:17,484] INFO: Processed MusicVideo_1080P-04b6_crf_10_ss_00_t_20.0.mp4 in 3.00 seconds
+[2025-01-11 03:48:20,183] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:48:20,183] INFO: Processed MusicVideo_1080P-0706_crf_10_ss_00_t_20.0.mp4 in 2.67 seconds
+[2025-01-11 03:48:42,060] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:48:42,060] INFO: Processed MusicVideo_1080P-0860_crf_10_ss_00_t_20.0.mp4 in 2.46 seconds
+[2025-01-11 03:48:44,690] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:48:44,691] INFO: Processed MusicVideo_1080P-106d_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 03:49:07,921] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:49:07,921] INFO: Processed MusicVideo_1080P-16e6_crf_10_ss_00_t_20.0.mp4 in 2.49 seconds
+[2025-01-11 03:49:10,479] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:49:10,479] INFO: Processed MusicVideo_1080P-18f5_crf_10_ss_00_t_20.0.mp4 in 2.53 seconds
+[2025-01-11 03:49:31,131] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:49:31,132] INFO: Processed MusicVideo_1080P-1a53_crf_10_ss_00_t_20.0.mp4 in 2.33 seconds
+[2025-01-11 03:49:34,407] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:49:34,408] INFO: Processed MusicVideo_1080P-24f5_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 03:49:54,421] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:49:54,422] INFO: Processed MusicVideo_1080P-2b2b_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 03:49:56,909] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:49:56,909] INFO: Processed MusicVideo_1080P-2d1c_crf_10_ss_00_t_20.0.mp4 in 2.46 seconds
+[2025-01-11 03:50:16,798] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:50:16,798] INFO: Processed MusicVideo_1080P-34ff_crf_10_ss_00_t_20.0.mp4 in 2.45 seconds
+[2025-01-11 03:50:19,159] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:50:19,159] INFO: Processed MusicVideo_1080P-3a50_crf_10_ss_00_t_20.0.mp4 in 2.33 seconds
+[2025-01-11 03:50:42,299] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:50:42,300] INFO: Processed MusicVideo_1080P-453f_crf_10_ss_00_t_20.0.mp4 in 2.94 seconds
+[2025-01-11 03:50:44,899] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:50:44,899] INFO: Processed MusicVideo_1080P-4671_crf_10_ss_00_t_20.0.mp4 in 2.57 seconds
+[2025-01-11 03:51:06,965] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:51:06,966] INFO: Processed MusicVideo_1080P-5072_crf_10_ss_00_t_20.0.mp4 in 2.44 seconds
+[2025-01-11 03:51:09,386] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:51:09,386] INFO: Processed MusicVideo_1080P-55af_crf_10_ss_00_t_20.0.mp4 in 2.39 seconds
+[2025-01-11 03:51:28,133] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:51:28,133] INFO: Processed MusicVideo_1080P-65c6_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 03:51:32,087] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:51:32,087] INFO: Processed MusicVideo_1080P-6c1d_crf_10_ss_00_t_20.0.mp4 in 1.96 seconds
+[2025-01-11 03:51:44,982] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:51:44,982] INFO: Processed MusicVideo_1080P-6fb1_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 03:51:51,592] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:51:51,592] INFO: Processed MusicVideo_1080P-7265_crf_10_ss_00_t_20.0.mp4 in 2.33 seconds
+[2025-01-11 03:52:03,930] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:52:03,930] INFO: Processed MusicVideo_1080P-7706_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 03:52:12,465] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:52:12,465] INFO: Processed MusicVideo_1080P-7f2e_crf_10_ss_00_t_20.0.mp4 in 2.76 seconds
+[2025-01-11 03:52:24,227] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:52:24,227] INFO: Processed NewsClip_1080P-00c3_crf_10_ss_00_t_20.0.mp4 in 2.17 seconds
+[2025-01-11 03:52:31,883] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:52:31,883] INFO: Processed NewsClip_1080P-06df_crf_10_ss_00_t_20.0.mp4 in 2.31 seconds
+[2025-01-11 03:52:43,513] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:52:43,513] INFO: Processed NewsClip_1080P-0abf_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 03:52:51,327] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:52:51,327] INFO: Processed NewsClip_1080P-1db0_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 03:52:58,767] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:52:58,767] INFO: Processed NewsClip_1080P-22b3_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 03:53:12,202] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:53:12,202] INFO: Processed NewsClip_1080P-27fb_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 03:53:18,494] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:53:18,494] INFO: Processed NewsClip_1080P-2eb0_crf_10_ss_00_t_20.0.mp4 in 2.44 seconds
+[2025-01-11 03:53:31,430] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:53:31,430] INFO: Processed NewsClip_1080P-3427_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 03:53:38,175] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:53:38,175] INFO: Processed NewsClip_1080P-3c7c_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 03:53:50,442] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:53:50,442] INFO: Processed NewsClip_1080P-4241_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 03:53:57,845] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:53:57,845] INFO: Processed NewsClip_1080P-48ae_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 03:54:09,720] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:54:09,720] INFO: Processed NewsClip_1080P-5b53_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 03:54:16,524] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:54:16,524] INFO: Processed NewsClip_1080P-5be1_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 03:54:29,751] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:54:29,751] INFO: Processed NewsClip_1080P-632e_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 03:54:37,246] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:54:37,246] INFO: Processed NewsClip_1080P-67dc_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 03:54:49,740] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:54:49,740] INFO: Processed Sports_1080P-0640_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 03:54:59,120] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:54:59,120] INFO: Processed Sports_1080P-08e1_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 03:55:10,713] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:55:10,714] INFO: Processed Sports_1080P-0d0c_crf_10_ss_00_t_20.0.mp4 in 1.95 seconds
+[2025-01-11 03:55:18,082] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:55:18,082] INFO: Processed Sports_1080P-15d1_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 03:55:29,770] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:55:29,770] INFO: Processed Sports_1080P-19d8_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 03:55:33,535] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:55:33,535] INFO: Processed Sports_1080P-1ae3_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 03:55:51,436] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:55:51,437] INFO: Processed Sports_1080P-1bf7_crf_10_ss_00_t_20.0.mp4 in 2.52 seconds
+[2025-01-11 03:55:54,223] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:55:54,224] INFO: Processed Sports_1080P-1d78_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 03:56:12,809] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:56:12,809] INFO: Processed Sports_1080P-241e_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 03:56:14,804] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:56:14,804] INFO: Processed Sports_1080P-2524_crf_10_ss_00_t_20.0.mp4 in 1.96 seconds
+[2025-01-11 03:56:32,011] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:56:32,011] INFO: Processed Sports_1080P-28a6_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 03:56:34,183] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:56:34,183] INFO: Processed Sports_1080P-2a21_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 03:56:47,443] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:56:47,443] INFO: Processed Sports_1080P-3a3b_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 03:56:49,786] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:56:49,786] INFO: Processed Sports_1080P-3db7_crf_10_ss_00_t_20.0.mp4 in 1.88 seconds
+[2025-01-11 03:57:06,126] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:57:06,126] INFO: Processed Sports_1080P-3eb0_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 03:57:09,562] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:57:09,562] INFO: Processed Sports_1080P-43e2_crf_10_ss_00_t_20.0.mp4 in 1.99 seconds
+[2025-01-11 03:57:25,789] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:57:25,790] INFO: Processed Sports_1080P-47e9_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 03:57:28,633] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:57:28,633] INFO: Processed Sports_1080P-49c5_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 03:57:45,528] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:57:45,528] INFO: Processed Sports_1080P-4e05_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 03:57:48,515] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:57:48,515] INFO: Processed Sports_1080P-53a0_crf_10_ss_00_t_20.0.mp4 in 2.14 seconds
+[2025-01-11 03:58:05,891] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:58:05,891] INFO: Processed Sports_1080P-5d25_crf_10_ss_00_t_20.0.mp4 in 2.32 seconds
+[2025-01-11 03:58:08,126] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:58:08,126] INFO: Processed Sports_1080P-6571_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 03:58:26,719] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:58:26,719] INFO: Processed Sports_1080P-6710_crf_10_ss_00_t_20.0.mp4 in 2.59 seconds
+[2025-01-11 03:58:28,984] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:58:28,985] INFO: Processed Sports_1080P-679d_crf_10_ss_00_t_20.0.mp4 in 2.23 seconds
+[2025-01-11 03:58:47,160] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:58:47,160] INFO: Processed Sports_1080P-7203_crf_10_ss_00_t_20.0.mp4 in 2.52 seconds
+[2025-01-11 03:58:49,227] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:58:49,227] INFO: Processed Sports_1080P-7584_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 03:59:07,351] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:59:07,351] INFO: Processed Sports_1080P-76a2_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 03:59:09,602] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:59:09,602] INFO: Processed Sports_1080P-7dba_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 03:59:27,201] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:59:27,201] INFO: Processed TelevisionClip_1080P-0604_crf_10_ss_00_t_20.0.mp4 in 2.23 seconds
+[2025-01-11 03:59:29,508] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:59:29,508] INFO: Processed TelevisionClip_1080P-3758_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 03:59:42,609] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:59:42,610] INFO: Processed TelevisionClip_1080P-39e3_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 03:59:44,651] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 03:59:44,651] INFO: Processed TelevisionClip_1080P-3b9b_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 04:00:01,694] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:00:01,694] INFO: Processed TelevisionClip_1080P-3d10_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 04:00:03,993] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:00:03,993] INFO: Processed TelevisionClip_1080P-3d83_crf_10_ss_00_t_20.0.mp4 in 2.27 seconds
+[2025-01-11 04:00:16,252] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:00:16,252] INFO: Processed TelevisionClip_1080P-3e42_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 04:00:22,346] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:00:22,347] INFO: Processed TelevisionClip_1080P-401e_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 04:00:35,512] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:00:35,512] INFO: Processed TelevisionClip_1080P-525d_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 04:00:41,071] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:00:41,071] INFO: Processed TelevisionClip_1080P-5278_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 04:00:55,754] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:00:55,754] INFO: Processed TelevisionClip_1080P-5e68_crf_10_ss_00_t_20.0.mp4 in 1.96 seconds
+[2025-01-11 04:00:59,645] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:00:59,645] INFO: Processed TelevisionClip_1080P-6026_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 04:01:15,111] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:01:15,111] INFO: Processed TelevisionClip_1080P-6282_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 04:01:19,731] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:01:19,731] INFO: Processed TelevisionClip_1080P-63e6_crf_10_ss_00_t_20.0.mp4 in 2.38 seconds
+[2025-01-11 04:01:34,825] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:01:34,825] INFO: Processed TelevisionClip_1080P-68c6_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 04:01:39,499] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:01:39,499] INFO: Processed VerticalVideo_1080P-04d4_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 04:01:54,289] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:01:54,289] INFO: Processed VerticalVideo_1080P-1ac1_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 04:01:58,442] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:01:58,442] INFO: Processed VerticalVideo_1080P-1c86_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 04:02:14,837] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:02:14,837] INFO: Processed VerticalVideo_1080P-2f00_crf_10_ss_00_t_20.0.mp4 in 2.35 seconds
+[2025-01-11 04:02:16,912] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:02:16,912] INFO: Processed VerticalVideo_1080P-34ba_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 04:02:35,291] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:02:35,291] INFO: Processed VerticalVideo_1080P-360f_crf_10_ss_00_t_20.0.mp4 in 1.82 seconds
+[2025-01-11 04:02:37,345] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:02:37,345] INFO: Processed VerticalVideo_1080P-3709_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 04:02:47,711] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:02:47,711] INFO: Processed VerticalVideo_1080P-3a9b_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 04:02:49,805] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:02:49,805] INFO: Processed VerticalVideo_1080P-3d96_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 04:03:09,071] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:03:09,072] INFO: Processed VerticalVideo_1080P-4925_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 04:03:11,122] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:03:11,123] INFO: Processed VerticalVideo_1080P-4b92_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 04:03:36,820] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:03:36,820] INFO: Processed VerticalVideo_1080P-4da5_crf_10_ss_00_t_20.0.mp4 in 1.87 seconds
+[2025-01-11 04:03:39,075] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:03:39,075] INFO: Processed VerticalVideo_1080P-73b6_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 04:03:55,918] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:03:55,919] INFO: Processed VerticalVideo_1080P-766b_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 04:03:58,197] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:03:58,198] INFO: Processed VerticalVideo_1080P-7c5c_crf_10_ss_00_t_20.0.mp4 in 2.25 seconds
+[2025-01-11 04:04:14,921] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:04:14,921] INFO: Processed VerticalVideo_1080P-7cf3_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 04:04:17,134] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:04:17,134] INFO: Processed Vlog_1080P-010b_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 04:04:34,871] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:04:34,871] INFO: Processed Vlog_1080P-18da_crf_10_ss_00_t_20.0.mp4 in 2.56 seconds
+[2025-01-11 04:04:37,033] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:04:37,033] INFO: Processed Vlog_1080P-19bb_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 04:04:54,199] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:04:54,199] INFO: Processed Vlog_1080P-1df9_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 04:04:56,167] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:04:56,167] INFO: Processed Vlog_1080P-1e70_crf_10_ss_00_t_20.0.mp4 in 1.93 seconds
+[2025-01-11 04:05:14,676] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:05:14,676] INFO: Processed Vlog_1080P-21f5_crf_10_ss_00_t_20.0.mp4 in 2.86 seconds
+[2025-01-11 04:05:16,952] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:05:16,952] INFO: Processed Vlog_1080P-2394_crf_10_ss_00_t_20.0.mp4 in 2.24 seconds
+[2025-01-11 04:05:34,684] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:05:34,684] INFO: Processed Vlog_1080P-23cb_crf_10_ss_00_t_20.0.mp4 in 2.48 seconds
+[2025-01-11 04:05:36,845] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:05:36,845] INFO: Processed Vlog_1080P-25de_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 04:05:54,303] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:05:54,303] INFO: Processed Vlog_1080P-26dc_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 04:05:56,235] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:05:56,235] INFO: Processed Vlog_1080P-2cda_crf_10_ss_00_t_20.0.mp4 in 1.90 seconds
+[2025-01-11 04:06:13,505] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:06:13,505] INFO: Processed Vlog_1080P-35cd_crf_10_ss_00_t_20.0.mp4 in 2.35 seconds
+[2025-01-11 04:06:15,505] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:06:15,505] INFO: Processed Vlog_1080P-3744_crf_10_ss_00_t_20.0.mp4 in 1.97 seconds
+[2025-01-11 04:06:31,976] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:06:31,976] INFO: Processed Vlog_1080P-45c9_crf_10_ss_00_t_20.0.mp4 in 2.04 seconds
+[2025-01-11 04:06:33,916] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:06:33,916] INFO: Processed Vlog_1080P-4f26_crf_10_ss_00_t_20.0.mp4 in 1.91 seconds
+[2025-01-11 04:06:52,062] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:06:52,062] INFO: Processed Vlog_1080P-52fe_crf_10_ss_00_t_20.0.mp4 in 1.97 seconds
+[2025-01-11 04:06:54,070] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:06:54,071] INFO: Processed Vlog_1080P-5904_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 04:07:11,473] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:07:11,473] INFO: Processed Vlog_1080P-62fc_crf_10_ss_00_t_20.0.mp4 in 2.20 seconds
+[2025-01-11 04:07:13,624] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:07:13,624] INFO: Processed Vlog_1080P-64b6_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 04:07:31,474] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:07:31,474] INFO: Processed Vlog_1080P-6686_crf_10_ss_00_t_20.0.mp4 in 1.88 seconds
+[2025-01-11 04:07:33,654] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:07:33,654] INFO: Processed Vlog_1080P-7e8c_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 04:08:43,789] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:08:43,789] INFO: Processed Animation_2160P-41dc_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 04:08:46,102] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:08:46,102] INFO: Processed Animation_2160P-6f3b_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 04:09:57,054] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:09:57,054] INFO: Processed Gaming_2160P-2b92_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 04:09:59,517] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:09:59,517] INFO: Processed Gaming_2160P-2cb1_crf_10_ss_00_t_20.0.mp4 in 2.43 seconds
+[2025-01-11 04:11:04,677] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:11:04,677] INFO: Processed Gaming_2160P-2dc4_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 04:11:06,650] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:11:06,650] INFO: Processed Gaming_2160P-348d_crf_10_ss_00_t_20.0.mp4 in 1.94 seconds
+[2025-01-11 04:12:12,097] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:12:12,097] INFO: Processed Gaming_2160P-34a1_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 04:12:14,214] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:12:14,214] INFO: Processed Gaming_2160P-387f_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 04:13:19,840] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:13:19,840] INFO: Processed Gaming_2160P-4139_crf_10_ss_00_t_20.0.mp4 in 1.99 seconds
+[2025-01-11 04:13:22,156] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:13:22,156] INFO: Processed Gaming_2160P-416f_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 04:14:26,945] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:14:26,945] INFO: Processed Gaming_2160P-4258_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 04:14:28,886] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:14:28,886] INFO: Processed Gaming_2160P-5c33_crf_10_ss_00_t_20.0.mp4 in 1.91 seconds
+[2025-01-11 04:15:35,896] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:15:35,896] INFO: Processed Gaming_2160P-5c53_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 04:15:37,980] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:15:37,980] INFO: Processed Gaming_2160P-673d_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 04:16:42,175] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:16:42,175] INFO: Processed Gaming_2160P-6bb6_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 04:16:44,217] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:16:44,217] INFO: Processed Gaming_2160P-6cd8_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 04:17:47,606] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:17:47,606] INFO: Processed Gaming_2160P-7e80_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 04:17:49,830] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:17:49,831] INFO: Processed HDR_2160P-06ae_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 04:18:57,083] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:18:57,083] INFO: Processed HDR_2160P-15e2_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 04:18:59,237] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:18:59,237] INFO: Processed HDR_2160P-2a72_crf_10_ss_00_t_20.0.mp4 in 2.12 seconds
+[2025-01-11 04:20:08,973] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:20:08,973] INFO: Processed HDR_2160P-3663_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 04:20:11,031] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:20:11,031] INFO: Processed HDR_2160P-40ab_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 04:21:19,369] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:21:19,369] INFO: Processed HDR_2160P-4dcd_crf_10_ss_00_t_20.0.mp4 in 2.08 seconds
+[2025-01-11 04:21:21,327] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:21:21,327] INFO: Processed HDR_2160P-5275_crf_10_ss_00_t_20.0.mp4 in 1.93 seconds
+[2025-01-11 04:22:32,473] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:22:32,473] INFO: Processed HDR_2160P-5926_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 04:22:34,656] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:22:34,656] INFO: Processed HDR_2160P-5e25_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 04:23:40,292] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:23:40,292] INFO: Processed HDR_2160P-664d_crf_10_ss_00_t_20.0.mp4 in 2.16 seconds
+[2025-01-11 04:23:42,552] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:23:42,552] INFO: Processed HDR_2160P-6ed1_crf_10_ss_00_t_20.0.mp4 in 2.23 seconds
+[2025-01-11 04:24:39,056] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:24:39,056] INFO: Processed HDR_2160P-6eeb_crf_10_ss_00_t_20.0.mp4 in 2.36 seconds
+[2025-01-11 04:24:41,034] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:24:41,034] INFO: Processed HDR_2160P-6fab_crf_10_ss_00_t_20.0.mp4 in 1.95 seconds
+[2025-01-11 04:25:48,559] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:25:48,559] INFO: Processed HDR_2160P-70ca_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 04:25:50,609] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:25:50,614] INFO: Processed Sports_2160P-0455_crf_10_ss_00_t_20.0.mp4 in 2.02 seconds
+[2025-01-11 04:26:56,050] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:26:56,050] INFO: Processed Sports_2160P-086d_crf_10_ss_00_t_20.0.mp4 in 2.28 seconds
+[2025-01-11 04:26:58,060] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:26:58,060] INFO: Processed Sports_2160P-1261_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 04:28:04,964] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:28:04,965] INFO: Processed Sports_2160P-1733_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 04:28:06,955] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:28:06,955] INFO: Processed Sports_2160P-1b70_crf_10_ss_00_t_20.0.mp4 in 1.96 seconds
+[2025-01-11 04:29:12,007] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:29:12,007] INFO: Processed Sports_2160P-1ddc_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 04:29:14,615] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:29:14,616] INFO: Processed Sports_2160P-210c_crf_10_ss_00_t_20.0.mp4 in 2.58 seconds
+[2025-01-11 04:30:21,031] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:30:21,031] INFO: Processed Sports_2160P-2626_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 04:30:23,117] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:30:23,117] INFO: Processed Sports_2160P-279f_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 04:31:28,840] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:31:28,841] INFO: Processed Sports_2160P-2a83_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 04:31:31,089] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:31:31,089] INFO: Processed Sports_2160P-2e1d_crf_10_ss_00_t_20.0.mp4 in 2.21 seconds
+[2025-01-11 04:32:35,505] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:32:35,505] INFO: Processed Sports_2160P-300d_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 04:32:37,841] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:32:37,841] INFO: Processed Sports_2160P-324e_crf_10_ss_00_t_20.0.mp4 in 2.31 seconds
+[2025-01-11 04:33:45,079] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:33:45,079] INFO: Processed Sports_2160P-349c_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 04:33:47,206] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:33:47,206] INFO: Processed Sports_2160P-3794_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 04:34:54,372] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:34:54,372] INFO: Processed Sports_2160P-391a_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 04:34:56,582] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:34:56,582] INFO: Processed Sports_2160P-3a9a_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 04:36:03,701] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:36:03,701] INFO: Processed Sports_2160P-3d85_crf_10_ss_00_t_20.0.mp4 in 2.19 seconds
+[2025-01-11 04:36:05,662] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:36:05,662] INFO: Processed Sports_2160P-4024_crf_10_ss_00_t_20.0.mp4 in 1.93 seconds
+[2025-01-11 04:37:10,561] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:37:10,561] INFO: Processed Sports_2160P-4201_crf_10_ss_00_t_20.0.mp4 in 1.96 seconds
+[2025-01-11 04:37:12,637] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:37:12,637] INFO: Processed Sports_2160P-49f1_crf_10_ss_00_t_20.0.mp4 in 2.05 seconds
+[2025-01-11 04:38:17,911] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:38:17,911] INFO: Processed Sports_2160P-4aae_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 04:38:20,517] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:38:20,517] INFO: Processed Sports_2160P-4e9f_crf_10_ss_00_t_20.0.mp4 in 2.57 seconds
+[2025-01-11 04:39:29,232] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:39:29,232] INFO: Processed Sports_2160P-5ef3_crf_10_ss_00_t_20.0.mp4 in 2.80 seconds
+[2025-01-11 04:39:31,677] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:39:31,678] INFO: Processed Sports_2160P-69b9_crf_10_ss_00_t_20.0.mp4 in 2.41 seconds
+[2025-01-11 04:40:38,193] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:40:38,193] INFO: Processed Sports_2160P-6b28_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 04:40:40,827] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:40:40,827] INFO: Processed Sports_2160P-7165_crf_10_ss_00_t_20.0.mp4 in 2.60 seconds
+[2025-01-11 04:41:54,706] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:41:54,706] INFO: Processed Sports_2160P-7a11_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 04:41:56,752] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:41:56,752] INFO: Processed Sports_2160P-7af7_crf_10_ss_00_t_20.0.mp4 in 2.01 seconds
+[2025-01-11 04:43:02,907] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:43:02,907] INFO: Processed Sports_2160P-7af8_crf_10_ss_00_t_20.0.mp4 in 2.18 seconds
+[2025-01-11 04:43:04,864] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:43:04,865] INFO: Processed Sports_2160P-7bbe_crf_10_ss_00_t_20.0.mp4 in 1.92 seconds
+[2025-01-11 04:44:11,337] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:44:11,337] INFO: Processed VerticalVideo_2160P-6d62_crf_10_ss_00_t_20.0.mp4 in 2.23 seconds
+[2025-01-11 04:44:13,365] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:44:13,365] INFO: Processed Vlog_2160P-030a_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 04:45:21,049] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:45:21,049] INFO: Processed Vlog_2160P-0577_crf_10_ss_00_t_20.0.mp4 in 2.27 seconds
+[2025-01-11 04:45:23,227] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:45:23,227] INFO: Processed Vlog_2160P-059c_crf_10_ss_00_t_20.0.mp4 in 2.15 seconds
+[2025-01-11 04:46:33,254] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:46:33,254] INFO: Processed Vlog_2160P-09c9_crf_10_ss_00_t_20.0.mp4 in 1.98 seconds
+[2025-01-11 04:46:35,505] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:46:35,505] INFO: Processed Vlog_2160P-13a1_crf_10_ss_00_t_20.0.mp4 in 2.22 seconds
+[2025-01-11 04:47:45,839] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:47:45,840] INFO: Processed Vlog_2160P-13fe_crf_10_ss_00_t_20.0.mp4 in 1.92 seconds
+[2025-01-11 04:47:47,940] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:47:47,940] INFO: Processed Vlog_2160P-19f9_crf_10_ss_00_t_20.0.mp4 in 2.07 seconds
+[2025-01-11 04:48:53,749] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:48:53,749] INFO: Processed Vlog_2160P-1ff6_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 04:48:55,664] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:48:55,664] INFO: Processed Vlog_2160P-255c_crf_10_ss_00_t_20.0.mp4 in 1.88 seconds
+[2025-01-11 04:50:03,540] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:50:03,541] INFO: Processed Vlog_2160P-2953_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 04:50:05,738] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:50:05,738] INFO: Processed Vlog_2160P-2b2d_crf_10_ss_00_t_20.0.mp4 in 2.17 seconds
+[2025-01-11 04:51:12,021] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:51:12,022] INFO: Processed Vlog_2160P-3019_crf_10_ss_00_t_20.0.mp4 in 2.11 seconds
+[2025-01-11 04:51:13,942] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:51:13,942] INFO: Processed Vlog_2160P-327a_crf_10_ss_00_t_20.0.mp4 in 1.89 seconds
+[2025-01-11 04:52:19,330] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:52:19,330] INFO: Processed Vlog_2160P-408f_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 04:52:21,593] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:52:21,593] INFO: Processed Vlog_2160P-416c_crf_10_ss_00_t_20.0.mp4 in 2.23 seconds
+[2025-01-11 04:53:27,105] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:53:27,105] INFO: Processed Vlog_2160P-4362_crf_10_ss_00_t_20.0.mp4 in 2.06 seconds
+[2025-01-11 04:53:29,227] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:53:29,227] INFO: Processed Vlog_2160P-4419_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 04:54:34,560] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:54:34,560] INFO: Processed Vlog_2160P-4655_crf_10_ss_00_t_20.0.mp4 in 2.00 seconds
+[2025-01-11 04:54:36,499] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:54:36,499] INFO: Processed Vlog_2160P-4f98_crf_10_ss_00_t_20.0.mp4 in 1.91 seconds
+[2025-01-11 04:55:43,578] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:55:43,578] INFO: Processed Vlog_2160P-5874_crf_10_ss_00_t_20.0.mp4 in 2.10 seconds
+[2025-01-11 04:55:45,490] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:55:45,490] INFO: Processed Vlog_2160P-62b2_crf_10_ss_00_t_20.0.mp4 in 1.88 seconds
+[2025-01-11 04:56:52,027] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:56:52,027] INFO: Processed Vlog_2160P-6629_crf_10_ss_00_t_20.0.mp4 in 2.09 seconds
+[2025-01-11 04:56:54,090] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:56:54,090] INFO: Processed Vlog_2160P-6f92_crf_10_ss_00_t_20.0.mp4 in 2.03 seconds
+[2025-01-11 04:58:02,225] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:58:02,225] INFO: Processed Vlog_2160P-70d6_crf_10_ss_00_t_20.0.mp4 in 2.13 seconds
+[2025-01-11 04:58:04,547] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:58:04,547] INFO: Processed Vlog_2160P-7324_crf_10_ss_00_t_20.0.mp4 in 2.29 seconds
+[2025-01-11 04:59:10,287] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:59:10,287] INFO: Processed Vlog_2160P-77d8_crf_10_ss_00_t_20.0.mp4 in 2.34 seconds
+[2025-01-11 04:59:12,266] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 04:59:12,267] INFO: Processed Vlog_2160P-7b10_crf_10_ss_00_t_20.0.mp4 in 1.95 seconds
+[2025-01-11 05:00:16,424] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 05:00:16,424] INFO: Processed Vlog_2160P-7b5c_crf_10_ss_00_t_20.0.mp4 in 1.75 seconds
+[2025-01-11 05:00:18,199] INFO: Feature shape: torch.Size([9984])
+[2025-01-11 05:00:18,199] INFO: Processed Vlog_2160P-7f05_crf_10_ss_00_t_20.0.mp4 in 1.74 seconds
+[2025-01-11 05:00:18,306] INFO: Features saved to ../features/diva-vqa/: torch.Size([1036, 9984])
+

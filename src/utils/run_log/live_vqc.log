@@ -1,0 +1,1766 @@
+nohup: ignoring input
+[2025-01-10 18:48:38,677] INFO: Using device: cuda
+[2025-01-10 18:48:38,678] INFO: Dataset loaded. Total videos: 585, Total batches: 585
+[2025-01-10 18:48:39,550] INFO: Loading pretrained weights from Hugging Face hub (timm/swin_base_patch4_window7_224.ms_in22k_ft_in1k)
+[2025-01-10 18:48:39,673] INFO: [timm/swin_base_patch4_window7_224.ms_in22k_ft_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+diva-vqa
+
+Processing Videos:   0%|          | 0/585 [00:00<?, ?it/s][2025-01-10 18:48:54,056] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:48:54,056] INFO: Processed A001.mp4 in 2.86 seconds
+
+Processing Videos:   0%|          | 1/585 [00:14<2:19:14, 14.31s/it][2025-01-10 18:48:55,923] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:48:55,924] INFO: Processed A002.mp4 in 1.83 seconds
+
+Processing Videos:   0%|          | 2/585 [00:16<1:07:55,  6.99s/it][2025-01-10 18:48:57,665] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:48:57,665] INFO: Processed A003.mp4 in 1.71 seconds
+
+Processing Videos:   1%|          | 3/585 [00:17<44:33,  4.59s/it]  [2025-01-10 18:48:59,704] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:48:59,704] INFO: Processed A004.mp4 in 2.00 seconds
+
+Processing Videos:   1%|          | 4/585 [00:19<34:43,  3.59s/it][2025-01-10 18:49:01,507] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:01,507] INFO: Processed A005.mp4 in 1.77 seconds
+
+Processing Videos:   1%|          | 5/585 [00:21<28:26,  2.94s/it][2025-01-10 18:49:03,444] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:03,444] INFO: Processed A006.mp4 in 1.90 seconds
+
+Processing Videos:   1%|          | 6/585 [00:23<25:05,  2.60s/it][2025-01-10 18:49:06,035] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:06,035] INFO: Processed A007.mp4 in 1.69 seconds
+
+Processing Videos:   1%|          | 7/585 [00:26<24:59,  2.59s/it][2025-01-10 18:49:07,370] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:07,370] INFO: Processed A008.mp4 in 1.31 seconds
+
+Processing Videos:   1%|▏         | 8/585 [00:27<21:07,  2.20s/it][2025-01-10 18:49:09,444] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:09,445] INFO: Processed A009.mp4 in 2.04 seconds
+
+Processing Videos:   2%|▏         | 9/585 [00:29<20:42,  2.16s/it][2025-01-10 18:49:11,400] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:11,400] INFO: Processed A010.mp4 in 1.92 seconds
+
+Processing Videos:   2%|▏         | 10/585 [00:31<20:05,  2.10s/it][2025-01-10 18:49:12,820] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:12,821] INFO: Processed A011.mp4 in 1.38 seconds
+
+Processing Videos:   2%|▏         | 11/585 [00:33<18:03,  1.89s/it][2025-01-10 18:49:14,280] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:14,280] INFO: Processed A012.mp4 in 1.43 seconds
+
+Processing Videos:   2%|▏         | 12/585 [00:34<16:47,  1.76s/it][2025-01-10 18:49:19,703] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:19,704] INFO: Processed A013.mp4 in 1.87 seconds
+
+Processing Videos:   2%|▏         | 13/585 [00:39<27:19,  2.87s/it][2025-01-10 18:49:22,076] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:22,076] INFO: Processed A014.mp4 in 2.34 seconds
+
+Processing Videos:   2%|▏         | 14/585 [00:42<25:52,  2.72s/it][2025-01-10 18:49:23,518] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:23,518] INFO: Processed A015.mp4 in 1.41 seconds
+
+Processing Videos:   3%|▎         | 15/585 [00:43<22:10,  2.33s/it][2025-01-10 18:49:25,185] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:25,185] INFO: Processed A016.mp4 in 1.64 seconds
+
+Processing Videos:   3%|▎         | 16/585 [00:45<20:13,  2.13s/it][2025-01-10 18:49:26,640] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:26,640] INFO: Processed A017.mp4 in 1.42 seconds
+
+Processing Videos:   3%|▎         | 17/585 [00:46<18:16,  1.93s/it][2025-01-10 18:49:28,389] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:28,389] INFO: Processed A018.mp4 in 1.71 seconds
+
+Processing Videos:   3%|▎         | 18/585 [00:48<17:43,  1.88s/it][2025-01-10 18:49:32,721] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:32,721] INFO: Processed A019.mp4 in 1.62 seconds
+
+Processing Videos:   3%|▎         | 19/585 [00:52<24:38,  2.61s/it][2025-01-10 18:49:34,671] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:34,671] INFO: Processed A020.mp4 in 1.92 seconds
+
+Processing Videos:   3%|▎         | 20/585 [00:54<22:43,  2.41s/it][2025-01-10 18:49:36,096] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:36,096] INFO: Processed A021.mp4 in 1.40 seconds
+
+Processing Videos:   4%|▎         | 21/585 [00:56<19:54,  2.12s/it][2025-01-10 18:49:37,877] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:37,878] INFO: Processed A022.mp4 in 1.75 seconds
+
+Processing Videos:   4%|▍         | 22/585 [00:58<18:55,  2.02s/it][2025-01-10 18:49:39,663] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:39,663] INFO: Processed A023.mp4 in 1.75 seconds
+
+Processing Videos:   4%|▍         | 23/585 [00:59<18:13,  1.95s/it][2025-01-10 18:49:41,255] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:41,255] INFO: Processed A024.mp4 in 1.56 seconds
+
+Processing Videos:   4%|▍         | 24/585 [01:01<17:12,  1.84s/it][2025-01-10 18:49:45,839] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:45,839] INFO: Processed A025.mp4 in 1.41 seconds
+
+Processing Videos:   4%|▍         | 25/585 [01:06<24:51,  2.66s/it][2025-01-10 18:49:47,564] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:47,564] INFO: Processed A026.mp4 in 1.69 seconds
+
+Processing Videos:   4%|▍         | 26/585 [01:07<22:12,  2.38s/it][2025-01-10 18:49:49,509] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:49,510] INFO: Processed A027.mp4 in 1.91 seconds
+
+Processing Videos:   5%|▍         | 27/585 [01:09<20:55,  2.25s/it][2025-01-10 18:49:51,024] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:51,024] INFO: Processed A028.mp4 in 1.48 seconds
+
+Processing Videos:   5%|▍         | 28/585 [01:11<18:50,  2.03s/it][2025-01-10 18:49:52,282] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:52,282] INFO: Processed A029.mp4 in 1.23 seconds
+
+Processing Videos:   5%|▍         | 29/585 [01:12<16:39,  1.80s/it][2025-01-10 18:49:53,761] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:53,761] INFO: Processed A030.mp4 in 1.45 seconds
+
+Processing Videos:   5%|▌         | 30/585 [01:14<15:44,  1.70s/it][2025-01-10 18:49:58,599] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:49:58,599] INFO: Processed A031.mp4 in 1.35 seconds
+
+Processing Videos:   5%|▌         | 31/585 [01:18<24:24,  2.64s/it][2025-01-10 18:50:00,290] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:00,290] INFO: Processed A032.mp4 in 1.66 seconds
+
+Processing Videos:   5%|▌         | 32/585 [01:20<21:43,  2.36s/it][2025-01-10 18:50:01,698] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:01,698] INFO: Processed A033.mp4 in 1.37 seconds
+
+Processing Videos:   6%|▌         | 33/585 [01:21<19:03,  2.07s/it][2025-01-10 18:50:03,447] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:03,447] INFO: Processed A034.mp4 in 1.72 seconds
+
+Processing Videos:   6%|▌         | 34/585 [01:23<18:08,  1.98s/it][2025-01-10 18:50:04,809] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:04,809] INFO: Processed A035.mp4 in 1.33 seconds
+
+Processing Videos:   6%|▌         | 35/585 [01:25<16:25,  1.79s/it][2025-01-10 18:50:06,492] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:06,492] INFO: Processed A036.mp4 in 1.65 seconds
+
+Processing Videos:   6%|▌         | 36/585 [01:26<16:05,  1.76s/it][2025-01-10 18:50:11,529] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:11,529] INFO: Processed A037.mp4 in 1.32 seconds
+
+Processing Videos:   6%|▋         | 37/585 [01:31<25:02,  2.74s/it][2025-01-10 18:50:13,025] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:13,025] INFO: Processed A038.mp4 in 1.47 seconds
+
+Processing Videos:   6%|▋         | 38/585 [01:33<21:35,  2.37s/it][2025-01-10 18:50:14,329] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:14,329] INFO: Processed A039.mp4 in 1.27 seconds
+
+Processing Videos:   7%|▋         | 39/585 [01:34<18:38,  2.05s/it][2025-01-10 18:50:15,828] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:15,828] INFO: Processed A040.mp4 in 1.47 seconds
+
+Processing Videos:   7%|▋         | 40/585 [01:36<17:06,  1.88s/it][2025-01-10 18:50:17,629] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:17,630] INFO: Processed A041.mp4 in 1.77 seconds
+
+Processing Videos:   7%|▋         | 41/585 [01:37<16:51,  1.86s/it][2025-01-10 18:50:19,560] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:19,561] INFO: Processed A042.mp4 in 1.90 seconds
+
+Processing Videos:   7%|▋         | 42/585 [01:39<17:01,  1.88s/it][2025-01-10 18:50:24,071] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:24,071] INFO: Processed A043.mp4 in 1.36 seconds
+
+Processing Videos:   7%|▋         | 43/585 [01:44<24:07,  2.67s/it][2025-01-10 18:50:25,756] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:25,756] INFO: Processed A044.mp4 in 1.65 seconds
+
+Processing Videos:   8%|▊         | 44/585 [01:46<21:24,  2.37s/it][2025-01-10 18:50:27,407] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:27,407] INFO: Processed A045.mp4 in 1.62 seconds
+
+Processing Videos:   8%|▊         | 45/585 [01:47<19:24,  2.16s/it][2025-01-10 18:50:29,101] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:29,101] INFO: Processed A046.mp4 in 1.66 seconds
+
+Processing Videos:   8%|▊         | 46/585 [01:49<18:07,  2.02s/it][2025-01-10 18:50:31,234] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:31,237] INFO: Processed A047.mp4 in 2.11 seconds
+
+Processing Videos:   8%|▊         | 47/585 [01:51<18:24,  2.05s/it][2025-01-10 18:50:33,210] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:33,210] INFO: Processed A048.mp4 in 1.95 seconds
+
+Processing Videos:   8%|▊         | 48/585 [01:53<18:10,  2.03s/it][2025-01-10 18:50:37,908] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:37,908] INFO: Processed A049.mp4 in 1.28 seconds
+
+Processing Videos:   8%|▊         | 49/585 [01:58<25:16,  2.83s/it][2025-01-10 18:50:39,743] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:39,743] INFO: Processed A050.mp4 in 1.81 seconds
+
+Processing Videos:   9%|▊         | 50/585 [01:59<22:34,  2.53s/it][2025-01-10 18:50:41,204] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:41,204] INFO: Processed A051.mp4 in 1.43 seconds
+
+Processing Videos:   9%|▊         | 51/585 [02:01<19:40,  2.21s/it][2025-01-10 18:50:42,440] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:42,440] INFO: Processed A052.mp4 in 1.21 seconds
+
+Processing Videos:   9%|▉         | 52/585 [02:02<17:02,  1.92s/it][2025-01-10 18:50:44,086] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:44,086] INFO: Processed A053.mp4 in 1.61 seconds
+
+Processing Videos:   9%|▉         | 53/585 [02:04<16:17,  1.84s/it][2025-01-10 18:50:45,941] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:45,941] INFO: Processed A054.mp4 in 1.82 seconds
+
+Processing Videos:   9%|▉         | 54/585 [02:06<16:17,  1.84s/it][2025-01-10 18:50:49,810] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:49,810] INFO: Processed A055.mp4 in 1.97 seconds
+
+Processing Videos:   9%|▉         | 55/585 [02:10<21:38,  2.45s/it][2025-01-10 18:50:51,762] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:51,762] INFO: Processed A056.mp4 in 1.92 seconds
+
+Processing Videos:  10%|▉         | 56/585 [02:12<20:17,  2.30s/it][2025-01-10 18:50:53,083] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:53,083] INFO: Processed A057.mp4 in 1.29 seconds
+
+Processing Videos:  10%|▉         | 57/585 [02:13<17:39,  2.01s/it][2025-01-10 18:50:54,777] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:54,777] INFO: Processed A058.mp4 in 1.66 seconds
+
+Processing Videos:  10%|▉         | 58/585 [02:15<16:48,  1.91s/it][2025-01-10 18:50:56,533] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:56,533] INFO: Processed A059.mp4 in 1.72 seconds
+
+Processing Videos:  10%|█         | 59/585 [02:16<16:21,  1.87s/it][2025-01-10 18:50:58,441] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:50:58,441] INFO: Processed A060.mp4 in 1.88 seconds
+
+Processing Videos:  10%|█         | 60/585 [02:18<16:26,  1.88s/it][2025-01-10 18:51:02,937] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:02,937] INFO: Processed A061.mp4 in 1.55 seconds
+
+Processing Videos:  10%|█         | 61/585 [02:23<23:15,  2.66s/it][2025-01-10 18:51:04,651] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:04,651] INFO: Processed A062.mp4 in 1.69 seconds
+
+Processing Videos:  11%|█         | 62/585 [02:24<20:44,  2.38s/it][2025-01-10 18:51:06,473] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:06,473] INFO: Processed A063.mp4 in 1.79 seconds
+
+Processing Videos:  11%|█         | 63/585 [02:26<19:14,  2.21s/it][2025-01-10 18:51:07,599] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:07,599] INFO: Processed A064.mp4 in 1.10 seconds
+
+Processing Videos:  11%|█         | 64/585 [02:27<16:23,  1.89s/it][2025-01-10 18:51:08,977] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:08,977] INFO: Processed A065.mp4 in 1.34 seconds
+
+Processing Videos:  11%|█         | 65/585 [02:29<15:01,  1.73s/it][2025-01-10 18:51:10,490] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:10,490] INFO: Processed A066.mp4 in 1.48 seconds
+
+Processing Videos:  11%|█▏        | 66/585 [02:30<14:24,  1.67s/it][2025-01-10 18:51:14,774] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:14,774] INFO: Processed A067.mp4 in 1.27 seconds
+
+Processing Videos:  11%|█▏        | 67/585 [02:35<21:10,  2.45s/it][2025-01-10 18:51:16,893] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:16,893] INFO: Processed A068.mp4 in 2.09 seconds
+
+Processing Videos:  12%|█▏        | 68/585 [02:37<20:15,  2.35s/it][2025-01-10 18:51:18,271] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:18,271] INFO: Processed A069.mp4 in 1.35 seconds
+
+Processing Videos:  12%|█▏        | 69/585 [02:38<17:42,  2.06s/it][2025-01-10 18:51:20,093] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:20,093] INFO: Processed A070.mp4 in 1.79 seconds
+
+Processing Videos:  12%|█▏        | 70/585 [02:40<17:04,  1.99s/it][2025-01-10 18:51:22,058] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:22,058] INFO: Processed A071.mp4 in 1.93 seconds
+
+Processing Videos:  12%|█▏        | 71/585 [02:42<16:58,  1.98s/it][2025-01-10 18:51:23,604] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:23,604] INFO: Processed A072.mp4 in 1.52 seconds
+
+Processing Videos:  12%|█▏        | 72/585 [02:43<15:49,  1.85s/it][2025-01-10 18:51:27,869] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:27,869] INFO: Processed A073.mp4 in 1.50 seconds
+
+Processing Videos:  12%|█▏        | 73/585 [02:48<21:58,  2.58s/it][2025-01-10 18:51:29,238] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:29,238] INFO: Processed A074.mp4 in 1.34 seconds
+
+Processing Videos:  13%|█▎        | 74/585 [02:49<18:51,  2.21s/it][2025-01-10 18:51:31,224] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:31,224] INFO: Processed A075.mp4 in 1.95 seconds
+
+Processing Videos:  13%|█▎        | 75/585 [02:51<18:13,  2.15s/it][2025-01-10 18:51:33,286] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:33,286] INFO: Processed A076.mp4 in 2.03 seconds
+
+Processing Videos:  13%|█▎        | 76/585 [02:53<17:58,  2.12s/it][2025-01-10 18:51:35,255] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:35,256] INFO: Processed A077.mp4 in 1.94 seconds
+
+Processing Videos:  13%|█▎        | 77/585 [02:55<17:33,  2.07s/it][2025-01-10 18:51:36,903] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:36,903] INFO: Processed A078.mp4 in 1.62 seconds
+
+Processing Videos:  13%|█▎        | 78/585 [02:57<16:27,  1.95s/it][2025-01-10 18:51:41,108] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:41,109] INFO: Processed A079.mp4 in 1.40 seconds
+
+Processing Videos:  14%|█▎        | 79/585 [03:01<22:07,  2.62s/it][2025-01-10 18:51:42,972] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:42,972] INFO: Processed A080.mp4 in 1.83 seconds
+
+Processing Videos:  14%|█▎        | 80/585 [03:03<20:09,  2.40s/it][2025-01-10 18:51:44,379] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:44,379] INFO: Processed A081.mp4 in 1.38 seconds
+
+Processing Videos:  14%|█▍        | 81/585 [03:04<17:38,  2.10s/it][2025-01-10 18:51:45,751] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:45,751] INFO: Processed A082.mp4 in 1.34 seconds
+
+Processing Videos:  14%|█▍        | 82/585 [03:06<15:46,  1.88s/it][2025-01-10 18:51:47,264] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:47,264] INFO: Processed A083.mp4 in 1.48 seconds
+
+Processing Videos:  14%|█▍        | 83/585 [03:07<14:48,  1.77s/it][2025-01-10 18:51:48,950] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:48,950] INFO: Processed A084.mp4 in 1.66 seconds
+
+Processing Videos:  14%|█▍        | 84/585 [03:09<14:34,  1.75s/it][2025-01-10 18:51:53,726] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:53,726] INFO: Processed A085.mp4 in 1.61 seconds
+
+Processing Videos:  15%|█▍        | 85/585 [03:13<22:07,  2.65s/it][2025-01-10 18:51:55,235] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:55,235] INFO: Processed A086.mp4 in 1.48 seconds
+
+Processing Videos:  15%|█▍        | 86/585 [03:15<19:12,  2.31s/it][2025-01-10 18:51:56,712] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:56,712] INFO: Processed A087.mp4 in 1.45 seconds
+
+Processing Videos:  15%|█▍        | 87/585 [03:16<17:06,  2.06s/it][2025-01-10 18:51:58,255] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:51:58,255] INFO: Processed A088.mp4 in 1.51 seconds
+
+Processing Videos:  15%|█▌        | 88/585 [03:18<15:47,  1.91s/it][2025-01-10 18:52:00,404] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:00,404] INFO: Processed A089.mp4 in 2.12 seconds
+
+Processing Videos:  15%|█▌        | 89/585 [03:20<16:21,  1.98s/it][2025-01-10 18:52:01,952] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:01,952] INFO: Processed A090.mp4 in 1.52 seconds
+
+Processing Videos:  15%|█▌        | 90/585 [03:22<15:15,  1.85s/it][2025-01-10 18:52:05,944] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:05,944] INFO: Processed A091.mp4 in 1.45 seconds
+
+Processing Videos:  16%|█▌        | 91/585 [03:26<20:30,  2.49s/it][2025-01-10 18:52:07,507] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:07,507] INFO: Processed A092.mp4 in 1.53 seconds
+
+Processing Videos:  16%|█▌        | 92/585 [03:27<18:11,  2.21s/it][2025-01-10 18:52:09,141] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:09,141] INFO: Processed A093.mp4 in 1.60 seconds
+
+Processing Videos:  16%|█▌        | 93/585 [03:29<16:43,  2.04s/it][2025-01-10 18:52:10,705] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:10,705] INFO: Processed A094.mp4 in 1.53 seconds
+
+Processing Videos:  16%|█▌        | 94/585 [03:30<15:31,  1.90s/it][2025-01-10 18:52:12,302] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:12,302] INFO: Processed A095.mp4 in 1.56 seconds
+
+Processing Videos:  16%|█▌        | 95/585 [03:32<14:45,  1.81s/it][2025-01-10 18:52:13,602] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:13,602] INFO: Processed A096.mp4 in 1.27 seconds
+
+Processing Videos:  16%|█▋        | 96/585 [03:33<13:29,  1.66s/it][2025-01-10 18:52:18,994] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:18,995] INFO: Processed A097.mp4 in 1.63 seconds
+
+Processing Videos:  17%|█▋        | 97/585 [03:39<22:34,  2.78s/it][2025-01-10 18:52:20,293] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:20,294] INFO: Processed A098.mp4 in 1.27 seconds
+
+Processing Videos:  17%|█▋        | 98/585 [03:40<18:56,  2.33s/it][2025-01-10 18:52:22,263] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:22,263] INFO: Processed A099.mp4 in 1.94 seconds
+
+Processing Videos:  17%|█▋        | 99/585 [03:42<18:00,  2.22s/it][2025-01-10 18:52:23,875] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:23,875] INFO: Processed A100.mp4 in 1.58 seconds
+
+Processing Videos:  17%|█▋        | 100/585 [03:44<16:29,  2.04s/it][2025-01-10 18:52:25,470] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:25,470] INFO: Processed A101.mp4 in 1.56 seconds
+
+Processing Videos:  17%|█▋        | 101/585 [03:45<15:22,  1.91s/it][2025-01-10 18:52:26,988] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:26,988] INFO: Processed A102.mp4 in 1.49 seconds
+
+Processing Videos:  17%|█▋        | 102/585 [03:47<14:24,  1.79s/it][2025-01-10 18:52:31,203] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:31,203] INFO: Processed A103.mp4 in 1.30 seconds
+
+Processing Videos:  18%|█▊        | 103/585 [03:51<20:13,  2.52s/it][2025-01-10 18:52:32,402] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:32,402] INFO: Processed A104.mp4 in 1.17 seconds
+
+Processing Videos:  18%|█▊        | 104/585 [03:52<17:00,  2.12s/it][2025-01-10 18:52:34,224] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:34,224] INFO: Processed A105.mp4 in 1.79 seconds
+
+Processing Videos:  18%|█▊        | 105/585 [03:54<16:15,  2.03s/it][2025-01-10 18:52:36,206] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:36,206] INFO: Processed A106.mp4 in 1.95 seconds
+
+Processing Videos:  18%|█▊        | 106/585 [03:56<16:06,  2.02s/it][2025-01-10 18:52:37,927] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:37,927] INFO: Processed A107.mp4 in 1.69 seconds
+
+Processing Videos:  18%|█▊        | 107/585 [03:58<15:21,  1.93s/it][2025-01-10 18:52:39,289] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:39,289] INFO: Processed A108.mp4 in 1.33 seconds
+
+Processing Videos:  18%|█▊        | 108/585 [03:59<13:58,  1.76s/it][2025-01-10 18:52:43,912] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:43,913] INFO: Processed A109.mp4 in 1.31 seconds
+
+Processing Videos:  19%|█▊        | 109/585 [04:04<20:45,  2.62s/it][2025-01-10 18:52:45,052] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:45,052] INFO: Processed A110.mp4 in 1.11 seconds
+
+Processing Videos:  19%|█▉        | 110/585 [04:05<17:13,  2.18s/it][2025-01-10 18:52:46,313] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:46,313] INFO: Processed B001.mp4 in 1.23 seconds
+
+Processing Videos:  19%|█▉        | 111/585 [04:06<15:01,  1.90s/it][2025-01-10 18:52:47,451] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:47,451] INFO: Processed B002.mp4 in 1.11 seconds
+
+Processing Videos:  19%|█▉        | 112/585 [04:07<13:10,  1.67s/it][2025-01-10 18:52:49,617] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:49,617] INFO: Processed B003.mp4 in 2.13 seconds
+
+Processing Videos:  19%|█▉        | 113/585 [04:09<14:19,  1.82s/it][2025-01-10 18:52:51,051] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:51,051] INFO: Processed B004.mp4 in 1.40 seconds
+
+Processing Videos:  19%|█▉        | 114/585 [04:11<13:22,  1.70s/it][2025-01-10 18:52:52,330] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:52,330] INFO: Processed B005.mp4 in 1.25 seconds
+
+Processing Videos:  20%|█▉        | 115/585 [04:12<12:21,  1.58s/it][2025-01-10 18:52:53,772] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:53,772] INFO: Processed B006.mp4 in 1.41 seconds
+
+Processing Videos:  20%|█▉        | 116/585 [04:14<12:00,  1.54s/it][2025-01-10 18:52:55,928] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:55,928] INFO: Processed B007.mp4 in 2.13 seconds
+
+Processing Videos:  20%|██        | 117/585 [04:16<13:26,  1.72s/it][2025-01-10 18:52:57,667] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:57,667] INFO: Processed B008.mp4 in 1.71 seconds
+
+Processing Videos:  20%|██        | 118/585 [04:17<13:26,  1.73s/it][2025-01-10 18:52:59,610] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:52:59,610] INFO: Processed B009.mp4 in 1.91 seconds
+
+Processing Videos:  20%|██        | 119/585 [04:19<13:54,  1.79s/it][2025-01-10 18:53:01,588] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:01,588] INFO: Processed B010.mp4 in 1.95 seconds
+
+Processing Videos:  21%|██        | 120/585 [04:21<14:19,  1.85s/it][2025-01-10 18:53:03,429] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:03,429] INFO: Processed B011.mp4 in 1.81 seconds
+
+Processing Videos:  21%|██        | 121/585 [04:23<14:16,  1.85s/it][2025-01-10 18:53:04,748] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:04,748] INFO: Processed B012.mp4 in 1.29 seconds
+
+Processing Videos:  21%|██        | 122/585 [04:24<13:01,  1.69s/it][2025-01-10 18:53:06,700] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:06,700] INFO: Processed B013.mp4 in 1.92 seconds
+
+Processing Videos:  21%|██        | 123/585 [04:26<13:36,  1.77s/it][2025-01-10 18:53:08,046] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:08,046] INFO: Processed B014.mp4 in 1.31 seconds
+
+Processing Videos:  21%|██        | 124/585 [04:28<12:35,  1.64s/it][2025-01-10 18:53:09,877] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:09,877] INFO: Processed B015.mp4 in 1.80 seconds
+
+Processing Videos:  21%|██▏       | 125/585 [04:30<13:01,  1.70s/it][2025-01-10 18:53:11,461] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:11,461] INFO: Processed B016.mp4 in 1.55 seconds
+
+Processing Videos:  22%|██▏       | 126/585 [04:31<12:43,  1.66s/it][2025-01-10 18:53:13,616] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:13,616] INFO: Processed B017.mp4 in 2.12 seconds
+
+Processing Videos:  22%|██▏       | 127/585 [04:33<13:49,  1.81s/it][2025-01-10 18:53:14,760] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:14,760] INFO: Processed B018.mp4 in 1.11 seconds
+
+Processing Videos:  22%|██▏       | 128/585 [04:35<12:16,  1.61s/it][2025-01-10 18:53:16,531] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:16,531] INFO: Processed B019.mp4 in 1.74 seconds
+
+Processing Videos:  22%|██▏       | 129/585 [04:36<12:36,  1.66s/it][2025-01-10 18:53:18,055] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:18,055] INFO: Processed B020.mp4 in 1.49 seconds
+
+Processing Videos:  22%|██▏       | 130/585 [04:38<12:16,  1.62s/it][2025-01-10 18:53:19,706] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:19,706] INFO: Processed B021.mp4 in 1.62 seconds
+
+Processing Videos:  22%|██▏       | 131/585 [04:39<12:19,  1.63s/it][2025-01-10 18:53:21,380] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:21,380] INFO: Processed B022.mp4 in 1.64 seconds
+
+Processing Videos:  23%|██▎       | 132/585 [04:41<12:23,  1.64s/it][2025-01-10 18:53:22,962] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:22,962] INFO: Processed B023.mp4 in 1.55 seconds
+
+Processing Videos:  23%|██▎       | 133/585 [04:43<12:14,  1.63s/it][2025-01-10 18:53:24,293] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:24,293] INFO: Processed B024.mp4 in 1.29 seconds
+
+Processing Videos:  23%|██▎       | 134/585 [04:44<11:33,  1.54s/it][2025-01-10 18:53:25,828] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:25,829] INFO: Processed B025.mp4 in 1.50 seconds
+
+Processing Videos:  23%|██▎       | 135/585 [04:46<11:30,  1.54s/it][2025-01-10 18:53:27,208] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:27,208] INFO: Processed B026.mp4 in 1.35 seconds
+
+Processing Videos:  23%|██▎       | 136/585 [04:47<11:08,  1.49s/it][2025-01-10 18:53:29,059] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:29,059] INFO: Processed B027.mp4 in 1.82 seconds
+
+Processing Videos:  23%|██▎       | 137/585 [04:49<11:56,  1.60s/it][2025-01-10 18:53:30,678] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:30,678] INFO: Processed B028.mp4 in 1.58 seconds
+
+Processing Videos:  24%|██▎       | 138/585 [04:50<11:56,  1.60s/it][2025-01-10 18:53:32,190] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:32,190] INFO: Processed B029.mp4 in 1.48 seconds
+
+Processing Videos:  24%|██▍       | 139/585 [04:52<11:43,  1.58s/it][2025-01-10 18:53:33,689] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:33,689] INFO: Processed B030.mp4 in 1.46 seconds
+
+Processing Videos:  24%|██▍       | 140/585 [04:53<11:31,  1.55s/it][2025-01-10 18:53:34,948] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:34,948] INFO: Processed B031.mp4 in 1.22 seconds
+
+Processing Videos:  24%|██▍       | 141/585 [04:55<10:49,  1.46s/it][2025-01-10 18:53:36,614] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:36,614] INFO: Processed B032.mp4 in 1.63 seconds
+
+Processing Videos:  24%|██▍       | 142/585 [04:56<11:15,  1.52s/it][2025-01-10 18:53:38,113] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:38,113] INFO: Processed B033.mp4 in 1.47 seconds
+
+Processing Videos:  24%|██▍       | 143/585 [04:58<11:10,  1.52s/it][2025-01-10 18:53:39,626] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:39,628] INFO: Processed B034.mp4 in 1.48 seconds
+
+Processing Videos:  25%|██▍       | 144/585 [04:59<11:08,  1.52s/it][2025-01-10 18:53:41,569] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:41,569] INFO: Processed B035.mp4 in 1.91 seconds
+
+Processing Videos:  25%|██▍       | 145/585 [05:01<12:03,  1.64s/it][2025-01-10 18:53:43,189] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:43,189] INFO: Processed B036.mp4 in 1.59 seconds
+
+Processing Videos:  25%|██▍       | 146/585 [05:03<11:58,  1.64s/it][2025-01-10 18:53:45,029] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:45,029] INFO: Processed B037.mp4 in 1.81 seconds
+
+Processing Videos:  25%|██▌       | 147/585 [05:05<12:24,  1.70s/it][2025-01-10 18:53:46,688] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:46,688] INFO: Processed B038.mp4 in 1.62 seconds
+
+Processing Videos:  25%|██▌       | 148/585 [05:06<12:16,  1.69s/it][2025-01-10 18:53:48,265] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:48,265] INFO: Processed B039.mp4 in 1.54 seconds
+
+Processing Videos:  25%|██▌       | 149/585 [05:08<12:00,  1.65s/it][2025-01-10 18:53:50,193] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:50,193] INFO: Processed B040.mp4 in 1.89 seconds
+
+Processing Videos:  26%|██▌       | 150/585 [05:10<12:34,  1.74s/it][2025-01-10 18:53:51,588] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:51,588] INFO: Processed B041.mp4 in 1.36 seconds
+
+Processing Videos:  26%|██▌       | 151/585 [05:11<11:48,  1.63s/it][2025-01-10 18:53:53,203] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:53,203] INFO: Processed B042.mp4 in 1.58 seconds
+
+Processing Videos:  26%|██▌       | 152/585 [05:13<11:45,  1.63s/it][2025-01-10 18:53:54,586] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:54,586] INFO: Processed B043.mp4 in 1.35 seconds
+
+Processing Videos:  26%|██▌       | 153/585 [05:14<11:11,  1.55s/it][2025-01-10 18:53:56,205] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:56,205] INFO: Processed B044.mp4 in 1.59 seconds
+
+Processing Videos:  26%|██▋       | 154/585 [05:16<11:18,  1.57s/it][2025-01-10 18:53:57,758] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:57,758] INFO: Processed B045.mp4 in 1.52 seconds
+
+Processing Videos:  26%|██▋       | 155/585 [05:18<11:14,  1.57s/it][2025-01-10 18:53:59,095] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:53:59,095] INFO: Processed B046.mp4 in 1.30 seconds
+
+Processing Videos:  27%|██▋       | 156/585 [05:19<10:42,  1.50s/it][2025-01-10 18:54:00,842] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:00,842] INFO: Processed B047.mp4 in 1.72 seconds
+
+Processing Videos:  27%|██▋       | 157/585 [05:21<11:13,  1.57s/it][2025-01-10 18:54:02,434] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:02,434] INFO: Processed B048.mp4 in 1.56 seconds
+
+Processing Videos:  27%|██▋       | 158/585 [05:22<11:14,  1.58s/it][2025-01-10 18:54:04,229] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:04,229] INFO: Processed B049.mp4 in 1.76 seconds
+
+Processing Videos:  27%|██▋       | 159/585 [05:24<11:40,  1.64s/it][2025-01-10 18:54:05,770] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:05,770] INFO: Processed B050.mp4 in 1.51 seconds
+
+Processing Videos:  27%|██▋       | 160/585 [05:26<11:25,  1.61s/it][2025-01-10 18:54:07,156] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:07,156] INFO: Processed B051.mp4 in 1.35 seconds
+
+Processing Videos:  28%|██▊       | 161/585 [05:27<10:54,  1.54s/it][2025-01-10 18:54:08,594] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:08,594] INFO: Processed B052.mp4 in 1.41 seconds
+
+Processing Videos:  28%|██▊       | 162/585 [05:28<10:39,  1.51s/it][2025-01-10 18:54:10,229] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:10,229] INFO: Processed B053.mp4 in 1.60 seconds
+
+Processing Videos:  28%|██▊       | 163/585 [05:30<10:53,  1.55s/it][2025-01-10 18:54:16,423] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:16,423] INFO: Processed B054.mp4 in 1.32 seconds
+
+Processing Videos:  28%|██▊       | 164/585 [05:36<20:38,  2.94s/it][2025-01-10 18:54:18,527] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:18,527] INFO: Processed B055.mp4 in 2.07 seconds
+
+Processing Videos:  28%|██▊       | 165/585 [05:38<18:50,  2.69s/it][2025-01-10 18:54:20,521] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:20,521] INFO: Processed B056.mp4 in 1.96 seconds
+
+Processing Videos:  28%|██▊       | 166/585 [05:40<17:19,  2.48s/it][2025-01-10 18:54:21,972] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:21,972] INFO: Processed B057.mp4 in 1.42 seconds
+
+Processing Videos:  29%|██▊       | 167/585 [05:42<15:08,  2.17s/it][2025-01-10 18:54:23,581] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:23,581] INFO: Processed B058.mp4 in 1.57 seconds
+
+Processing Videos:  29%|██▊       | 168/585 [05:43<13:55,  2.00s/it][2025-01-10 18:54:25,405] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:25,405] INFO: Processed B059.mp4 in 1.79 seconds
+
+Processing Videos:  29%|██▉       | 169/585 [05:45<13:30,  1.95s/it][2025-01-10 18:54:26,775] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:26,776] INFO: Processed B060.mp4 in 1.34 seconds
+
+Processing Videos:  29%|██▉       | 170/585 [05:47<12:16,  1.78s/it][2025-01-10 18:54:28,462] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:28,462] INFO: Processed B061.mp4 in 1.65 seconds
+
+Processing Videos:  29%|██▉       | 171/585 [05:48<12:03,  1.75s/it][2025-01-10 18:54:30,112] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:30,112] INFO: Processed B062.mp4 in 1.62 seconds
+
+Processing Videos:  29%|██▉       | 172/585 [05:50<11:49,  1.72s/it][2025-01-10 18:54:31,763] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:31,764] INFO: Processed B063.mp4 in 1.62 seconds
+
+Processing Videos:  30%|██▉       | 173/585 [05:52<11:40,  1.70s/it][2025-01-10 18:54:33,421] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:33,421] INFO: Processed B064.mp4 in 1.62 seconds
+
+Processing Videos:  30%|██▉       | 174/585 [05:53<11:32,  1.69s/it][2025-01-10 18:54:34,760] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:34,760] INFO: Processed B065.mp4 in 1.31 seconds
+
+Processing Videos:  30%|██▉       | 175/585 [05:55<10:48,  1.58s/it][2025-01-10 18:54:36,255] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:36,255] INFO: Processed B066.mp4 in 1.47 seconds
+
+Processing Videos:  30%|███       | 176/585 [05:56<10:36,  1.56s/it][2025-01-10 18:54:37,672] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:37,672] INFO: Processed B067.mp4 in 1.39 seconds
+
+Processing Videos:  30%|███       | 177/585 [05:57<10:17,  1.51s/it][2025-01-10 18:54:39,140] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:39,140] INFO: Processed B068.mp4 in 1.44 seconds
+
+Processing Videos:  30%|███       | 178/585 [05:59<10:10,  1.50s/it][2025-01-10 18:54:41,030] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:41,030] INFO: Processed B069.mp4 in 1.86 seconds
+
+Processing Videos:  31%|███       | 179/585 [06:01<10:57,  1.62s/it][2025-01-10 18:54:42,622] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:42,622] INFO: Processed B070.mp4 in 1.56 seconds
+
+Processing Videos:  31%|███       | 180/585 [06:02<10:52,  1.61s/it][2025-01-10 18:54:44,107] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:44,107] INFO: Processed B071.mp4 in 1.45 seconds
+
+Processing Videos:  31%|███       | 181/585 [06:04<10:34,  1.57s/it][2025-01-10 18:54:45,957] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:45,957] INFO: Processed B072.mp4 in 1.82 seconds
+
+Processing Videos:  31%|███       | 182/585 [06:06<11:07,  1.66s/it][2025-01-10 18:54:47,928] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:47,928] INFO: Processed B073.mp4 in 1.94 seconds
+
+Processing Videos:  31%|███▏      | 183/585 [06:08<11:43,  1.75s/it][2025-01-10 18:54:49,134] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:49,134] INFO: Processed B074.mp4 in 1.18 seconds
+
+Processing Videos:  31%|███▏      | 184/585 [06:09<10:36,  1.59s/it][2025-01-10 18:54:50,760] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:50,760] INFO: Processed B075.mp4 in 1.59 seconds
+
+Processing Videos:  32%|███▏      | 185/585 [06:11<10:39,  1.60s/it][2025-01-10 18:54:52,228] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:52,228] INFO: Processed B076.mp4 in 1.43 seconds
+
+Processing Videos:  32%|███▏      | 186/585 [06:12<10:21,  1.56s/it][2025-01-10 18:54:53,710] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:53,710] INFO: Processed B077.mp4 in 1.45 seconds
+
+Processing Videos:  32%|███▏      | 187/585 [06:13<10:11,  1.54s/it][2025-01-10 18:54:55,438] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:55,438] INFO: Processed B078.mp4 in 1.70 seconds
+
+Processing Videos:  32%|███▏      | 188/585 [06:15<10:33,  1.59s/it][2025-01-10 18:54:56,665] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:56,665] INFO: Processed B079.mp4 in 1.19 seconds
+
+Processing Videos:  32%|███▏      | 189/585 [06:16<09:47,  1.48s/it][2025-01-10 18:54:58,449] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:54:58,449] INFO: Processed B080.mp4 in 1.75 seconds
+
+Processing Videos:  32%|███▏      | 190/585 [06:18<10:21,  1.57s/it][2025-01-10 18:55:00,102] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:00,102] INFO: Processed B081.mp4 in 1.62 seconds
+
+Processing Videos:  33%|███▎      | 191/585 [06:20<10:29,  1.60s/it][2025-01-10 18:55:01,349] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:01,349] INFO: Processed B082.mp4 in 1.22 seconds
+
+Processing Videos:  33%|███▎      | 192/585 [06:21<09:46,  1.49s/it][2025-01-10 18:55:02,959] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:02,960] INFO: Processed B083.mp4 in 1.58 seconds
+
+Processing Videos:  33%|███▎      | 193/585 [06:23<09:58,  1.53s/it][2025-01-10 18:55:04,396] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:04,396] INFO: Processed B084.mp4 in 1.41 seconds
+
+Processing Videos:  33%|███▎      | 194/585 [06:24<09:46,  1.50s/it][2025-01-10 18:55:05,747] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:05,747] INFO: Processed B085.mp4 in 1.32 seconds
+
+Processing Videos:  33%|███▎      | 195/585 [06:25<09:27,  1.46s/it][2025-01-10 18:55:07,476] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:07,478] INFO: Processed B086.mp4 in 1.70 seconds
+
+Processing Videos:  34%|███▎      | 196/585 [06:27<09:58,  1.54s/it][2025-01-10 18:55:09,324] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:09,324] INFO: Processed B087.mp4 in 1.82 seconds
+
+Processing Videos:  34%|███▎      | 197/585 [06:29<10:32,  1.63s/it][2025-01-10 18:55:10,817] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:10,817] INFO: Processed B088.mp4 in 1.46 seconds
+
+Processing Videos:  34%|███▍      | 198/585 [06:31<10:15,  1.59s/it][2025-01-10 18:55:12,271] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:12,271] INFO: Processed B089.mp4 in 1.42 seconds
+
+Processing Videos:  34%|███▍      | 199/585 [06:32<09:57,  1.55s/it][2025-01-10 18:55:13,585] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:13,585] INFO: Processed B090.mp4 in 1.28 seconds
+
+Processing Videos:  34%|███▍      | 200/585 [06:33<09:29,  1.48s/it][2025-01-10 18:55:15,134] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:15,134] INFO: Processed B091.mp4 in 1.52 seconds
+
+Processing Videos:  34%|███▍      | 201/585 [06:35<09:35,  1.50s/it][2025-01-10 18:55:16,803] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:16,803] INFO: Processed B092.mp4 in 1.64 seconds
+
+Processing Videos:  35%|███▍      | 202/585 [06:37<09:53,  1.55s/it][2025-01-10 18:55:18,385] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:18,385] INFO: Processed B093.mp4 in 1.55 seconds
+
+Processing Videos:  35%|███▍      | 203/585 [06:38<09:55,  1.56s/it][2025-01-10 18:55:19,938] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:19,938] INFO: Processed B094.mp4 in 1.52 seconds
+
+Processing Videos:  35%|███▍      | 204/585 [06:40<09:53,  1.56s/it][2025-01-10 18:55:21,493] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:21,493] INFO: Processed B095.mp4 in 1.52 seconds
+
+Processing Videos:  35%|███▌      | 205/585 [06:41<09:51,  1.56s/it][2025-01-10 18:55:22,977] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:22,977] INFO: Processed B096.mp4 in 1.45 seconds
+
+Processing Videos:  35%|███▌      | 206/585 [06:43<09:41,  1.53s/it][2025-01-10 18:55:24,619] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:24,619] INFO: Processed B097.mp4 in 1.61 seconds
+
+Processing Videos:  35%|███▌      | 207/585 [06:44<09:52,  1.57s/it][2025-01-10 18:55:26,260] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:26,260] INFO: Processed B098.mp4 in 1.61 seconds
+
+Processing Videos:  36%|███▌      | 208/585 [06:46<09:59,  1.59s/it][2025-01-10 18:55:27,675] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:27,675] INFO: Processed B099.mp4 in 1.38 seconds
+
+Processing Videos:  36%|███▌      | 209/585 [06:47<09:37,  1.54s/it][2025-01-10 18:55:29,681] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:29,682] INFO: Processed B100.mp4 in 1.98 seconds
+
+Processing Videos:  36%|███▌      | 210/585 [06:49<10:29,  1.68s/it][2025-01-10 18:55:31,390] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:31,390] INFO: Processed B101.mp4 in 1.68 seconds
+
+Processing Videos:  36%|███▌      | 211/585 [06:51<10:31,  1.69s/it][2025-01-10 18:55:33,120] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:33,120] INFO: Processed B102.mp4 in 1.70 seconds
+
+Processing Videos:  36%|███▌      | 212/585 [06:53<10:33,  1.70s/it][2025-01-10 18:55:34,908] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:34,908] INFO: Processed B103.mp4 in 1.76 seconds
+
+Processing Videos:  36%|███▋      | 213/585 [06:55<10:42,  1.73s/it][2025-01-10 18:55:36,519] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:36,519] INFO: Processed B104.mp4 in 1.58 seconds
+
+Processing Videos:  37%|███▋      | 214/585 [06:56<10:27,  1.69s/it][2025-01-10 18:55:37,923] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:37,923] INFO: Processed B105.mp4 in 1.37 seconds
+
+Processing Videos:  37%|███▋      | 215/585 [06:58<09:52,  1.60s/it][2025-01-10 18:55:39,432] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:39,432] INFO: Processed B106.mp4 in 1.49 seconds
+
+Processing Videos:  37%|███▋      | 216/585 [06:59<09:41,  1.58s/it][2025-01-10 18:55:40,835] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:40,836] INFO: Processed B107.mp4 in 1.37 seconds
+
+Processing Videos:  37%|███▋      | 217/585 [07:01<09:21,  1.53s/it][2025-01-10 18:55:42,444] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:42,444] INFO: Processed B108.mp4 in 1.58 seconds
+
+Processing Videos:  37%|███▋      | 218/585 [07:02<09:29,  1.55s/it][2025-01-10 18:55:43,793] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:43,793] INFO: Processed B109.mp4 in 1.32 seconds
+
+Processing Videos:  37%|███▋      | 219/585 [07:04<09:05,  1.49s/it][2025-01-10 18:55:45,600] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:45,600] INFO: Processed B110.mp4 in 1.77 seconds
+
+Processing Videos:  38%|███▊      | 220/585 [07:05<09:38,  1.59s/it][2025-01-10 18:55:47,085] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:47,085] INFO: Processed B111.mp4 in 1.45 seconds
+
+Processing Videos:  38%|███▊      | 221/585 [07:07<09:26,  1.55s/it][2025-01-10 18:55:48,544] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:48,545] INFO: Processed B112.mp4 in 1.43 seconds
+
+Processing Videos:  38%|███▊      | 222/585 [07:08<09:14,  1.53s/it][2025-01-10 18:55:50,003] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:50,003] INFO: Processed B113.mp4 in 1.43 seconds
+
+Processing Videos:  38%|███▊      | 223/585 [07:10<09:05,  1.51s/it][2025-01-10 18:55:51,426] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:51,426] INFO: Processed B114.mp4 in 1.39 seconds
+
+Processing Videos:  38%|███▊      | 224/585 [07:11<08:54,  1.48s/it][2025-01-10 18:55:52,656] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:52,656] INFO: Processed B115.mp4 in 1.20 seconds
+
+Processing Videos:  38%|███▊      | 225/585 [07:12<08:25,  1.40s/it][2025-01-10 18:55:54,170] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:54,170] INFO: Processed B116.mp4 in 1.49 seconds
+
+Processing Videos:  39%|███▊      | 226/585 [07:14<08:36,  1.44s/it][2025-01-10 18:55:55,768] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:55,768] INFO: Processed B117.mp4 in 1.56 seconds
+
+Processing Videos:  39%|███▉      | 227/585 [07:16<08:51,  1.48s/it][2025-01-10 18:55:57,831] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:57,831] INFO: Processed B118.mp4 in 2.04 seconds
+
+Processing Videos:  39%|███▉      | 228/585 [07:18<09:52,  1.66s/it][2025-01-10 18:55:59,841] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:55:59,841] INFO: Processed B119.mp4 in 1.98 seconds
+
+Processing Videos:  39%|███▉      | 229/585 [07:20<10:28,  1.77s/it][2025-01-10 18:56:01,517] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:01,518] INFO: Processed B120.mp4 in 1.64 seconds
+
+Processing Videos:  39%|███▉      | 230/585 [07:21<10:17,  1.74s/it][2025-01-10 18:56:03,266] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:03,266] INFO: Processed B121.mp4 in 1.72 seconds
+
+Processing Videos:  39%|███▉      | 231/585 [07:23<10:16,  1.74s/it][2025-01-10 18:56:05,275] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:05,275] INFO: Processed B122.mp4 in 1.98 seconds
+
+Processing Videos:  40%|███▉      | 232/585 [07:25<10:43,  1.82s/it][2025-01-10 18:56:06,589] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:06,590] INFO: Processed B123.mp4 in 1.28 seconds
+
+Processing Videos:  40%|███▉      | 233/585 [07:26<09:47,  1.67s/it][2025-01-10 18:56:07,758] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:07,758] INFO: Processed B124.mp4 in 1.13 seconds
+
+Processing Videos:  40%|████      | 234/585 [07:28<08:52,  1.52s/it][2025-01-10 18:56:09,224] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:09,224] INFO: Processed B125.mp4 in 1.43 seconds
+
+Processing Videos:  40%|████      | 235/585 [07:29<08:45,  1.50s/it][2025-01-10 18:56:10,733] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:10,733] INFO: Processed B126.mp4 in 1.48 seconds
+
+Processing Videos:  40%|████      | 236/585 [07:30<08:45,  1.50s/it][2025-01-10 18:56:12,462] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:12,462] INFO: Processed B127.mp4 in 1.70 seconds
+
+Processing Videos:  41%|████      | 237/585 [07:32<09:07,  1.57s/it][2025-01-10 18:56:14,155] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:14,155] INFO: Processed B128.mp4 in 1.66 seconds
+
+Processing Videos:  41%|████      | 238/585 [07:34<09:18,  1.61s/it][2025-01-10 18:56:15,701] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:15,701] INFO: Processed B129.mp4 in 1.51 seconds
+
+Processing Videos:  41%|████      | 239/585 [07:35<09:09,  1.59s/it][2025-01-10 18:56:17,608] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:17,608] INFO: Processed B130.mp4 in 1.88 seconds
+
+Processing Videos:  41%|████      | 240/585 [07:37<09:41,  1.69s/it][2025-01-10 18:56:19,393] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:19,393] INFO: Processed B131.mp4 in 1.75 seconds
+
+Processing Videos:  41%|████      | 241/585 [07:39<09:50,  1.72s/it][2025-01-10 18:56:20,830] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:20,830] INFO: Processed B132.mp4 in 1.40 seconds
+
+Processing Videos:  41%|████▏     | 242/585 [07:41<09:19,  1.63s/it][2025-01-10 18:56:22,480] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:22,480] INFO: Processed B133.mp4 in 1.62 seconds
+
+Processing Videos:  42%|████▏     | 243/585 [07:42<09:20,  1.64s/it][2025-01-10 18:56:23,856] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:23,856] INFO: Processed B134.mp4 in 1.34 seconds
+
+Processing Videos:  42%|████▏     | 244/585 [07:44<08:51,  1.56s/it][2025-01-10 18:56:25,460] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:25,461] INFO: Processed B135.mp4 in 1.57 seconds
+
+Processing Videos:  42%|████▏     | 245/585 [07:45<08:54,  1.57s/it][2025-01-10 18:56:26,730] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:26,730] INFO: Processed B136.mp4 in 1.23 seconds
+
+Processing Videos:  42%|████▏     | 246/585 [07:46<08:21,  1.48s/it][2025-01-10 18:56:28,236] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:28,236] INFO: Processed B137.mp4 in 1.48 seconds
+
+Processing Videos:  42%|████▏     | 247/585 [07:48<08:23,  1.49s/it][2025-01-10 18:56:29,723] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:29,723] INFO: Processed B138.mp4 in 1.46 seconds
+
+Processing Videos:  42%|████▏     | 248/585 [07:49<08:21,  1.49s/it][2025-01-10 18:56:30,943] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:30,943] INFO: Processed B139.mp4 in 1.19 seconds
+
+Processing Videos:  43%|████▎     | 249/585 [07:51<07:53,  1.41s/it][2025-01-10 18:56:32,342] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:32,342] INFO: Processed B140.mp4 in 1.37 seconds
+
+Processing Videos:  43%|████▎     | 250/585 [07:52<07:50,  1.40s/it][2025-01-10 18:56:33,525] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:33,525] INFO: Processed B141.mp4 in 1.15 seconds
+
+Processing Videos:  43%|████▎     | 251/585 [07:53<07:27,  1.34s/it][2025-01-10 18:56:35,145] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:35,145] INFO: Processed B142.mp4 in 1.58 seconds
+
+Processing Videos:  43%|████▎     | 252/585 [07:55<07:53,  1.42s/it][2025-01-10 18:56:36,562] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:36,562] INFO: Processed B143.mp4 in 1.39 seconds
+
+Processing Videos:  43%|████▎     | 253/585 [07:56<07:51,  1.42s/it][2025-01-10 18:56:37,756] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:37,756] INFO: Processed B144.mp4 in 1.16 seconds
+
+Processing Videos:  43%|████▎     | 254/585 [07:58<07:28,  1.35s/it][2025-01-10 18:56:39,285] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:39,285] INFO: Processed B145.mp4 in 1.49 seconds
+
+Processing Videos:  44%|████▎     | 255/585 [07:59<07:44,  1.41s/it][2025-01-10 18:56:40,803] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:40,803] INFO: Processed B146.mp4 in 1.48 seconds
+
+Processing Videos:  44%|████▍     | 256/585 [08:01<07:53,  1.44s/it][2025-01-10 18:56:42,269] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:42,269] INFO: Processed B147.mp4 in 1.43 seconds
+
+Processing Videos:  44%|████▍     | 257/585 [08:02<07:54,  1.45s/it][2025-01-10 18:56:43,860] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:43,860] INFO: Processed B148.mp4 in 1.56 seconds
+
+Processing Videos:  44%|████▍     | 258/585 [08:04<08:07,  1.49s/it][2025-01-10 18:56:45,853] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:45,853] INFO: Processed B149.mp4 in 1.96 seconds
+
+Processing Videos:  44%|████▍     | 259/585 [08:06<08:54,  1.64s/it][2025-01-10 18:56:47,190] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:47,190] INFO: Processed B150.mp4 in 1.30 seconds
+
+Processing Videos:  44%|████▍     | 260/585 [08:07<08:23,  1.55s/it][2025-01-10 18:56:48,449] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:48,449] INFO: Processed B151.mp4 in 1.22 seconds
+
+Processing Videos:  45%|████▍     | 261/585 [08:08<07:53,  1.46s/it][2025-01-10 18:56:49,782] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:49,782] INFO: Processed B152.mp4 in 1.30 seconds
+
+Processing Videos:  45%|████▍     | 262/585 [08:10<07:39,  1.42s/it][2025-01-10 18:56:51,034] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:51,034] INFO: Processed B153.mp4 in 1.22 seconds
+
+Processing Videos:  45%|████▍     | 263/585 [08:11<07:21,  1.37s/it][2025-01-10 18:56:52,365] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:52,365] INFO: Processed B154.mp4 in 1.30 seconds
+
+Processing Videos:  45%|████▌     | 264/585 [08:12<07:16,  1.36s/it][2025-01-10 18:56:54,409] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:54,410] INFO: Processed B155.mp4 in 2.01 seconds
+
+Processing Videos:  45%|████▌     | 265/585 [08:14<08:20,  1.56s/it][2025-01-10 18:56:56,199] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:56,199] INFO: Processed B156.mp4 in 1.76 seconds
+
+Processing Videos:  45%|████▌     | 266/585 [08:16<08:41,  1.63s/it][2025-01-10 18:56:57,988] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:57,988] INFO: Processed B157.mp4 in 1.75 seconds
+
+Processing Videos:  46%|████▌     | 267/585 [08:18<08:54,  1.68s/it][2025-01-10 18:56:59,261] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:56:59,261] INFO: Processed B158.mp4 in 1.24 seconds
+
+Processing Videos:  46%|████▌     | 268/585 [08:19<08:13,  1.56s/it][2025-01-10 18:57:00,793] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:00,793] INFO: Processed B159.mp4 in 1.50 seconds
+
+Processing Videos:  46%|████▌     | 269/585 [08:21<08:09,  1.55s/it][2025-01-10 18:57:02,248] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:02,248] INFO: Processed B160.mp4 in 1.42 seconds
+
+Processing Videos:  46%|████▌     | 270/585 [08:22<07:59,  1.52s/it][2025-01-10 18:57:04,071] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:04,071] INFO: Processed B161.mp4 in 1.79 seconds
+
+Processing Videos:  46%|████▋     | 271/585 [08:24<08:26,  1.61s/it][2025-01-10 18:57:05,656] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:05,656] INFO: Processed B162.mp4 in 1.55 seconds
+
+Processing Videos:  46%|████▋     | 272/585 [08:25<08:22,  1.60s/it][2025-01-10 18:57:07,289] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:07,289] INFO: Processed B163.mp4 in 1.60 seconds
+
+Processing Videos:  47%|████▋     | 273/585 [08:27<08:22,  1.61s/it][2025-01-10 18:57:08,806] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:08,806] INFO: Processed B164.mp4 in 1.49 seconds
+
+Processing Videos:  47%|████▋     | 274/585 [08:29<08:12,  1.58s/it][2025-01-10 18:57:10,119] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:10,119] INFO: Processed B165.mp4 in 1.28 seconds
+
+Processing Videos:  47%|████▋     | 275/585 [08:30<07:45,  1.50s/it][2025-01-10 18:57:11,388] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:11,388] INFO: Processed B166.mp4 in 1.23 seconds
+
+Processing Videos:  47%|████▋     | 276/585 [08:31<07:22,  1.43s/it][2025-01-10 18:57:12,561] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:12,561] INFO: Processed B167.mp4 in 1.14 seconds
+
+Processing Videos:  47%|████▋     | 277/585 [08:32<06:57,  1.35s/it][2025-01-10 18:57:13,649] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:13,649] INFO: Processed B168.mp4 in 1.05 seconds
+
+Processing Videos:  48%|████▊     | 278/585 [08:33<06:30,  1.27s/it][2025-01-10 18:57:15,164] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:15,164] INFO: Processed B169.mp4 in 1.48 seconds
+
+Processing Videos:  48%|████▊     | 279/585 [08:35<06:52,  1.35s/it][2025-01-10 18:57:16,727] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:16,727] INFO: Processed B170.mp4 in 1.53 seconds
+
+Processing Videos:  48%|████▊     | 280/585 [08:36<07:10,  1.41s/it][2025-01-10 18:57:17,937] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:17,938] INFO: Processed B171.mp4 in 1.18 seconds
+
+Processing Videos:  48%|████▊     | 281/585 [08:38<06:50,  1.35s/it][2025-01-10 18:57:19,623] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:19,623] INFO: Processed B172.mp4 in 1.65 seconds
+
+Processing Videos:  48%|████▊     | 282/585 [08:39<07:19,  1.45s/it][2025-01-10 18:57:21,096] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:21,096] INFO: Processed B173.mp4 in 1.44 seconds
+
+Processing Videos:  48%|████▊     | 283/585 [08:41<07:20,  1.46s/it][2025-01-10 18:57:22,700] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:22,700] INFO: Processed B174.mp4 in 1.57 seconds
+
+Processing Videos:  49%|████▊     | 284/585 [08:42<07:32,  1.50s/it][2025-01-10 18:57:24,240] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:24,240] INFO: Processed B175.mp4 in 1.51 seconds
+
+Processing Videos:  49%|████▊     | 285/585 [08:44<07:33,  1.51s/it][2025-01-10 18:57:25,768] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:25,769] INFO: Processed B176.mp4 in 1.50 seconds
+
+Processing Videos:  49%|████▉     | 286/585 [08:46<07:33,  1.52s/it][2025-01-10 18:57:27,137] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:27,137] INFO: Processed B177.mp4 in 1.34 seconds
+
+Processing Videos:  49%|████▉     | 287/585 [08:47<07:19,  1.47s/it][2025-01-10 18:57:28,879] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:28,879] INFO: Processed B178.mp4 in 1.71 seconds
+
+Processing Videos:  49%|████▉     | 288/585 [08:49<07:41,  1.55s/it][2025-01-10 18:57:30,379] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:30,379] INFO: Processed B179.mp4 in 1.47 seconds
+
+Processing Videos:  49%|████▉     | 289/585 [08:50<07:35,  1.54s/it][2025-01-10 18:57:31,848] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:31,848] INFO: Processed B180.mp4 in 1.44 seconds
+
+Processing Videos:  50%|████▉     | 290/585 [08:52<07:27,  1.52s/it][2025-01-10 18:57:33,502] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:33,502] INFO: Processed B181.mp4 in 1.62 seconds
+
+Processing Videos:  50%|████▉     | 291/585 [08:53<07:38,  1.56s/it][2025-01-10 18:57:34,978] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:34,978] INFO: Processed B182.mp4 in 1.44 seconds
+
+Processing Videos:  50%|████▉     | 292/585 [08:55<07:29,  1.53s/it][2025-01-10 18:57:36,423] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:36,426] INFO: Processed B183.mp4 in 1.41 seconds
+
+Processing Videos:  50%|█████     | 293/585 [08:56<07:19,  1.51s/it][2025-01-10 18:57:37,743] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:37,743] INFO: Processed B184.mp4 in 1.29 seconds
+
+Processing Videos:  50%|█████     | 294/585 [08:57<07:02,  1.45s/it][2025-01-10 18:57:39,355] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:39,356] INFO: Processed B185.mp4 in 1.58 seconds
+
+Processing Videos:  50%|█████     | 295/585 [08:59<07:14,  1.50s/it][2025-01-10 18:57:40,782] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:40,782] INFO: Processed B186.mp4 in 1.39 seconds
+
+Processing Videos:  51%|█████     | 296/585 [09:01<07:06,  1.48s/it][2025-01-10 18:57:42,158] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:42,158] INFO: Processed B187.mp4 in 1.35 seconds
+
+Processing Videos:  51%|█████     | 297/585 [09:02<06:56,  1.45s/it][2025-01-10 18:57:43,674] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:43,674] INFO: Processed B188.mp4 in 1.48 seconds
+
+Processing Videos:  51%|█████     | 298/585 [09:03<07:01,  1.47s/it][2025-01-10 18:57:44,940] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:44,941] INFO: Processed B189.mp4 in 1.23 seconds
+
+Processing Videos:  51%|█████     | 299/585 [09:05<06:42,  1.41s/it][2025-01-10 18:57:46,615] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:46,615] INFO: Processed B190.mp4 in 1.64 seconds
+
+Processing Videos:  51%|█████▏    | 300/585 [09:06<07:03,  1.49s/it][2025-01-10 18:57:47,823] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:47,823] INFO: Processed B191.mp4 in 1.18 seconds
+
+Processing Videos:  51%|█████▏    | 301/585 [09:08<06:38,  1.40s/it][2025-01-10 18:57:49,583] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:49,583] INFO: Processed B192.mp4 in 1.73 seconds
+
+Processing Videos:  52%|█████▏    | 302/585 [09:09<07:06,  1.51s/it][2025-01-10 18:57:51,257] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:51,257] INFO: Processed B193.mp4 in 1.65 seconds
+
+Processing Videos:  52%|█████▏    | 303/585 [09:11<07:20,  1.56s/it][2025-01-10 18:57:52,851] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:52,852] INFO: Processed B194.mp4 in 1.56 seconds
+
+Processing Videos:  52%|█████▏    | 304/585 [09:13<07:21,  1.57s/it][2025-01-10 18:57:54,419] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:54,419] INFO: Processed B195.mp4 in 1.53 seconds
+
+Processing Videos:  52%|█████▏    | 305/585 [09:14<07:19,  1.57s/it][2025-01-10 18:57:55,765] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:55,766] INFO: Processed B196.mp4 in 1.31 seconds
+
+Processing Videos:  52%|█████▏    | 306/585 [09:16<06:59,  1.50s/it][2025-01-10 18:57:57,451] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:57,451] INFO: Processed B197.mp4 in 1.65 seconds
+
+Processing Videos:  52%|█████▏    | 307/585 [09:17<07:13,  1.56s/it][2025-01-10 18:57:58,920] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:57:58,920] INFO: Processed B198.mp4 in 1.43 seconds
+
+Processing Videos:  53%|█████▎    | 308/585 [09:19<07:04,  1.53s/it][2025-01-10 18:58:00,389] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:00,389] INFO: Processed B199.mp4 in 1.43 seconds
+
+Processing Videos:  53%|█████▎    | 309/585 [09:20<06:57,  1.51s/it][2025-01-10 18:58:01,877] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:01,877] INFO: Processed B200.mp4 in 1.46 seconds
+
+Processing Videos:  53%|█████▎    | 310/585 [09:22<06:53,  1.51s/it][2025-01-10 18:58:03,402] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:03,402] INFO: Processed B201.mp4 in 1.49 seconds
+
+Processing Videos:  53%|█████▎    | 311/585 [09:23<06:54,  1.51s/it][2025-01-10 18:58:04,974] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:04,975] INFO: Processed B202.mp4 in 1.54 seconds
+
+Processing Videos:  53%|█████▎    | 312/585 [09:25<06:57,  1.53s/it][2025-01-10 18:58:06,345] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:06,345] INFO: Processed B203.mp4 in 1.34 seconds
+
+Processing Videos:  54%|█████▎    | 313/585 [09:26<06:42,  1.48s/it][2025-01-10 18:58:07,689] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:07,689] INFO: Processed B204.mp4 in 1.31 seconds
+
+Processing Videos:  54%|█████▎    | 314/585 [09:27<06:29,  1.44s/it][2025-01-10 18:58:09,164] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:09,164] INFO: Processed B205.mp4 in 1.45 seconds
+
+Processing Videos:  54%|█████▍    | 315/585 [09:29<06:31,  1.45s/it][2025-01-10 18:58:10,926] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:10,926] INFO: Processed B206.mp4 in 1.73 seconds
+
+Processing Videos:  54%|█████▍    | 316/585 [09:31<06:55,  1.54s/it][2025-01-10 18:58:12,245] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:12,245] INFO: Processed B207.mp4 in 1.29 seconds
+
+Processing Videos:  54%|█████▍    | 317/585 [09:32<06:35,  1.48s/it][2025-01-10 18:58:13,597] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:13,597] INFO: Processed B208.mp4 in 1.32 seconds
+
+Processing Videos:  54%|█████▍    | 318/585 [09:33<06:24,  1.44s/it][2025-01-10 18:58:15,213] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:15,214] INFO: Processed B209.mp4 in 1.58 seconds
+
+Processing Videos:  55%|█████▍    | 319/585 [09:35<06:36,  1.49s/it][2025-01-10 18:58:16,966] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:16,966] INFO: Processed B210.mp4 in 1.72 seconds
+
+Processing Videos:  55%|█████▍    | 320/585 [09:37<06:56,  1.57s/it][2025-01-10 18:58:18,350] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:18,350] INFO: Processed B211.mp4 in 1.35 seconds
+
+Processing Videos:  55%|█████▍    | 321/585 [09:38<06:39,  1.51s/it][2025-01-10 18:58:19,683] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:19,683] INFO: Processed B212.mp4 in 1.30 seconds
+
+Processing Videos:  55%|█████▌    | 322/585 [09:39<06:23,  1.46s/it][2025-01-10 18:58:21,138] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:21,139] INFO: Processed B213.mp4 in 1.42 seconds
+
+Processing Videos:  55%|█████▌    | 323/585 [09:41<06:21,  1.46s/it][2025-01-10 18:58:23,040] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:23,040] INFO: Processed B214.mp4 in 1.87 seconds
+
+Processing Videos:  55%|█████▌    | 324/585 [09:43<06:55,  1.59s/it][2025-01-10 18:58:24,484] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:24,484] INFO: Processed B215.mp4 in 1.41 seconds
+
+Processing Videos:  56%|█████▌    | 325/585 [09:44<06:42,  1.55s/it][2025-01-10 18:58:26,124] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:26,124] INFO: Processed B216.mp4 in 1.61 seconds
+
+Processing Videos:  56%|█████▌    | 326/585 [09:46<06:48,  1.58s/it][2025-01-10 18:58:27,627] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:27,628] INFO: Processed B217.mp4 in 1.47 seconds
+
+Processing Videos:  56%|█████▌    | 327/585 [09:47<06:40,  1.55s/it][2025-01-10 18:58:29,425] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:29,425] INFO: Processed B218.mp4 in 1.77 seconds
+
+Processing Videos:  56%|█████▌    | 328/585 [09:49<06:58,  1.63s/it][2025-01-10 18:58:30,765] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:30,765] INFO: Processed B219.mp4 in 1.31 seconds
+
+Processing Videos:  56%|█████▌    | 329/585 [09:51<06:34,  1.54s/it][2025-01-10 18:58:32,086] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:32,086] INFO: Processed B220.mp4 in 1.29 seconds
+
+Processing Videos:  56%|█████▋    | 330/585 [09:52<06:16,  1.48s/it][2025-01-10 18:58:33,717] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:33,717] INFO: Processed B221.mp4 in 1.60 seconds
+
+Processing Videos:  57%|█████▋    | 331/585 [09:53<06:26,  1.52s/it][2025-01-10 18:58:34,919] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:34,919] INFO: Processed B222.mp4 in 1.17 seconds
+
+Processing Videos:  57%|█████▋    | 332/585 [09:55<06:00,  1.42s/it][2025-01-10 18:58:36,498] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:36,499] INFO: Processed B223.mp4 in 1.56 seconds
+
+Processing Videos:  57%|█████▋    | 333/585 [09:56<06:11,  1.47s/it][2025-01-10 18:58:38,331] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:38,331] INFO: Processed B224.mp4 in 1.80 seconds
+
+Processing Videos:  57%|█████▋    | 334/585 [09:58<06:36,  1.58s/it][2025-01-10 18:58:40,425] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:40,425] INFO: Processed B225.mp4 in 2.06 seconds
+
+Processing Videos:  57%|█████▋    | 335/585 [10:00<07:13,  1.74s/it][2025-01-10 18:58:42,430] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:42,430] INFO: Processed B226.mp4 in 1.97 seconds
+
+Processing Videos:  57%|█████▋    | 336/585 [10:02<07:32,  1.82s/it][2025-01-10 18:58:44,589] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:44,589] INFO: Processed B227.mp4 in 2.12 seconds
+
+Processing Videos:  58%|█████▊    | 337/585 [10:04<07:56,  1.92s/it][2025-01-10 18:58:46,493] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:46,494] INFO: Processed B228.mp4 in 1.87 seconds
+
+Processing Videos:  58%|█████▊    | 338/585 [10:06<07:52,  1.91s/it][2025-01-10 18:58:48,652] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:48,653] INFO: Processed B229.mp4 in 2.13 seconds
+
+Processing Videos:  58%|█████▊    | 339/585 [10:08<08:09,  1.99s/it][2025-01-10 18:58:49,794] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:49,794] INFO: Processed B230.mp4 in 1.11 seconds
+
+Processing Videos:  58%|█████▊    | 340/585 [10:10<07:04,  1.73s/it][2025-01-10 18:58:50,879] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:50,879] INFO: Processed B231.mp4 in 1.05 seconds
+
+Processing Videos:  58%|█████▊    | 341/585 [10:11<06:15,  1.54s/it][2025-01-10 18:58:52,395] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:52,395] INFO: Processed B232.mp4 in 1.48 seconds
+
+Processing Videos:  58%|█████▊    | 342/585 [10:12<06:11,  1.53s/it][2025-01-10 18:58:53,579] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:53,580] INFO: Processed B233.mp4 in 1.16 seconds
+
+Processing Videos:  59%|█████▊    | 343/585 [10:13<05:44,  1.42s/it][2025-01-10 18:58:55,197] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:55,197] INFO: Processed B234.mp4 in 1.60 seconds
+
+Processing Videos:  59%|█████▉    | 344/585 [10:15<05:58,  1.49s/it][2025-01-10 18:58:56,533] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:56,533] INFO: Processed B235.mp4 in 1.30 seconds
+
+Processing Videos:  59%|█████▉    | 345/585 [10:16<05:45,  1.44s/it][2025-01-10 18:58:58,165] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:58,165] INFO: Processed B236.mp4 in 1.60 seconds
+
+Processing Videos:  59%|█████▉    | 346/585 [10:18<05:58,  1.50s/it][2025-01-10 18:58:59,459] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:58:59,459] INFO: Processed B237.mp4 in 1.26 seconds
+
+Processing Videos:  59%|█████▉    | 347/585 [10:19<05:41,  1.43s/it][2025-01-10 18:59:01,098] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:01,098] INFO: Processed B238.mp4 in 1.61 seconds
+
+Processing Videos:  59%|█████▉    | 348/585 [10:21<05:55,  1.50s/it][2025-01-10 18:59:02,691] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:02,692] INFO: Processed B239.mp4 in 1.56 seconds
+
+Processing Videos:  60%|█████▉    | 349/585 [10:22<05:59,  1.52s/it][2025-01-10 18:59:04,514] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:04,514] INFO: Processed B240.mp4 in 1.80 seconds
+
+Processing Videos:  60%|█████▉    | 350/585 [10:24<06:20,  1.62s/it][2025-01-10 18:59:05,829] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:05,829] INFO: Processed B241.mp4 in 1.28 seconds
+
+Processing Videos:  60%|██████    | 351/585 [10:26<05:57,  1.53s/it][2025-01-10 18:59:07,394] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:07,394] INFO: Processed B242.mp4 in 1.53 seconds
+
+Processing Videos:  60%|██████    | 352/585 [10:27<05:57,  1.54s/it][2025-01-10 18:59:09,105] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:09,105] INFO: Processed B243.mp4 in 1.68 seconds
+
+Processing Videos:  60%|██████    | 353/585 [10:29<06:09,  1.59s/it][2025-01-10 18:59:10,750] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:10,750] INFO: Processed B244.mp4 in 1.61 seconds
+
+Processing Videos:  61%|██████    | 354/585 [10:31<06:11,  1.61s/it][2025-01-10 18:59:12,316] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:12,316] INFO: Processed B245.mp4 in 1.53 seconds
+
+Processing Videos:  61%|██████    | 355/585 [10:32<06:06,  1.59s/it][2025-01-10 18:59:13,653] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:13,653] INFO: Processed B246.mp4 in 1.30 seconds
+
+Processing Videos:  61%|██████    | 356/585 [10:33<05:47,  1.52s/it][2025-01-10 18:59:14,887] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:14,887] INFO: Processed B247.mp4 in 1.20 seconds
+
+Processing Videos:  61%|██████    | 357/585 [10:35<05:26,  1.43s/it][2025-01-10 18:59:16,174] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:16,174] INFO: Processed B248.mp4 in 1.25 seconds
+
+Processing Videos:  61%|██████    | 358/585 [10:36<05:15,  1.39s/it][2025-01-10 18:59:17,818] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:17,818] INFO: Processed B249.mp4 in 1.61 seconds
+
+Processing Videos:  61%|██████▏   | 359/585 [10:38<05:31,  1.47s/it][2025-01-10 18:59:19,534] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:19,535] INFO: Processed B250.mp4 in 1.68 seconds
+
+Processing Videos:  62%|██████▏   | 360/585 [10:39<05:46,  1.54s/it][2025-01-10 18:59:21,449] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:21,449] INFO: Processed B251.mp4 in 1.88 seconds
+
+Processing Videos:  62%|██████▏   | 361/585 [10:41<06:10,  1.65s/it][2025-01-10 18:59:22,743] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:22,743] INFO: Processed B252.mp4 in 1.26 seconds
+
+Processing Videos:  62%|██████▏   | 362/585 [10:42<05:44,  1.54s/it][2025-01-10 18:59:24,098] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:24,099] INFO: Processed B253.mp4 in 1.33 seconds
+
+Processing Videos:  62%|██████▏   | 363/585 [10:44<05:30,  1.49s/it][2025-01-10 18:59:25,672] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:25,672] INFO: Processed B254.mp4 in 1.54 seconds
+
+Processing Videos:  62%|██████▏   | 364/585 [10:45<05:34,  1.51s/it][2025-01-10 18:59:27,460] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:27,460] INFO: Processed B255.mp4 in 1.76 seconds
+
+Processing Videos:  62%|██████▏   | 365/585 [10:47<05:51,  1.60s/it][2025-01-10 18:59:28,942] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:28,942] INFO: Processed B256.mp4 in 1.45 seconds
+
+Processing Videos:  63%|██████▎   | 366/585 [10:49<05:41,  1.56s/it][2025-01-10 18:59:30,441] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:30,441] INFO: Processed B257.mp4 in 1.47 seconds
+
+Processing Videos:  63%|██████▎   | 367/585 [10:50<05:36,  1.54s/it][2025-01-10 18:59:31,856] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:31,857] INFO: Processed B258.mp4 in 1.38 seconds
+
+Processing Videos:  63%|██████▎   | 368/585 [10:52<05:26,  1.50s/it][2025-01-10 18:59:33,196] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:33,196] INFO: Processed B259.mp4 in 1.31 seconds
+
+Processing Videos:  63%|██████▎   | 369/585 [10:53<05:14,  1.45s/it][2025-01-10 18:59:34,584] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:34,584] INFO: Processed B260.mp4 in 1.36 seconds
+
+Processing Videos:  63%|██████▎   | 370/585 [10:54<05:07,  1.43s/it][2025-01-10 18:59:35,869] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:35,871] INFO: Processed B261.mp4 in 1.26 seconds
+
+Processing Videos:  63%|██████▎   | 371/585 [10:56<04:57,  1.39s/it][2025-01-10 18:59:37,520] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:37,520] INFO: Processed B262.mp4 in 1.62 seconds
+
+Processing Videos:  64%|██████▎   | 372/585 [10:57<05:12,  1.47s/it][2025-01-10 18:59:39,615] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:39,615] INFO: Processed B263.mp4 in 2.06 seconds
+
+Processing Videos:  64%|██████▍   | 373/585 [10:59<05:51,  1.66s/it][2025-01-10 18:59:40,942] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:40,943] INFO: Processed B264.mp4 in 1.30 seconds
+
+Processing Videos:  64%|██████▍   | 374/585 [11:01<05:28,  1.56s/it][2025-01-10 18:59:42,245] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:42,245] INFO: Processed B265.mp4 in 1.27 seconds
+
+Processing Videos:  64%|██████▍   | 375/585 [11:02<05:11,  1.48s/it][2025-01-10 18:59:43,722] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:43,722] INFO: Processed B266.mp4 in 1.44 seconds
+
+Processing Videos:  64%|██████▍   | 376/585 [11:03<05:09,  1.48s/it][2025-01-10 18:59:45,416] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:45,416] INFO: Processed B267.mp4 in 1.66 seconds
+
+Processing Videos:  64%|██████▍   | 377/585 [11:05<05:21,  1.54s/it][2025-01-10 18:59:46,777] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:46,777] INFO: Processed B268.mp4 in 1.33 seconds
+
+Processing Videos:  65%|██████▍   | 378/585 [11:07<05:08,  1.49s/it][2025-01-10 18:59:48,179] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:48,179] INFO: Processed B269.mp4 in 1.37 seconds
+
+Processing Videos:  65%|██████▍   | 379/585 [11:08<05:01,  1.46s/it][2025-01-10 18:59:49,553] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:49,553] INFO: Processed B270.mp4 in 1.34 seconds
+
+Processing Videos:  65%|██████▍   | 380/585 [11:09<04:54,  1.44s/it][2025-01-10 18:59:51,016] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:51,016] INFO: Processed B271.mp4 in 1.43 seconds
+
+Processing Videos:  65%|██████▌   | 381/585 [11:11<04:54,  1.44s/it][2025-01-10 18:59:52,981] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:52,981] INFO: Processed B272.mp4 in 1.93 seconds
+
+Processing Videos:  65%|██████▌   | 382/585 [11:13<05:24,  1.60s/it][2025-01-10 18:59:54,379] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:54,379] INFO: Processed B273.mp4 in 1.37 seconds
+
+Processing Videos:  65%|██████▌   | 383/585 [11:14<05:10,  1.54s/it][2025-01-10 18:59:55,846] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:55,846] INFO: Processed B274.mp4 in 1.44 seconds
+
+Processing Videos:  66%|██████▌   | 384/585 [11:16<05:05,  1.52s/it][2025-01-10 18:59:57,012] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:57,012] INFO: Processed B275.mp4 in 1.14 seconds
+
+Processing Videos:  66%|██████▌   | 385/585 [11:17<04:42,  1.41s/it][2025-01-10 18:59:58,233] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:58,233] INFO: Processed B276.mp4 in 1.19 seconds
+
+Processing Videos:  66%|██████▌   | 386/585 [11:18<04:29,  1.36s/it][2025-01-10 18:59:59,585] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 18:59:59,585] INFO: Processed B277.mp4 in 1.32 seconds
+
+Processing Videos:  66%|██████▌   | 387/585 [11:19<04:28,  1.35s/it][2025-01-10 19:00:01,309] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:01,309] INFO: Processed B278.mp4 in 1.69 seconds
+
+Processing Videos:  66%|██████▋   | 388/585 [11:21<04:48,  1.47s/it][2025-01-10 19:00:03,067] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:03,067] INFO: Processed B279.mp4 in 1.73 seconds
+
+Processing Videos:  66%|██████▋   | 389/585 [11:23<05:04,  1.55s/it][2025-01-10 19:00:04,455] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:04,456] INFO: Processed B280.mp4 in 1.36 seconds
+
+Processing Videos:  67%|██████▋   | 390/585 [11:24<04:53,  1.50s/it][2025-01-10 19:00:06,074] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:06,074] INFO: Processed B281.mp4 in 1.59 seconds
+
+Processing Videos:  67%|██████▋   | 391/585 [11:26<04:58,  1.54s/it][2025-01-10 19:00:07,585] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:07,585] INFO: Processed B282.mp4 in 1.48 seconds
+
+Processing Videos:  67%|██████▋   | 392/585 [11:27<04:55,  1.53s/it][2025-01-10 19:00:08,879] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:08,880] INFO: Processed B283.mp4 in 1.26 seconds
+
+Processing Videos:  67%|██████▋   | 393/585 [11:29<04:40,  1.46s/it][2025-01-10 19:00:10,171] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:10,172] INFO: Processed B284.mp4 in 1.26 seconds
+
+Processing Videos:  67%|██████▋   | 394/585 [11:30<04:29,  1.41s/it][2025-01-10 19:00:11,849] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:11,849] INFO: Processed B285.mp4 in 1.65 seconds
+
+Processing Videos:  68%|██████▊   | 395/585 [11:32<04:43,  1.49s/it][2025-01-10 19:00:13,044] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:13,044] INFO: Processed B286.mp4 in 1.16 seconds
+
+Processing Videos:  68%|██████▊   | 396/585 [11:33<04:24,  1.40s/it][2025-01-10 19:00:14,445] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:14,445] INFO: Processed B287.mp4 in 1.37 seconds
+
+Processing Videos:  68%|██████▊   | 397/585 [11:34<04:23,  1.40s/it][2025-01-10 19:00:16,227] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:16,227] INFO: Processed B288.mp4 in 1.75 seconds
+
+Processing Videos:  68%|██████▊   | 398/585 [11:36<04:43,  1.52s/it][2025-01-10 19:00:17,966] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:17,966] INFO: Processed B289.mp4 in 1.71 seconds
+
+Processing Videos:  68%|██████▊   | 399/585 [11:38<04:54,  1.58s/it][2025-01-10 19:00:19,289] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:19,289] INFO: Processed B290.mp4 in 1.29 seconds
+
+Processing Videos:  68%|██████▊   | 400/585 [11:39<04:38,  1.50s/it][2025-01-10 19:00:20,917] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:20,917] INFO: Processed B291.mp4 in 1.60 seconds
+
+Processing Videos:  69%|██████▊   | 401/585 [11:41<04:43,  1.54s/it][2025-01-10 19:00:22,741] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:22,741] INFO: Processed B292.mp4 in 1.79 seconds
+
+Processing Videos:  69%|██████▊   | 402/585 [11:42<04:57,  1.63s/it][2025-01-10 19:00:24,129] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:24,129] INFO: Processed B293.mp4 in 1.36 seconds
+
+Processing Videos:  69%|██████▉   | 403/585 [11:44<04:43,  1.55s/it][2025-01-10 19:00:25,510] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:25,511] INFO: Processed B294.mp4 in 1.35 seconds
+
+Processing Videos:  69%|██████▉   | 404/585 [11:45<04:31,  1.50s/it][2025-01-10 19:00:27,279] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:27,279] INFO: Processed B295.mp4 in 1.74 seconds
+
+Processing Videos:  69%|██████▉   | 405/585 [11:47<04:45,  1.58s/it][2025-01-10 19:00:28,630] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:28,630] INFO: Processed B296.mp4 in 1.32 seconds
+
+Processing Videos:  69%|██████▉   | 406/585 [11:48<04:30,  1.51s/it][2025-01-10 19:00:30,287] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:30,287] INFO: Processed B297.mp4 in 1.63 seconds
+
+Processing Videos:  70%|██████▉   | 407/585 [11:50<04:36,  1.56s/it][2025-01-10 19:00:31,751] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:31,751] INFO: Processed B298.mp4 in 1.43 seconds
+
+Processing Videos:  70%|██████▉   | 408/585 [11:51<04:30,  1.53s/it][2025-01-10 19:00:33,663] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:33,663] INFO: Processed B299.mp4 in 1.88 seconds
+
+Processing Videos:  70%|██████▉   | 409/585 [11:53<04:49,  1.64s/it][2025-01-10 19:00:35,157] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:35,157] INFO: Processed B300.mp4 in 1.46 seconds
+
+Processing Videos:  70%|███████   | 410/585 [11:55<04:39,  1.60s/it][2025-01-10 19:00:36,930] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:36,930] INFO: Processed B301.mp4 in 1.74 seconds
+
+Processing Videos:  70%|███████   | 411/585 [11:57<04:46,  1.65s/it][2025-01-10 19:00:38,506] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:38,506] INFO: Processed B302.mp4 in 1.56 seconds
+
+Processing Videos:  70%|███████   | 412/585 [11:58<04:42,  1.63s/it][2025-01-10 19:00:40,795] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:40,795] INFO: Processed B303.mp4 in 2.25 seconds
+
+Processing Videos:  71%|███████   | 413/585 [12:01<05:14,  1.83s/it][2025-01-10 19:00:42,484] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:42,484] INFO: Processed B304.mp4 in 1.66 seconds
+
+Processing Videos:  71%|███████   | 414/585 [12:02<05:05,  1.79s/it][2025-01-10 19:00:44,045] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:44,045] INFO: Processed B305.mp4 in 1.53 seconds
+
+Processing Videos:  71%|███████   | 415/585 [12:04<04:52,  1.72s/it][2025-01-10 19:00:45,762] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:45,762] INFO: Processed B306.mp4 in 1.68 seconds
+
+Processing Videos:  71%|███████   | 416/585 [12:06<04:50,  1.72s/it][2025-01-10 19:00:46,893] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:46,893] INFO: Processed B307.mp4 in 1.10 seconds
+
+Processing Videos:  71%|███████▏  | 417/585 [12:07<04:19,  1.54s/it][2025-01-10 19:00:47,843] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:47,843] INFO: Processed B308.mp4 in 0.92 seconds
+
+Processing Videos:  71%|███████▏  | 418/585 [12:08<03:47,  1.37s/it][2025-01-10 19:00:48,977] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:48,977] INFO: Processed B309.mp4 in 1.10 seconds
+
+Processing Videos:  72%|███████▏  | 419/585 [12:09<03:35,  1.30s/it][2025-01-10 19:00:50,058] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:50,058] INFO: Processed B310.mp4 in 1.05 seconds
+
+Processing Videos:  72%|███████▏  | 420/585 [12:10<03:23,  1.23s/it][2025-01-10 19:00:51,203] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:51,203] INFO: Processed B311.mp4 in 1.11 seconds
+
+Processing Videos:  72%|███████▏  | 421/585 [12:11<03:17,  1.20s/it][2025-01-10 19:00:52,491] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:52,491] INFO: Processed B312.mp4 in 1.26 seconds
+
+Processing Videos:  72%|███████▏  | 422/585 [12:12<03:20,  1.23s/it][2025-01-10 19:00:53,618] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:53,618] INFO: Processed B313.mp4 in 1.10 seconds
+
+Processing Videos:  72%|███████▏  | 423/585 [12:13<03:14,  1.20s/it][2025-01-10 19:00:55,488] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:55,488] INFO: Processed B314.mp4 in 1.84 seconds
+
+Processing Videos:  72%|███████▏  | 424/585 [12:15<03:45,  1.40s/it][2025-01-10 19:00:56,454] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:56,454] INFO: Processed B315.mp4 in 0.93 seconds
+
+Processing Videos:  73%|███████▎  | 425/585 [12:16<03:23,  1.27s/it][2025-01-10 19:00:57,577] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:57,577] INFO: Processed B316.mp4 in 1.09 seconds
+
+Processing Videos:  73%|███████▎  | 426/585 [12:17<03:15,  1.23s/it][2025-01-10 19:00:58,702] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:58,702] INFO: Processed C001.mp4 in 1.09 seconds
+
+Processing Videos:  73%|███████▎  | 427/585 [12:18<03:08,  1.19s/it][2025-01-10 19:00:59,817] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:00:59,818] INFO: Processed D001.mp4 in 1.09 seconds
+
+Processing Videos:  73%|███████▎  | 428/585 [12:20<03:04,  1.17s/it][2025-01-10 19:01:00,908] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:00,908] INFO: Processed E001.mp4 in 1.06 seconds
+
+Processing Videos:  73%|███████▎  | 429/585 [12:21<02:58,  1.15s/it][2025-01-10 19:01:02,094] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:02,094] INFO: Processed F001.mp4 in 1.15 seconds
+
+Processing Videos:  74%|███████▎  | 430/585 [12:22<02:59,  1.16s/it][2025-01-10 19:01:03,231] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:03,231] INFO: Processed F002.mp4 in 1.11 seconds
+
+Processing Videos:  74%|███████▎  | 431/585 [12:23<02:57,  1.15s/it][2025-01-10 19:01:04,324] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:04,324] INFO: Processed F003.mp4 in 1.06 seconds
+
+Processing Videos:  74%|███████▍  | 432/585 [12:24<02:53,  1.13s/it][2025-01-10 19:01:05,442] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:05,442] INFO: Processed F004.mp4 in 1.09 seconds
+
+Processing Videos:  74%|███████▍  | 433/585 [12:25<02:51,  1.13s/it][2025-01-10 19:01:06,474] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:06,474] INFO: Processed F005.mp4 in 1.00 seconds
+
+Processing Videos:  74%|███████▍  | 434/585 [12:26<02:46,  1.10s/it][2025-01-10 19:01:07,721] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:07,721] INFO: Processed F006.mp4 in 1.22 seconds
+
+Processing Videos:  74%|███████▍  | 435/585 [12:27<02:51,  1.14s/it][2025-01-10 19:01:08,949] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:08,949] INFO: Processed F007.mp4 in 1.20 seconds
+
+Processing Videos:  75%|███████▍  | 436/585 [12:29<02:54,  1.17s/it][2025-01-10 19:01:10,247] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:10,247] INFO: Processed G001.mp4 in 1.26 seconds
+
+Processing Videos:  75%|███████▍  | 437/585 [12:30<02:58,  1.21s/it][2025-01-10 19:01:11,402] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:11,402] INFO: Processed G002.mp4 in 1.13 seconds
+
+Processing Videos:  75%|███████▍  | 438/585 [12:31<02:55,  1.19s/it][2025-01-10 19:01:12,732] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:12,732] INFO: Processed G003.mp4 in 1.30 seconds
+
+Processing Videos:  75%|███████▌  | 439/585 [12:32<03:00,  1.23s/it][2025-01-10 19:01:13,699] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:13,700] INFO: Processed G004.mp4 in 0.94 seconds
+
+Processing Videos:  75%|███████▌  | 440/585 [12:33<02:47,  1.15s/it][2025-01-10 19:01:15,138] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:15,138] INFO: Processed G005.mp4 in 1.41 seconds
+
+Processing Videos:  75%|███████▌  | 441/585 [12:35<02:58,  1.24s/it][2025-01-10 19:01:16,285] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:16,285] INFO: Processed G006.mp4 in 1.11 seconds
+
+Processing Videos:  76%|███████▌  | 442/585 [12:36<02:53,  1.21s/it][2025-01-10 19:01:17,381] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:17,382] INFO: Processed G007.mp4 in 1.06 seconds
+
+Processing Videos:  76%|███████▌  | 443/585 [12:37<02:47,  1.18s/it][2025-01-10 19:01:18,498] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:18,498] INFO: Processed G008.mp4 in 1.08 seconds
+
+Processing Videos:  76%|███████▌  | 444/585 [12:38<02:43,  1.16s/it][2025-01-10 19:01:19,963] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:19,963] INFO: Processed G009.mp4 in 1.44 seconds
+
+Processing Videos:  76%|███████▌  | 445/585 [12:40<02:55,  1.25s/it][2025-01-10 19:01:20,978] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:20,978] INFO: Processed G010.mp4 in 0.98 seconds
+
+Processing Videos:  76%|███████▌  | 446/585 [12:41<02:43,  1.18s/it][2025-01-10 19:01:22,088] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:22,088] INFO: Processed G011.mp4 in 1.08 seconds
+
+Processing Videos:  76%|███████▋  | 447/585 [12:42<02:39,  1.16s/it][2025-01-10 19:01:23,402] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:23,402] INFO: Processed G012.mp4 in 1.28 seconds
+
+Processing Videos:  77%|███████▋  | 448/585 [12:43<02:45,  1.21s/it][2025-01-10 19:01:24,466] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:24,466] INFO: Processed G013.mp4 in 1.03 seconds
+
+Processing Videos:  77%|███████▋  | 449/585 [12:44<02:38,  1.16s/it][2025-01-10 19:01:25,566] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:25,566] INFO: Processed G014.mp4 in 1.06 seconds
+
+Processing Videos:  77%|███████▋  | 450/585 [12:45<02:34,  1.14s/it][2025-01-10 19:01:26,610] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:26,610] INFO: Processed G015.mp4 in 1.01 seconds
+
+Processing Videos:  77%|███████▋  | 451/585 [12:46<02:29,  1.11s/it][2025-01-10 19:01:27,824] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:27,824] INFO: Processed G016.mp4 in 1.18 seconds
+
+Processing Videos:  77%|███████▋  | 452/585 [12:48<02:32,  1.14s/it][2025-01-10 19:01:28,900] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:28,900] INFO: Processed G017.mp4 in 1.04 seconds
+
+Processing Videos:  77%|███████▋  | 453/585 [12:49<02:28,  1.12s/it][2025-01-10 19:01:29,991] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:29,991] INFO: Processed G018.mp4 in 1.06 seconds
+
+Processing Videos:  78%|███████▊  | 454/585 [12:50<02:25,  1.11s/it][2025-01-10 19:01:31,098] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:31,099] INFO: Processed G019.mp4 in 1.07 seconds
+
+Processing Videos:  78%|███████▊  | 455/585 [12:51<02:24,  1.11s/it][2025-01-10 19:01:32,368] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:32,368] INFO: Processed G020.mp4 in 1.23 seconds
+
+Processing Videos:  78%|███████▊  | 456/585 [12:52<02:29,  1.16s/it][2025-01-10 19:01:33,488] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:33,488] INFO: Processed G021.mp4 in 1.09 seconds
+
+Processing Videos:  78%|███████▊  | 457/585 [12:53<02:26,  1.15s/it][2025-01-10 19:01:34,805] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:34,805] INFO: Processed G022.mp4 in 1.28 seconds
+
+Processing Videos:  78%|███████▊  | 458/585 [12:55<02:32,  1.20s/it][2025-01-10 19:01:36,260] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:36,260] INFO: Processed G023.mp4 in 1.42 seconds
+
+Processing Videos:  78%|███████▊  | 459/585 [12:56<02:40,  1.28s/it][2025-01-10 19:01:37,226] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:37,226] INFO: Processed G024.mp4 in 0.93 seconds
+
+Processing Videos:  79%|███████▊  | 460/585 [12:57<02:27,  1.18s/it][2025-01-10 19:01:38,342] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:38,342] INFO: Processed G025.mp4 in 1.08 seconds
+
+Processing Videos:  79%|███████▉  | 461/585 [12:58<02:24,  1.16s/it][2025-01-10 19:01:39,649] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:39,649] INFO: Processed G026.mp4 in 1.27 seconds
+
+Processing Videos:  79%|███████▉  | 462/585 [12:59<02:28,  1.21s/it][2025-01-10 19:01:40,916] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:40,917] INFO: Processed G027.mp4 in 1.23 seconds
+
+Processing Videos:  79%|███████▉  | 463/585 [13:01<02:29,  1.22s/it][2025-01-10 19:01:42,081] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:42,081] INFO: Processed G028.mp4 in 1.13 seconds
+
+Processing Videos:  79%|███████▉  | 464/585 [13:02<02:26,  1.21s/it][2025-01-10 19:01:43,311] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:43,311] INFO: Processed G029.mp4 in 1.19 seconds
+
+Processing Videos:  79%|███████▉  | 465/585 [13:03<02:25,  1.21s/it][2025-01-10 19:01:44,470] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:44,470] INFO: Processed G030.mp4 in 1.12 seconds
+
+Processing Videos:  80%|███████▉  | 466/585 [13:04<02:22,  1.20s/it][2025-01-10 19:01:45,668] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:45,668] INFO: Processed G031.mp4 in 1.16 seconds
+
+Processing Videos:  80%|███████▉  | 467/585 [13:05<02:21,  1.20s/it][2025-01-10 19:01:47,127] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:47,127] INFO: Processed G032.mp4 in 1.43 seconds
+
+Processing Videos:  80%|████████  | 468/585 [13:07<02:29,  1.28s/it][2025-01-10 19:01:48,406] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:48,407] INFO: Processed G033.mp4 in 1.25 seconds
+
+Processing Videos:  80%|████████  | 469/585 [13:08<02:28,  1.28s/it][2025-01-10 19:01:49,885] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:49,885] INFO: Processed G034.mp4 in 1.45 seconds
+
+Processing Videos:  80%|████████  | 470/585 [13:10<02:33,  1.34s/it][2025-01-10 19:01:51,194] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:51,194] INFO: Processed G035.mp4 in 1.28 seconds
+
+Processing Videos:  81%|████████  | 471/585 [13:11<02:31,  1.33s/it][2025-01-10 19:01:52,463] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:52,463] INFO: Processed G036.mp4 in 1.23 seconds
+
+Processing Videos:  81%|████████  | 472/585 [13:12<02:28,  1.31s/it][2025-01-10 19:01:53,605] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:53,605] INFO: Processed G037.mp4 in 1.11 seconds
+
+Processing Videos:  81%|████████  | 473/585 [13:13<02:20,  1.26s/it][2025-01-10 19:01:55,311] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:55,312] INFO: Processed G038.mp4 in 1.68 seconds
+
+Processing Videos:  81%|████████  | 474/585 [13:15<02:34,  1.39s/it][2025-01-10 19:01:56,602] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:56,602] INFO: Processed G039.mp4 in 1.26 seconds
+
+Processing Videos:  81%|████████  | 475/585 [13:16<02:30,  1.36s/it][2025-01-10 19:01:57,684] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:57,684] INFO: Processed G040.mp4 in 1.05 seconds
+
+Processing Videos:  81%|████████▏ | 476/585 [13:17<02:19,  1.28s/it][2025-01-10 19:01:59,019] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:01:59,019] INFO: Processed G041.mp4 in 1.31 seconds
+
+Processing Videos:  82%|████████▏ | 477/585 [13:19<02:20,  1.30s/it][2025-01-10 19:02:00,391] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:00,391] INFO: Processed G042.mp4 in 1.34 seconds
+
+Processing Videos:  82%|████████▏ | 478/585 [13:20<02:21,  1.32s/it][2025-01-10 19:02:01,534] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:01,534] INFO: Processed G043.mp4 in 1.11 seconds
+
+Processing Videos:  82%|████████▏ | 479/585 [13:21<02:14,  1.27s/it][2025-01-10 19:02:02,677] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:02,677] INFO: Processed G044.mp4 in 1.11 seconds
+
+Processing Videos:  82%|████████▏ | 480/585 [13:22<02:09,  1.23s/it][2025-01-10 19:02:03,842] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:03,842] INFO: Processed G045.mp4 in 1.13 seconds
+
+Processing Videos:  82%|████████▏ | 481/585 [13:24<02:05,  1.21s/it][2025-01-10 19:02:05,159] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:05,159] INFO: Processed G046.mp4 in 1.29 seconds
+
+Processing Videos:  82%|████████▏ | 482/585 [13:25<02:07,  1.24s/it][2025-01-10 19:02:06,144] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:06,144] INFO: Processed G047.mp4 in 0.95 seconds
+
+Processing Videos:  83%|████████▎ | 483/585 [13:26<01:58,  1.16s/it][2025-01-10 19:02:07,195] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:07,196] INFO: Processed G048.mp4 in 1.02 seconds
+
+Processing Videos:  83%|████████▎ | 484/585 [13:27<01:54,  1.13s/it][2025-01-10 19:02:08,422] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:08,422] INFO: Processed G049.mp4 in 1.20 seconds
+
+Processing Videos:  83%|████████▎ | 485/585 [13:28<01:56,  1.16s/it][2025-01-10 19:02:09,513] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:09,514] INFO: Processed G050.mp4 in 1.06 seconds
+
+Processing Videos:  83%|████████▎ | 486/585 [13:29<01:52,  1.14s/it][2025-01-10 19:02:10,680] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:10,680] INFO: Processed G051.mp4 in 1.13 seconds
+
+Processing Videos:  83%|████████▎ | 487/585 [13:30<01:52,  1.15s/it][2025-01-10 19:02:11,798] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:11,798] INFO: Processed G052.mp4 in 1.09 seconds
+
+Processing Videos:  83%|████████▎ | 488/585 [13:32<01:50,  1.14s/it][2025-01-10 19:02:13,152] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:13,152] INFO: Processed G053.mp4 in 1.32 seconds
+
+Processing Videos:  84%|████████▎ | 489/585 [13:33<01:55,  1.20s/it][2025-01-10 19:02:14,285] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:14,285] INFO: Processed G054.mp4 in 1.10 seconds
+
+Processing Videos:  84%|████████▍ | 490/585 [13:34<01:52,  1.18s/it][2025-01-10 19:02:15,305] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:15,305] INFO: Processed G055.mp4 in 0.99 seconds
+
+Processing Videos:  84%|████████▍ | 491/585 [13:35<01:46,  1.13s/it][2025-01-10 19:02:16,452] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:16,453] INFO: Processed G056.mp4 in 1.11 seconds
+
+Processing Videos:  84%|████████▍ | 492/585 [13:36<01:45,  1.14s/it][2025-01-10 19:02:17,651] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:17,651] INFO: Processed G057.mp4 in 1.17 seconds
+
+Processing Videos:  84%|████████▍ | 493/585 [13:37<01:46,  1.16s/it][2025-01-10 19:02:18,718] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:18,721] INFO: Processed G058.mp4 in 1.04 seconds
+
+Processing Videos:  84%|████████▍ | 494/585 [13:38<01:42,  1.13s/it][2025-01-10 19:02:19,814] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:19,814] INFO: Processed G059.mp4 in 1.06 seconds
+
+Processing Videos:  85%|████████▍ | 495/585 [13:40<01:40,  1.12s/it][2025-01-10 19:02:20,935] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:20,935] INFO: Processed G060.mp4 in 1.09 seconds
+
+Processing Videos:  85%|████████▍ | 496/585 [13:41<01:39,  1.12s/it][2025-01-10 19:02:22,054] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:22,054] INFO: Processed G061.mp4 in 1.08 seconds
+
+Processing Videos:  85%|████████▍ | 497/585 [13:42<01:38,  1.12s/it][2025-01-10 19:02:23,169] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:23,169] INFO: Processed G062.mp4 in 1.08 seconds
+
+Processing Videos:  85%|████████▌ | 498/585 [13:43<01:37,  1.12s/it][2025-01-10 19:02:24,254] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:24,254] INFO: Processed G063.mp4 in 1.05 seconds
+
+Processing Videos:  85%|████████▌ | 499/585 [13:44<01:35,  1.11s/it][2025-01-10 19:02:25,343] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:25,343] INFO: Processed G064.mp4 in 1.05 seconds
+
+Processing Videos:  85%|████████▌ | 500/585 [13:45<01:33,  1.10s/it][2025-01-10 19:02:26,573] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:26,574] INFO: Processed G065.mp4 in 1.20 seconds
+
+Processing Videos:  86%|████████▌ | 501/585 [13:46<01:35,  1.14s/it][2025-01-10 19:02:27,887] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:27,887] INFO: Processed G066.mp4 in 1.28 seconds
+
+Processing Videos:  86%|████████▌ | 502/585 [13:48<01:38,  1.19s/it][2025-01-10 19:02:29,325] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:29,325] INFO: Processed G067.mp4 in 1.40 seconds
+
+Processing Videos:  86%|████████▌ | 503/585 [13:49<01:43,  1.27s/it][2025-01-10 19:02:30,351] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:30,352] INFO: Processed G068.mp4 in 0.99 seconds
+
+Processing Videos:  86%|████████▌ | 504/585 [13:50<01:36,  1.19s/it][2025-01-10 19:02:31,410] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:31,411] INFO: Processed G069.mp4 in 1.02 seconds
+
+Processing Videos:  86%|████████▋ | 505/585 [13:51<01:32,  1.15s/it][2025-01-10 19:02:32,526] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:32,526] INFO: Processed G070.mp4 in 1.08 seconds
+
+Processing Videos:  86%|████████▋ | 506/585 [13:52<01:30,  1.14s/it][2025-01-10 19:02:33,557] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:33,557] INFO: Processed G071.mp4 in 1.00 seconds
+
+Processing Videos:  87%|████████▋ | 507/585 [13:53<01:26,  1.11s/it][2025-01-10 19:02:34,672] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:34,673] INFO: Processed G072.mp4 in 1.08 seconds
+
+Processing Videos:  87%|████████▋ | 508/585 [13:54<01:25,  1.11s/it][2025-01-10 19:02:35,790] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:35,790] INFO: Processed G073.mp4 in 1.08 seconds
+
+Processing Videos:  87%|████████▋ | 509/585 [13:56<01:24,  1.11s/it][2025-01-10 19:02:36,978] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:36,978] INFO: Processed G074.mp4 in 1.15 seconds
+
+Processing Videos:  87%|████████▋ | 510/585 [13:57<01:25,  1.14s/it][2025-01-10 19:02:38,091] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:38,091] INFO: Processed G075.mp4 in 1.08 seconds
+
+Processing Videos:  87%|████████▋ | 511/585 [13:58<01:23,  1.13s/it][2025-01-10 19:02:39,209] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:39,209] INFO: Processed G076.mp4 in 1.08 seconds
+
+Processing Videos:  88%|████████▊ | 512/585 [13:59<01:22,  1.13s/it][2025-01-10 19:02:40,250] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:40,250] INFO: Processed G077.mp4 in 1.01 seconds
+
+Processing Videos:  88%|████████▊ | 513/585 [14:00<01:19,  1.10s/it][2025-01-10 19:02:41,668] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:41,668] INFO: Processed G078.mp4 in 1.38 seconds
+
+Processing Videos:  88%|████████▊ | 514/585 [14:01<01:24,  1.20s/it][2025-01-10 19:02:42,718] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:42,718] INFO: Processed G079.mp4 in 1.01 seconds
+
+Processing Videos:  88%|████████▊ | 515/585 [14:02<01:20,  1.15s/it][2025-01-10 19:02:43,897] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:43,897] INFO: Processed G080.mp4 in 1.14 seconds
+
+Processing Videos:  88%|████████▊ | 516/585 [14:04<01:19,  1.16s/it][2025-01-10 19:02:44,989] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:44,989] INFO: Processed G081.mp4 in 1.06 seconds
+
+Processing Videos:  88%|████████▊ | 517/585 [14:05<01:17,  1.14s/it][2025-01-10 19:02:46,083] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:46,083] INFO: Processed G082.mp4 in 1.06 seconds
+
+Processing Videos:  89%|████████▊ | 518/585 [14:06<01:15,  1.13s/it][2025-01-10 19:02:47,207] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:47,207] INFO: Processed G083.mp4 in 1.09 seconds
+
+Processing Videos:  89%|████████▊ | 519/585 [14:07<01:14,  1.12s/it][2025-01-10 19:02:48,390] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:48,390] INFO: Processed G084.mp4 in 1.15 seconds
+
+Processing Videos:  89%|████████▉ | 520/585 [14:08<01:14,  1.14s/it][2025-01-10 19:02:49,511] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:49,511] INFO: Processed G085.mp4 in 1.09 seconds
+
+Processing Videos:  89%|████████▉ | 521/585 [14:09<01:12,  1.14s/it][2025-01-10 19:02:51,088] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:51,088] INFO: Processed G086.mp4 in 1.54 seconds
+
+Processing Videos:  89%|████████▉ | 522/585 [14:11<01:19,  1.27s/it][2025-01-10 19:02:52,427] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:52,427] INFO: Processed G087.mp4 in 1.30 seconds
+
+Processing Videos:  89%|████████▉ | 523/585 [14:12<01:19,  1.29s/it][2025-01-10 19:02:53,564] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:53,564] INFO: Processed G088.mp4 in 1.10 seconds
+
+Processing Videos:  90%|████████▉ | 524/585 [14:13<01:15,  1.24s/it][2025-01-10 19:02:55,217] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:55,217] INFO: Processed G089.mp4 in 1.62 seconds
+
+Processing Videos:  90%|████████▉ | 525/585 [14:15<01:21,  1.37s/it][2025-01-10 19:02:56,525] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:56,525] INFO: Processed G090.mp4 in 1.27 seconds
+
+Processing Videos:  90%|████████▉ | 526/585 [14:16<01:19,  1.35s/it][2025-01-10 19:02:57,696] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:57,696] INFO: Processed G091.mp4 in 1.14 seconds
+
+Processing Videos:  90%|█████████ | 527/585 [14:17<01:15,  1.30s/it][2025-01-10 19:02:58,738] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:58,738] INFO: Processed G092.mp4 in 1.01 seconds
+
+Processing Videos:  90%|█████████ | 528/585 [14:18<01:09,  1.22s/it][2025-01-10 19:02:59,917] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:02:59,917] INFO: Processed G093.mp4 in 1.14 seconds
+
+Processing Videos:  90%|█████████ | 529/585 [14:20<01:07,  1.21s/it][2025-01-10 19:03:01,003] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:01,003] INFO: Processed G094.mp4 in 1.05 seconds
+
+Processing Videos:  91%|█████████ | 530/585 [14:21<01:04,  1.17s/it][2025-01-10 19:03:02,062] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:02,062] INFO: Processed G095.mp4 in 1.03 seconds
+
+Processing Videos:  91%|█████████ | 531/585 [14:22<01:01,  1.14s/it][2025-01-10 19:03:03,437] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:03,437] INFO: Processed G096.mp4 in 1.34 seconds
+
+Processing Videos:  91%|█████████ | 532/585 [14:23<01:04,  1.21s/it][2025-01-10 19:03:04,622] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:04,622] INFO: Processed G097.mp4 in 1.15 seconds
+
+Processing Videos:  91%|█████████ | 533/585 [14:24<01:02,  1.20s/it][2025-01-10 19:03:05,841] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:05,841] INFO: Processed G098.mp4 in 1.18 seconds
+
+Processing Videos:  91%|█████████▏| 534/585 [14:26<01:01,  1.21s/it][2025-01-10 19:03:06,903] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:06,903] INFO: Processed G099.mp4 in 1.03 seconds
+
+Processing Videos:  91%|█████████▏| 535/585 [14:27<00:58,  1.16s/it][2025-01-10 19:03:07,999] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:07,999] INFO: Processed G100.mp4 in 1.06 seconds
+
+Processing Videos:  92%|█████████▏| 536/585 [14:28<00:56,  1.14s/it][2025-01-10 19:03:09,127] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:09,128] INFO: Processed G101.mp4 in 1.09 seconds
+
+Processing Videos:  92%|█████████▏| 537/585 [14:29<00:54,  1.14s/it][2025-01-10 19:03:10,200] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:10,200] INFO: Processed G102.mp4 in 1.04 seconds
+
+Processing Videos:  92%|█████████▏| 538/585 [14:30<00:52,  1.12s/it][2025-01-10 19:03:11,679] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:11,679] INFO: Processed G103.mp4 in 1.45 seconds
+
+Processing Videos:  92%|█████████▏| 539/585 [14:31<00:56,  1.23s/it][2025-01-10 19:03:12,965] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:12,965] INFO: Processed G104.mp4 in 1.25 seconds
+
+Processing Videos:  92%|█████████▏| 540/585 [14:33<00:56,  1.25s/it][2025-01-10 19:03:13,965] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:13,965] INFO: Processed G105.mp4 in 0.96 seconds
+
+Processing Videos:  92%|█████████▏| 541/585 [14:34<00:51,  1.17s/it][2025-01-10 19:03:15,008] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:15,009] INFO: Processed G106.mp4 in 1.01 seconds
+
+Processing Videos:  93%|█████████▎| 542/585 [14:35<00:48,  1.13s/it][2025-01-10 19:03:16,207] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:16,207] INFO: Processed G107.mp4 in 1.17 seconds
+
+Processing Videos:  93%|█████████▎| 543/585 [14:36<00:48,  1.15s/it][2025-01-10 19:03:17,497] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:17,497] INFO: Processed G108.mp4 in 1.26 seconds
+
+Processing Videos:  93%|█████████▎| 544/585 [14:37<00:48,  1.19s/it][2025-01-10 19:03:18,639] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:18,639] INFO: Processed G109.mp4 in 1.11 seconds
+
+Processing Videos:  93%|█████████▎| 545/585 [14:38<00:47,  1.18s/it][2025-01-10 19:03:19,922] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:19,922] INFO: Processed G110.mp4 in 1.25 seconds
+
+Processing Videos:  93%|█████████▎| 546/585 [14:40<00:47,  1.21s/it][2025-01-10 19:03:21,233] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:21,234] INFO: Processed G111.mp4 in 1.28 seconds
+
+Processing Videos:  94%|█████████▎| 547/585 [14:41<00:47,  1.24s/it][2025-01-10 19:03:22,290] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:22,290] INFO: Processed G112.mp4 in 1.02 seconds
+
+Processing Videos:  94%|█████████▎| 548/585 [14:42<00:43,  1.18s/it][2025-01-10 19:03:23,345] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:23,345] INFO: Processed G113.mp4 in 1.02 seconds
+
+Processing Videos:  94%|█████████▍| 549/585 [14:43<00:41,  1.15s/it][2025-01-10 19:03:24,697] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:24,697] INFO: Processed G114.mp4 in 1.32 seconds
+
+Processing Videos:  94%|█████████▍| 550/585 [14:44<00:42,  1.21s/it][2025-01-10 19:03:25,864] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:25,864] INFO: Processed G115.mp4 in 1.13 seconds
+
+Processing Videos:  94%|█████████▍| 551/585 [14:46<00:40,  1.20s/it][2025-01-10 19:03:27,011] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:27,011] INFO: Processed G116.mp4 in 1.11 seconds
+
+Processing Videos:  94%|█████████▍| 552/585 [14:47<00:38,  1.18s/it][2025-01-10 19:03:28,081] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:28,081] INFO: Processed G117.mp4 in 1.04 seconds
+
+Processing Videos:  95%|█████████▍| 553/585 [14:48<00:36,  1.15s/it][2025-01-10 19:03:29,539] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:29,539] INFO: Processed G118.mp4 in 1.43 seconds
+
+Processing Videos:  95%|█████████▍| 554/585 [14:49<00:38,  1.24s/it][2025-01-10 19:03:30,653] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:30,653] INFO: Processed G119.mp4 in 1.08 seconds
+
+Processing Videos:  95%|█████████▍| 555/585 [14:50<00:36,  1.20s/it][2025-01-10 19:03:31,842] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:31,842] INFO: Processed H001.mp4 in 1.15 seconds
+
+Processing Videos:  95%|█████████▌| 556/585 [14:52<00:34,  1.20s/it][2025-01-10 19:03:33,067] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:33,067] INFO: Processed H002.mp4 in 1.19 seconds
+
+Processing Videos:  95%|█████████▌| 557/585 [14:53<00:33,  1.21s/it][2025-01-10 19:03:34,252] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:34,252] INFO: Processed I001.mp4 in 1.15 seconds
+
+Processing Videos:  95%|█████████▌| 558/585 [14:54<00:32,  1.20s/it][2025-01-10 19:03:35,344] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:35,344] INFO: Processed I002.mp4 in 1.06 seconds
+
+Processing Videos:  96%|█████████▌| 559/585 [14:55<00:30,  1.17s/it][2025-01-10 19:03:36,379] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:36,379] INFO: Processed I003.mp4 in 1.00 seconds
+
+Processing Videos:  96%|█████████▌| 560/585 [14:56<00:28,  1.13s/it][2025-01-10 19:03:37,794] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:37,794] INFO: Processed J001.mp4 in 1.38 seconds
+
+Processing Videos:  96%|█████████▌| 561/585 [14:58<00:29,  1.21s/it][2025-01-10 19:03:39,545] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:39,545] INFO: Processed J002.mp4 in 1.72 seconds
+
+Processing Videos:  96%|█████████▌| 562/585 [14:59<00:31,  1.37s/it][2025-01-10 19:03:40,891] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:40,892] INFO: Processed J003.mp4 in 1.33 seconds
+
+Processing Videos:  96%|█████████▌| 563/585 [15:01<00:30,  1.37s/it][2025-01-10 19:03:41,935] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:41,935] INFO: Processed J004.mp4 in 1.01 seconds
+
+Processing Videos:  96%|█████████▋| 564/585 [15:02<00:26,  1.27s/it][2025-01-10 19:03:43,108] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:43,108] INFO: Processed J005.mp4 in 1.14 seconds
+
+Processing Videos:  97%|█████████▋| 565/585 [15:03<00:24,  1.24s/it][2025-01-10 19:03:44,342] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:44,342] INFO: Processed K001.mp4 in 1.20 seconds
+
+Processing Videos:  97%|█████████▋| 566/585 [15:04<00:23,  1.24s/it][2025-01-10 19:03:45,837] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:45,837] INFO: Processed K002.mp4 in 1.47 seconds
+
+Processing Videos:  97%|█████████▋| 567/585 [15:06<00:23,  1.32s/it][2025-01-10 19:03:46,923] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:46,923] INFO: Processed L001.mp4 in 1.06 seconds
+
+Processing Videos:  97%|█████████▋| 568/585 [15:07<00:21,  1.25s/it][2025-01-10 19:03:48,270] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:48,270] INFO: Processed M001.mp4 in 1.31 seconds
+
+Processing Videos:  97%|█████████▋| 569/585 [15:08<00:20,  1.28s/it][2025-01-10 19:03:49,460] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:49,460] INFO: Processed M002.mp4 in 1.16 seconds
+
+Processing Videos:  97%|█████████▋| 570/585 [15:09<00:18,  1.25s/it][2025-01-10 19:03:50,567] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:50,567] INFO: Processed M003.mp4 in 1.07 seconds
+
+Processing Videos:  98%|█████████▊| 571/585 [15:10<00:16,  1.21s/it][2025-01-10 19:03:51,602] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:51,602] INFO: Processed N001.mp4 in 1.00 seconds
+
+Processing Videos:  98%|█████████▊| 572/585 [15:11<00:15,  1.15s/it][2025-01-10 19:03:52,783] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:52,783] INFO: Processed O001.mp4 in 1.15 seconds
+
+Processing Videos:  98%|█████████▊| 573/585 [15:13<00:13,  1.16s/it][2025-01-10 19:03:53,967] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:53,967] INFO: Processed O002.mp4 in 1.15 seconds
+
+Processing Videos:  98%|█████████▊| 574/585 [15:14<00:12,  1.17s/it][2025-01-10 19:03:54,937] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:54,937] INFO: Processed P001.mp4 in 0.93 seconds
+
+Processing Videos:  98%|█████████▊| 575/585 [15:15<00:11,  1.11s/it][2025-01-10 19:03:56,002] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:56,002] INFO: Processed P002.mp4 in 1.04 seconds
+
+Processing Videos:  98%|█████████▊| 576/585 [15:16<00:09,  1.10s/it][2025-01-10 19:03:56,972] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:56,972] INFO: Processed P003.mp4 in 0.93 seconds
+
+Processing Videos:  99%|█████████▊| 577/585 [15:17<00:08,  1.06s/it][2025-01-10 19:03:58,040] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:58,040] INFO: Processed P004.mp4 in 1.04 seconds
+
+Processing Videos:  99%|█████████▉| 578/585 [15:18<00:07,  1.06s/it][2025-01-10 19:03:59,067] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:03:59,067] INFO: Processed P005.mp4 in 1.00 seconds
+
+Processing Videos:  99%|█████████▉| 579/585 [15:19<00:06,  1.05s/it][2025-01-10 19:04:00,087] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:04:00,087] INFO: Processed P006.mp4 in 0.99 seconds
+
+Processing Videos:  99%|█████████▉| 580/585 [15:20<00:05,  1.04s/it][2025-01-10 19:04:01,180] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:04:01,180] INFO: Processed P007.mp4 in 1.06 seconds
+
+Processing Videos:  99%|█████████▉| 581/585 [15:21<00:04,  1.06s/it][2025-01-10 19:04:02,145] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:04:02,146] INFO: Processed P008.mp4 in 0.93 seconds
+
+Processing Videos:  99%|█████████▉| 582/585 [15:22<00:03,  1.03s/it][2025-01-10 19:04:03,175] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:04:03,175] INFO: Processed P009.mp4 in 1.00 seconds
+
+Processing Videos: 100%|█████████▉| 583/585 [15:23<00:02,  1.03s/it][2025-01-10 19:04:04,138] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:04:04,138] INFO: Processed Q001.mp4 in 0.93 seconds
+
+Processing Videos: 100%|█████████▉| 584/585 [15:24<00:01,  1.01s/it][2025-01-10 19:04:05,101] INFO: Feature shape: torch.Size([9984])
+[2025-01-10 19:04:05,101] INFO: Processed R001.mp4 in 0.93 seconds
+
+Processing Videos: 100%|██████████| 585/585 [15:25<00:00,  1.00it/s]
+Processing Videos: 100%|██████████| 585/585 [15:25<00:00,  1.58s/it]
+[2025-01-10 19:04:05,184] INFO: Features saved to ../features/diva-vqa/: torch.Size([585, 9984])
+
