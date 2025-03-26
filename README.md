@@ -48,6 +48,9 @@ Overview of the proposed framework with two core modules: Patch Difference Fragm
 
 <img src="./Framework.png" alt="proposed_DIVA-VQA_framework" width="800"/>
 
+The comparison of running time (on GPU, averaged over ten runs) across different spatial resolutions:
+<img src="./complexity_plot.png" alt="complexity_of_DIVA-VQA" width="500"/>
+
 
 ## Usage
 ### 📌 Install Requirement
