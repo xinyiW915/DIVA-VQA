@@ -10,6 +10,8 @@ Official Code for the following paper:
 
 **X. Wang, A. Katsenou, and D. Bull**. [DIVA-VQA: Detecting Inter-Frame Variations in UGC Video Quality](https://arxiv.org/abs/)
 
+Try our online demo on Hugging Face 🤗: [https://huggingface.co/spaces/xinyiW915/DIVA-VQA](https://huggingface.co/spaces/xinyiW915/DIVA-VQA)
+
 ### ☑️ TODO
 - [ ] More updates coming soon 😊
 ---
