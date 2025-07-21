@@ -12,8 +12,8 @@ Official Code for the following paper:
 
 Try our online demo on Hugging Face 🤗: [https://huggingface.co/spaces/xinyiW915/DIVA-VQA](https://huggingface.co/spaces/xinyiW915/DIVA-VQA)
 
-### ☑️ TODO
-- [ ] More updates coming soon 😊
+The paper “[DIVA-VQA: Detecting Inter-Frame Variations in UGC Video Quality]()” was accepted by the IEEE International Conference on Image Processing. ([ICIP 2025](https://2025.ieeeicip.org/)).
+
 ---
 
 ## Performance
