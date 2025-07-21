@@ -151,6 +151,7 @@ If you find this paper and the repo useful, please cite our paper 😊:
 @article{wang2025diva,
       title={DIVA-VQA: Detecting Inter-Frame Variations in UGC Video Quality},
       author={Wang, Xinyi and Katsenou, Angeliki and Bull, David},
+      booktitle={IEEE International Conference on Image Processing (ICIP 2025)}, 
       year={2025},
 }
 ```
