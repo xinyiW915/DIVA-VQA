@@ -1,6 +1,6 @@
 # DIVA-VQA
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=xinyiW915/DIVA-VQA) 
-[![GitHub stars](https://img.shields.io/github/stars/xinyiW915/DIVA-VQA?style=social)](https://github.com/xinyiW915/DIVA-VQA)
+![GitHub Repo stars](https://img.shields.io/github/stars/xinyiW915/DIVA-VQA?logo=github)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 
 [//]: # (put arxiv)
