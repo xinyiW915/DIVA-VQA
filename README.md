@@ -2,13 +2,11 @@
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=xinyiW915/DIVA-VQA) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/xinyiW915/DIVA-VQA?logo=github)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
-
-[//]: # (put arxiv)
-[//]: # ([![arXiv]&#40;https://img.shields.io/badge/arXiv-2407.11496-b31b1b.svg&#41;]&#40;https://arxiv.org/abs/2407.11496&#41;)
+[![arXiv](https://img.shields.io/badge/arXiv-2508.10605-b31b1b.svg)](https://arxiv.org/abs/2508.10605)
 
 Official Code for the following paper:
 
-**X. Wang, A. Katsenou, and D. Bull**. [DIVA-VQA: Detecting Inter-Frame Variations in UGC Video Quality](https://github.com/xinyiW915/DIVA-VQA)
+**X. Wang, A. Katsenou, and D. Bull**. [DIVA-VQA: Detecting Inter-Frame Variations in UGC Video Quality](https://arxiv.org/abs/2508.10605)
 
 [Our paper](https://cmsworkshops.com/ICIP2025/papers/accepted_papers.php) was accepted by the IEEE International Conference on Image Processing. ([ICIP 2025](https://2025.ieeeicip.org/)).
 
@@ -17,10 +15,6 @@ Try our online demo on Hugging Face 🤗: [https://huggingface.co/spaces/xinyiW9
 ---
 
 ## Performance
-
-[//]: # (put badge)
-[//]: # ([![PWC]&#40;https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/relax-vqa-residual-fragment-and-layer-stack/video-quality-assessment-on-live-vqc&#41;]&#40;https://paperswithcode.com/sota/video-quality-assessment-on-live-vqc?p=relax-vqa-residual-fragment-and-layer-stack&#41;)
-
 We evaluate the performance of DIVA-VQA on five UGC datasets. Based on different pre-trained models and features, DIVA-VQA has two different versions of models:
 - **DIVA-VQA-B**: Utilizes the SlowFast R50-3D and Swin-Base pre-trained models with a patch size of 16. The feature dimension is 9984. 
 - **DIVA-VQA-L**: Utilizes the SlowFast R50-3D and Swin-Large pre-trained models with a patch size of 16. The feature dimension is 11520.
