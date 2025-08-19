@@ -8,7 +8,7 @@ Official Code for the following paper:
 
 **X. Wang, A. Katsenou, and D. Bull**. [DIVA-VQA: Detecting Inter-Frame Variations in UGC Video Quality](https://arxiv.org/abs/2508.10605)
 
-[Our paper](https://cmsworkshops.com/ICIP2025/papers/accepted_papers.php) was accepted by the IEEE International Conference on Image Processing. ([ICIP 2025](https://2025.ieeeicip.org/)).
+[Our paper](https://ieeexplore.ieee.org/document/11084568) was accepted by the IEEE International Conference on Image Processing. ([ICIP 2025](https://2025.ieeeicip.org/)).
 
 Try our online demo on Hugging Face 🤗: [https://huggingface.co/spaces/xinyiW915/DIVA-VQA](https://huggingface.co/spaces/xinyiW915/DIVA-VQA)
 
